@@ -1,10 +1,7 @@
-box: wercker/default
+box: debian
 build:
   steps:
-    - arjen/hugo-build:
-        version: 0.14
-        theme: herring-cove
-        flags: --buildDrafts=true
+    - arjen/hugo-build
 deploy:
   steps:
     - lukevivier/gh-pages@0.2.1:
