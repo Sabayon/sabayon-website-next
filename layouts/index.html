@@ -1,0 +1,84 @@
+{{ partial "header.html" . }}
+<body>
+{{ partial "navbar.html" . }}
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+
+
+        <div class="col-md-12">
+
+<div class="col-md-6">
+<div class="carousel slide" data-ride="carousel">
+
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="/img/slides1.jpeg" alt="">
+      <div class="carousel-caption">
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="/img/slides2.jpeg" alt="">
+      <div class="carousel-caption">
+      </div>
+    </div>
+        <div class="item">
+      <img src="/img/slides3.jpeg" alt="">
+      <div class="carousel-caption">
+      </div>
+    </div>
+        <div class="item">
+      <img src="/img/slides4.jpeg" alt="">
+      <div class="carousel-caption">
+      </div>
+    </div>
+
+
+  </div>
+</div>
+</div>
+     <div class="col-md-6">
+            <h2>Sabayon is a Linux distribution.</h2>
+
+We aim to deliver the best "out of the box" user experience by providing the latest open source technologies in an elegant format.
+In Sabayon everything should just work. We offer a bleeding edge operating system that is both stable and reliable.<br><br>
+<div class="col-md-12">
+
+<div class="col-md-6">
+<!--
+       <a class="btn btn-success btn-lg" href="/screenshots" role="button"> <h4> <i class="fa fa-picture-o"></i> Screenshots </h4></a>-->
+</div>
+<div class="col-md-6">
+
+       <a class="btn btn-primary btn-lg" href="/latest" role="button"> <h4><i class="fa fa-download"></i> Download Sabayon </h4></a>
+       </div>
+</div>
+</div>
+
+</div>
+
+
+
+      </div>
+    </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-9">
+        {{ range first 10 .Data.Pages }}
+            {{ .Render "summary" }}
+        {{ end }}
+        </div>
+
+        <!-- Sidebar -->
+        <div class="col-md-3">
+        {{ partial "menu.html" . }}
+        </div>
+    </div>
+{{ partial "footer.copyright.html" . }}
+</div>
+{{ partial "footer.html" . }}

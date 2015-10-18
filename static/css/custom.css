@@ -1,0 +1,16 @@
+body {
+    margin-top: 75px; /* 100px is double the height of the navbar - I made it a big larger for some more space - keep it at 50px at least if you want to use the fixed top nav */
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.navbar-nav li{
+    margin-top: 10px;
+}
+
+div.mirrors-list img.flag {
+    float: right;
+    margin-top: 1.3em;
+}

@@ -1,0 +1,6 @@
+baseurl = "https://sabayonlinux.org"
+languageCode = "en-us"
+title = "Sabayon Linux"
+canonifyurls = true
+permalinks:
+  post: /:year/:month/:title/
