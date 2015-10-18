@@ -69,7 +69,7 @@ In Sabayon everything should just work. We offer a bleeding edge operating syste
 <div class="container">
     <div class="row">
         <div class="col-md-9">
-        {{ range first 10 .Data.Pages }}
+        {{ range first 5 (where .Data.Pages "Section" "post") }}
             {{ .Render "summary" }}
         {{ end }}
         </div>

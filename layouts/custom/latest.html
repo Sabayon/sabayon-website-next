@@ -1,3 +1,3 @@
-{{ range first 1 .Site.Pages }}
+{{ range first 1 (where .Site.Pages "Section" "post") }}
     {{ .Render "single" }}
 {{ end }}

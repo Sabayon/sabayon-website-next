@@ -1,12 +1,12 @@
 +++
-title = "Latest Monthly Release: Sabayon 15.10"
-description = "15.10 Press release"
+title = "Press artworks"
+description = "Press artworks files"
 date = "2015-09-29"
 categories = [ "releases", "sabayon" ]
 tags = [
     "releases",
     "sabayon",
-    "15.10"
+    "press"
 ]
 +++
 
