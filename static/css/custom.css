@@ -14,3 +14,7 @@ div.mirrors-list img.flag {
     float: right;
     margin-top: 1.3em;
 }
+
+.mirror_linlk{
+    word-wrap: break-word;
+}
