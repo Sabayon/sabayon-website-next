@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+<body>
+{{ partial "navbar.html" . }}
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-9">
+
+        {{ range first 5 (where .Site.Pages "Section" "post") }}
+            {{ .Render "summary" }}
+        {{ end }}
+        </div>
+
+        <!-- Sidebar -->
+        <div class="col-md-3">
+        {{ partial "menu.html" . }}
+        </div>
+    </div>
+{{ partial "footer.copyright.html" . }}
+</div>
+{{ partial "footer.html" . }}
