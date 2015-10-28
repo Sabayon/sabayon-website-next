@@ -1,81 +1,61 @@
 {{ partial "header.html" . }}
 <style>
 body {
-    margin-top: 0px; /* 100px is double the height of the navbar - I made it a big larger for some more space - keep it at 50px at least if you want to use the fixed top nav */
+margin-top: 0px; /* 100px is double the height of the navbar - I made it a big larger for some more space - keep it at 50px at least if you want to use the fixed top nav */
 }
 </style>
 <body>
-{{ partial "navbar.html" . }}
-
-
-<!-- Main jumbotron for a primary marketing message or call to action -->
-<div class="jumbotron" id="home">
-    <div class="container">
-        <div class="media">
-      <!--      <a href="#" class="pull-right"><i class="fa fa-search fa-3x"></i></a> -->
-
-            <div class="media-body">
-                <div class="col-md-11">
-                    <h1 class="title">Sabayon <span>Linux</span></h1>
-
-                    <p>Sabayon is a Linux distribution.
-We aim to deliver the best "out of the box" user experience by providing the latest open source technologies in an elegant format.
-In Sabayon everything should just work. We offer a bleeding edge operating system that is both stable and reliable.
-</p>
-
-                    <a class="btn btn-primary btn-lg" href="/latest" role="button"> <h4><i class="fa fa-download"></i> Download Sabayon </h4></a>
+    {{ partial "navbar.html" . }}
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron" id="home">
+        <div class="container">
+            <div class="media">
+                <!--      <a href="#" class="pull-right"><i class="fa fa-search fa-3x"></i></a> -->
+                <div class="media-body">
+                    <div class="col-md-11">
+                        <h1 class="title">Sabayon <span>Linux</span></h1>
+                        <p>Sabayon is an Open Source Linux distribution.
+                            We aim to deliver the best "out of the box" user experience by providing the latest open source technologies in an elegant format.
+                            In Sabayon everything should just work. We offer a bleeding edge operating system that is both stable and reliable.
+                        </p>
+                        <a class="btn btn-primary btn-lg" href="/latest" role="button"> <h4><i class="fa fa-download"></i> Download Sabayon </h4></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-<div class="container" id="services">
-    <div class="row features">
-        <div class="col-lg-4 text-center">
-            <div class="single-fet">
-                <div>
-               <button type="button" class="btn btn-danger btn-circle btn-xl"><i class="fa fa-desktop fa-3x"></i></button>
-
+    <div class="container" id="services">
+        <div class="row features">
+            <div class="col-lg-4 text-center">
+                <div class="single-fet">
+                    <div>
+                        <button type="button" class="btn btn-danger btn-circle btn-xl"><i class="fa fa-desktop fa-3x"></i></button>
+                    </div>
+                    <h2>Desktop <span class="label label-warning">Edition</span></h2>
+                    <p>There are many different Sabayon variants. <br>Each one is designed for a specific purpose and designed to bring out the best in your hardware<br>
+                    We provide Live versions of most of our variants, so you can try out Sabayon without touching your Computer's Hard drive. </p>
                 </div>
-                <h2>Desktop <span class="label label-warning">Edition</span></h2>
-
-                <p>There are many different Sabayon variants. <br>Each one is designed for a specific purpose and designed to bring out the best in your hardware<br>
-        We provide Live versions of most of our variants, so you can try out Sabayon without touching your Computer's Hard drive. </p>
-
+            </div>
+            <div class="col-lg-4 text-center">
+                <div class="single-fet">
+                    <div>
+                        <button type="button" class="btn btn-danger btn-circle btn-xl"><i class="fa fa-server fa-3x"></i></button>
+                    </div>
+                    <h2>Server <span class="label label-warning">Edition</span></h2>
+                    <p>Minimalism. A server edition that will fit your needs.</p>
+                    <p>Our rolling release model guarantees extremely quick updates.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center">
+                <div class="single-fet">
+                    <div>
+                        <button type="button" class="btn btn-danger btn-circle btn-xl"><i class="fa fa-cloud fa-3x"></i></button>
+                    </div>
+                    <h2>... and now <span style="color:#3b5888">Cloud</span></h2>
+                    <p>We ship Docker, Vagrant, Virtualbox and QEMU images as well.<br> You can take us to the sky and touch the clouds.</p>
+                </div>
             </div>
         </div>
-        <div class="col-lg-4 text-center">
-            <div class="single-fet">
-                <div>
-                     <button type="button" class="btn btn-danger btn-circle btn-xl"><i class="fa fa-server fa-3x"></i></button>
-
-                </div>
-                <h2>Server <span class="label label-warning">Edition</span></h2>
-
-                <p>Minimalism. A server edition that will fit your needs.</p>
-                <p>Our rolling release model guarantees extremely quick updates.</p>
-            </div>
-        </div>
-        <div class="col-lg-4 text-center">
-            <div class="single-fet">
-                <div>
-               <button type="button" class="btn btn-danger btn-circle btn-xl"><i class="fa fa-cloud fa-3x"></i></button>
-
-                </div>
-                <h2>... and now <span style="color:#3b5888">Cloud</span></h2>
-
-                <p>We ship Docker, Vagrant, Virtualbox and QEMU images as well.<br> You can take us to the sky and touch the clouds.</p>
-
-            </div>
-        </div>
-
     </div>
-
-
-</div>
-
-
-{{ partial "footer.copyright.html" . }}
-
-{{ partial "footer.html" . }}
+    {{ partial "footer.copyright.html" . }}
+    {{ partial "footer.html" . }}
