@@ -6,7 +6,6 @@ categories = [ "chat", "sabayon" ]
 tags = [
     "chat",
     "live support",
-    "15.10"
 ]
 +++
 
