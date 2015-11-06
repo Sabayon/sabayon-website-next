@@ -2,9 +2,8 @@
 title = "Press artworks"
 description = "Press artworks files"
 date = "2015-09-29"
-categories = [ "releases", "sabayon" ]
+categories = [ "sabayon" ]
 tags = [
-    "releases",
     "sabayon",
     "press"
 ]
