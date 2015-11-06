@@ -28,11 +28,7 @@ tags = [
 <p>We are planning to bring back ARM support.</p>
 <p><em>So as you can see we’ve been busy little bees getting all this done.</em></p>
 <p>You can find us here:</p>
-<p><a href="https://www.sabayon.org/">https://www.sabayon.org/</a></p>
-<p><a href="https://github.com/Sabayon">https://github.com/Sabayon</a></p>
-<p><a href="https://hub.docker.com/r/sabayon/">https://hub.docker.com/r/sabayon/</a></p>
-<p><a href="https://plus.google.com/communities/111215969224831918857">https://plus.google.com/communities/111215969224831918857</a></p>
-<p><a href="https://www.facebook.com/groups/36125411841/">https://www.facebook.com/groups/36125411841/</a></p>
-<p>You can fund us here:</p>
-<p><a href="https://pledgie.com/campaigns/19051" target="_blank">https://pledgie.com/campaigns/19051</a></p>
-<p>  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/joostruis.wordpress.com/337/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/joostruis.wordpress.com/337/"></a> <img alt="" border="0" src="https://pixel.wp.com/b.gif?host=joostruis.wordpress.com&amp;blog=13154356&amp;post=337&amp;subd=joostruis&amp;ref=&amp;feed=1" width="1" height="1" style="display: none !important;"></p>
+
+* [<i class="fa fa-facebook"></i> Join us on Facebook](https://www.facebook.com/groups/36125411841)
+* [<i class="fa fa-google"></i> Join us on Google+](https://plus.google.com/+sabayon)
+* [Donate to Sabayon!](http://www.sabayon.org/donate)

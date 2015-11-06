@@ -10,7 +10,7 @@ tags = [
 ]
 +++
 
-![Sabayon Press release](/img/press-header-roll_0.png)
+<img src="/img/press-header-roll_0.png" class="img-responsive" alt="Sabayon Press release">
 
 Sabayon 15.11 is a modern and easy to use Linux distribution based on Gentoo, following an extreme, yet reliable, rolling release model.
 
@@ -19,9 +19,11 @@ The Change-log files related to this release are available on [our mirrors](http
 
 The list of packages included in each Sabayon flavor is available inside "*.pkglist" files. Our team is always busy packaging the latest and greatest stuff. If you want to have a look at what's inside our repositories, just go to our [packages website](https://packages.sabayon.org/).
 
+All the release variants can be found on the [download section.](/download).
+
 Please read on to know where to find the images and their torrentfiles on our mirrors
 
-![Sabayon Server logo](http://oi64.tinypic.com/14wzif9.jpg)
+<img src="http://oi64.tinypic.com/14wzif9.jpg" class="img-responsive" alt="Sabayon Server logo">
 
 # Changes
 
@@ -38,7 +40,7 @@ Deploying a Sabayon image now can be even more easier:
 
 ## Plasma 5
 
-![Plasma 5 sabayon logo](https://joostruis.files.wordpress.com/2015/09/plasma_sab.png?w=582&h=217)
+<img src="https://joostruis.files.wordpress.com/2015/09/plasma_sab.png?w=582&h=217" class="img-responsive" alt="Plasma 5 sabayon logo">
 
 For better stability we now ship LightDM as a login manager with the KDE spin.
 
