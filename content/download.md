@@ -53,4 +53,4 @@ We provide Live versions of most of our variants, so you can try out Sabayon wit
 </div>
 <hr>
 <h3> ... some one said bleeding edge images? grab a *-dev* <a class="btn btn-primary btn-md" href="http://dl.sabayon.org/iso/daily/daily.html" role="button"><i class="fa fa-flask"></i> Daily builds </a> </h3>
-<h3> If you are enterested in browsing our mirrors, [head over here](/mirrors) </h3>
+<h3> If you are interested in browsing our mirrors, [head over here](/mirrors) </h3>
