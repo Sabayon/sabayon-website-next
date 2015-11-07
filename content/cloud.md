@@ -66,5 +66,4 @@ class="img-responsive"></button></div>
 </div>
 
 <hr>
-<h4>
-Have you considered donating yet? Help us! <a class="btn btn-primary btn-xs" href="/donate" role="button"><i class="fa fa-heart"></i> Donate </a> today!</h4>
+<h4>Have you considered donating yet? Help us! <a class="btn btn-danger btn-xs" href="/donate" role="button"><i class="fa fa-heart"></i> Donate </a> today!</h4>
