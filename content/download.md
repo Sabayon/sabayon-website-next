@@ -17,8 +17,8 @@ tags = [
 <div>
 <button type="button" class="btn btn-danger btn-circle btn-xl"><i class="fa fa-desktop fa-3x"></i></button>
 </div>
-<h2>Desktop <span class="label label-warning">Edition</span></h2>
-</a>
+<h2>Desktop</a> <span class="label label-warning">Edition</span></h2>
+
 <p>There are many different Sabayon variants. <br>Each one is designed for a specific purpose and designed to bring out the best in your hardware<br>
 We provide Live versions of most of our variants, so you can try out Sabayon without touching your Computer's Hard drive. </p>
 </div>
@@ -29,8 +29,8 @@ We provide Live versions of most of our variants, so you can try out Sabayon wit
 <div>
 <button type="button" class="btn btn-danger btn-circle btn-xl"><i class="fa fa-server fa-3x"></i></button>
 </div>
-<h2>Server <span class="label label-warning">Edition</span></h2>
-</a>
+<h2>Server</a> <span class="label label-warning">Edition</span></h2>
+
 <p>Minimalism. A server edition that will fit your needs.</p>
 <p>Our rolling release model guarantees extremely quick updates.</p>
 </div>
@@ -42,8 +42,8 @@ We provide Live versions of most of our variants, so you can try out Sabayon wit
 <div>
 <button type="button" class="btn btn-danger btn-circle btn-xl"><i class="fa fa-cloud fa-3x"></i></button>
 </div>
-<h2>Cloud <span class="label label-warning">Edition</span></h2>
-</a>
+<h2>Cloud</a> <span class="label label-warning">Edition</span></h2>
+
 <p>Run Sabayon in a virtual machine or container.</p>
 </div>
 
