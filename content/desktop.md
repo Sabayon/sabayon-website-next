@@ -21,7 +21,7 @@ tags = [
 <h3>Mate edition</h3></a>
 
 <p>Wonderful minimalism, with an eye back to the past</p>
-<p>   <a class="btn btn-primary btn-xs" href=""http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_MATE.iso"" role="button"><i class="fa fa-download"></i> Download </a>
+<p>   <a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_MATE.iso" role="button"><i class="fa fa-download"></i> Download </a>
 <a class="btn btn-primary btn-xs" href="/desktop/mate" role="button"><i class="fa fa-info-circle"></i> Details </a> </p>
 </div>
 
