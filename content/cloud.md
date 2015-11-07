@@ -57,7 +57,7 @@ class="img-responsive"></button></div>
 </div>
 <div class="row">
 <div class="col-md-2">
-<a href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_SpinBase-qemu.tar.gz"><button type="button" class="btn btn-circle btn-xl"></button></div>
+<a href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_SpinBase-qemu.tar.gz"><button type="button" class="btn btn-circle btn-xl"><img src="/img/qemu-logo.png" class="img-responsive"></button></div>
 <div class="col-md-10">
 <h3>QEMU</h3></a>
 <h4></h4>
