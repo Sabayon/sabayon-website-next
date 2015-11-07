@@ -44,7 +44,7 @@ We provide Live versions of most of our variants, so you can try out Sabayon wit
 </div>
 <h2>Cloud <span class="label label-warning">Edition</span></h2>
 </a>
-<p>We ship Docker, Vagrant, Virtualbox and QEMU images as well.<br> You can take us to the sky and touch the clouds.</p>
+<p>Run Sabayon in a virtual machine or container.</p>
 </div>
 
 
