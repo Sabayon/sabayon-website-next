@@ -42,7 +42,7 @@ We provide Live versions of most of our variants, so you can try out Sabayon wit
 <div>
 <button type="button" class="btn btn-danger btn-circle btn-xl"><i class="fa fa-cloud fa-3x"></i></button>
 </div>
-<h2>... and now <span style="color:#3b5888">Cloud</span></h2>
+<h2>Cloud <span class="label label-warning">Edition</span></h2>
 </a>
 <p>We ship Docker, Vagrant, Virtualbox and QEMU images as well.<br> You can take us to the sky and touch the clouds.</p>
 </div>
