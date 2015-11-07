@@ -16,12 +16,13 @@ tags = [
 
 <div class="row">
 <div class="col-md-2">
-<a href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_MATE.iso"><button type="button" class="btn btn-circle btn-xl"><img src="/img/mate-logo.png" class="img-responsive"></button></div>
+<a href="/desktop/mate"><button type="button" class="btn btn-circle btn-xl"><img src="/img/mate-logo.png" class="img-responsive"></button></div>
 <div class="col-md-10">
 <h3>Mate edition</h3></a>
 
 <p>Wonderful minimalism, with an eye back to the past</p>
-<p> <a class="btn btn-primary btn-xs" href="/desktop/mate" role="button"><i class="fa fa-info-circle"></i> Details </a>   <a class="btn btn-primary btn-xs" href=""http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_MATE.iso"" role="button"><i class="fa fa-download"></i> Download </a> 
+<p>   <a class="btn btn-primary btn-xs" href=""http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_MATE.iso"" role="button"><i class="fa fa-download"></i> Download </a>
+<a class="btn btn-primary btn-xs" href="/desktop/mate" role="button"><i class="fa fa-info-circle"></i> Details </a> </p>
 </div>
 
 </div>
