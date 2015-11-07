@@ -14,54 +14,87 @@ tags = [
 }
 </style>
 
+
+
+
+
 <div class="row">
 <div class="col-md-2">
-<a href="/desktop/mate"><button type="button" class="btn btn-circle btn-xl"><img src="/img/mate-logo.png" class="img-responsive"></button></div>
-<div class="col-md-10">
-<h3>Mate edition</h3></a>
-
-<p>Wonderful minimalism, with an eye back to the past</p>
-<p>   <a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_MATE.iso" role="button"><i class="fa fa-download"></i> Download </a>
-<a class="btn btn-primary btn-xs" href="/desktop/mate" role="button"><i class="fa fa-info-circle"></i> Details </a> </p>
-</div>
-
-</div>
-<div class="row">
-<div class="col-md-2">
-<a href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_GNOME.iso"><button type="button" class="btn btn-circle btn-xl"><img src="/img/gnome-logo.png"
+<button type="button" class="btn btn-circle btn-xl"><img src="/img/gnome-logo.png"
 class="img-responsive"></button></div>
 <div class="col-md-10">
-<h3>GNOME edition</h3></a>
-<h4>Awesomeness and candies!</h4>
+<h4>GNOME edition</h4>
+<p>Awesomeness and candies!</p>
+<p>
+<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_GNOME.iso" role="button"><i class="fa fa-download"></i> Download </a>
+<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_GNOME.iso.torrent" role="button"><i class="fa fa-magnet"></i> Torrent download </a>
+<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_GNOME.iso.md5" role="button"><i class="fa fa-check-square"></i> MD5 </a>
+<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_GNOME.iso.pkglist" role="button"><i class="fa fa-list"></i> Package list </a>
+</p>
 </div>
 
 </div>
 <div class="row">
 <div class="col-md-2">
-<a href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_KDE.iso"><button type="button" class="btn btn-circle btn-xl"><img src="/img/kde-logo.png" class="img-responsive"></button></div>
+<button type="button" class="btn btn-circle btn-xl"><img src="/img/kde-logo.png" class="img-responsive"></button></div>
 <div class="col-md-10">
-<h3>KDE edition</h3></a>
-<h4>Smooth, for pro</h4>
+<h4>KDE edition</h4>
+<p>Smooth, for pro</p>
+<p>
+<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_KDE.iso" role="button"><i class="fa fa-download"></i> Download </a>
+<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_KDE.iso.torrent" role="button"><i class="fa fa-magnet"></i> Torrent download </a>
+<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_KDE.iso.md5" role="button"><i class="fa fa-check-square"></i> MD5 </a>
+<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_KDE.iso.pkglist" role="button"><i class="fa fa-list"></i> Package list </a>
+</p>
 </div>
 
 </div>
 <div class="row">
 <div class="col-md-2">
-<a href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_Xfce.iso"><button type="button" class="btn btn-circle  btn-xl"><img src="/img/xfce-logo.png" class="img-responsive"></button></div>
+<button type="button" class="btn btn-circle  btn-xl"><img src="/img/xfce-logo.png" class="img-responsive"></button>
+</div>
 <div class="col-md-10">
-<h3>Xfce edition</h3></a>
-<h4>Lightweight but complete</h4>
+<h4>Xfce edition</h4>
+
+<p>Lightweight but complete</p>
+<p>
+<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_Xfce.iso" role="button"><i class="fa fa-download"></i> Download </a>
+<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_Xfce.iso.torrent" role="button"><i class="fa fa-magnet"></i> Torrent download </a>
+<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_Xfce.iso.md5" role="button"><i class="fa fa-check-square"></i> MD5 </a>
+<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_Xfce.iso.pkglist" role="button"><i class="fa fa-list"></i> Package list </a>
+</p>
+</div>
 </div>
 
-</div>
 <div class="row">
 <div class="col-md-2">
-<a href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_Minimal.iso"><button type="button" class="btn btn-circle btn-xl"><img src="/img/fluxbox-logo.png" class="img-responsive"></button></div>
+<button type="button" class="btn btn-circle btn-xl"><img src="/img/mate-logo.png" class="img-responsive"></button>
+</div>
 <div class="col-md-10">
-<h3>Fluxbox edition</h3></a>
-<h4>Minimal, for hackers</h4>
+<h4>Mate edition</h4>
+<p>Wonderful minimalism, with an eye back to the past</p>
+<p>
+<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_MATE.iso" role="button"><i class="fa fa-download"></i> Download </a>
+<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_MATE.iso.torrent" role="button"><i class="fa fa-magnet"></i> Torrent download </a>
+<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_MATE.iso.md5" role="button"><i class="fa fa-check-square"></i> MD5 </a>
+<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_MATE.iso.pkglist" role="button"><i class="fa fa-list"></i> Package list </a>
+</p>
+</div>
 </div>
 
+<div class="row">
+<div class="col-md-2">
+<button type="button" class="btn btn-circle btn-xl"><img src="/img/fluxbox-logo.png" class="img-responsive"></button></div>
+<div class="col-md-10">
+<h4>Fluxbox edition</h4>
+<p>Minimal, for hackers</p>
+<p>
+<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_Minimal.iso" role="button"><i class="fa fa-download"></i> Download </a>
+<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_Minimal.iso.torrent" role="button"><i class="fa fa-magnet"></i> Torrent download </a>
+<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_Minimal.iso.md5" role="button"><i class="fa fa-check-square"></i> MD5 </a>
+<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.11_amd64_Minimal.iso.pkglist" role="button"><i class="fa fa-list"></i> Package list </a>
+</p>
+</div>
 </div>
 
 <hr>
