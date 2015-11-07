@@ -21,5 +21,3 @@ This is what we need to cover our daily duties:
 **We would like to thank everybody who has donated in the past 2014. We all hope to see you back supporting us in this 2015.**
 
 [![pledgie](https://pledgie.com/campaigns/19051.png)](http://www.pledgie.com/campaigns/19051)
-
-[![paypal donation](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](
