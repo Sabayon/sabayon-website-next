@@ -23,7 +23,12 @@ tags = [
 <a href="https://hub.docker.com/u/sabayon/dashboard/"><button type="button" class="btn btn-circle btn-xl"><img src="/img/docker-logo.png" class="img-responsive"></button></div>
 <div class="col-md-10">
 <h4>DockerHub</h4></a>
-<h4>docker pull sabayon/base-amd64-squashed ... and there you go</h4>
+<h4>docker pull... and there you go</h4>
+<p>
+<a class="btn btn-primary btn-xs" href="https://hub.docker.com/r/sabayon/base-amd64/" role="button"><i class="fa fa-link"></i> Base - perfect for all your needs </a>
+<a class="btn btn-primary btn-xs" href="https://hub.docker.com/r/sabayon/spinbase-amd64/" role="button"><i class="fa fa-check-square"></i> SpinBase </a>
+<a class="btn btn-primary btn-xs" href="https://hub.docker.com/r/sabayon/builder-amd64/" role="button"><i class="fa fa-list"></i> For developers </a>
+</p>
 </div>
 
 </div>
