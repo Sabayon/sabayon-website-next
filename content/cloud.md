@@ -26,8 +26,8 @@ tags = [
 <h4>docker pull... and there you go</h4>
 <p>
 <a class="btn btn-primary btn-xs" href="https://hub.docker.com/r/sabayon/base-amd64/" role="button"><i class="fa fa-link"></i> Base - perfect for all your needs </a>
-<a class="btn btn-primary btn-xs" href="https://hub.docker.com/r/sabayon/spinbase-amd64/" role="button"><i class="fa fa-check-square"></i> SpinBase </a>
-<a class="btn btn-primary btn-xs" href="https://hub.docker.com/r/sabayon/builder-amd64/" role="button"><i class="fa fa-list"></i> For developers </a>
+<a class="btn btn-primary btn-xs" href="https://hub.docker.com/r/sabayon/spinbase-amd64/" role="button"><i class="fa fa-link"></i> SpinBase </a>
+<a class="btn btn-primary btn-xs" href="https://hub.docker.com/r/sabayon/builder-amd64/" role="button"><i class="fa fa-link"></i> For developers </a>
 </p>
 </div>
 
