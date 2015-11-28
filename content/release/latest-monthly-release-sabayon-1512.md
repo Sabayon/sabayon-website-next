@@ -44,7 +44,10 @@ ARM, we are coming! we successfully built RaspberryPi2 images, as you are readin
 
 Stay tuned! We are always busy to give you the Sabayon experience in your box. We have a lot of exciting updates in the pipeline for the next releases!
 
-# Release infos
+
+# Release informations
+
+Here will follow generic informations about the available releases, along with the current state of Sabayon.
 
 ## Available releases
 
