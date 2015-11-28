@@ -45,6 +45,10 @@ All major components of Plasma where updated:
 
 ARM, we are coming! we successfully built RaspberryPi2 images, as you are reading we are growing the ARM (hfp) repository and setting up the infrastructure to make automated releases.
 
+We actually rented an ARM server for that purpose since we are going to fully support the ARM hfp architecture in that way you can use Sabayon on your favorite boards!
+
+If you want help us, please take in consideration also <a href="/donate" role="button">donating <i class="fa fa-heart"></i> </a>. 
+
 ## Future plans
 
 Stay tuned! We are always busy to give you the Sabayon experience in your box. We have a lot of exciting updates in the pipeline for the next releases!
@@ -110,3 +114,5 @@ Please find the official file names and hashes below.
 * [<i class="fa fa-download"></i> Sabayon MATE (64 bit)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.12_amd64_MATE.iso)
 * [<i class="fa fa-download"></i> Sabayon Minimal (64 bit)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.12_amd64_Minimal.iso)
 * [<i class="fa fa-download"></i> Sabayon Server (64 bit)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.12_amd64_Server.iso)
+
+<h4>Have you considered donating yet? Help us! <a class="btn btn-danger btn-xs" href="/donate" role="button"><i class="fa fa-heart"></i> Donate </a> today!</h4>
