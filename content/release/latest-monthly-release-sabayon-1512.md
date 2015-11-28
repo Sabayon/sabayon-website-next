@@ -27,6 +27,11 @@ Please read on to know where to find the images and their torrentfiles on our mi
 
 This is a *minor* release: contains bugfixes and enhancements to the Sabayon distribution.
 
+## Gnome 3.18
+
+Gnome 3.18 is in our testing repositories, it will hit main repositories when it could be considered safe.
+If you can't wait and you don't know how to enable testing repositories and willing to be a tester read [here](http://blog.mudler.pm/2015/10/sabayon-testers-testers-testers.html) and [here](https://wiki.sabayon.org/index.php?title=En:Entropy#Testing_Branch_Limbo)
+
 ## Plasma 5
 
 <center><img src="https://joostruis.files.wordpress.com/2015/09/plasma_sab.png?w=582&h=217" class="img-responsive" alt="Plasma 5 sabayon logo"></center>
