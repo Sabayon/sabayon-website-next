@@ -33,8 +33,8 @@ What's the current state:
 Future (Notes also taken from users feedback):
 ---------------
 
-*UI/X Redesign
-*A more cool and appropriate color palette
-*Jumbotron background image is just horrible && feels so default
+* UI/X Redesign
+* A more cool and appropriate color palette
+* Jumbotron background image is just horrible && feels so default
 * [...]
 
