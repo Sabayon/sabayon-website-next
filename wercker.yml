@@ -4,7 +4,7 @@ build:
     - arjen/hugo-build
 deploy:
   steps:
-    - lukevivier/gh-pages@0.2.1:
+    - lukevivier/gh-pages:
         token: $GIT_TOKEN
         basedir: public
 
