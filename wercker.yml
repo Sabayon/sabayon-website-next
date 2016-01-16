@@ -4,7 +4,8 @@ build:
     - arjen/hugo-build
 deploy:
   steps:
-    - lukevivier/gh-pages:
-        token: $GIT_TOKEN
-        basedir: public
-
+    - leipert/git-push:
+     gh_oauth: $GIT_TOKEN
+     repo: Sabayon/sabayon-website-next
+     branch: gh-pages
+     basedir: public
