@@ -5,7 +5,7 @@ build:
 deploy:
   steps:
     - leipert/git-push:
-     gh_oauth: $GIT_TOKEN
-     repo: Sabayon/sabayon-website-next
-     branch: gh-pages
-     basedir: public
+         gh_oauth: $GIT_TOKEN
+         repo: Sabayon/sabayon-website-next
+         branch: gh-pages
+         basedir: public
