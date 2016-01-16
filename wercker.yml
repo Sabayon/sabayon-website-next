@@ -2,11 +2,11 @@ box: samueldebruyn/debian-git
 build:
   steps:
     - arjen/hugo-build:
-         flags: "--destination='public' --verbose=true"
+         flags: "--destination='deploy' --verbose=true"
 deploy:
   steps:
     - leipert/git-push:
          gh_oauth: $GIT_TOKEN
          repo: Sabayon/sabayon-website-next
          branch: gh-pages
-         basedir: public
+         basedir: deploy
