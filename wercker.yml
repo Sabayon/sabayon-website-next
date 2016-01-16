@@ -2,6 +2,7 @@ box: samueldebruyn/debian-git
 build:
   steps:
     - arjen/hugo-build
+         flags: "--destination='public' --verbose=true"
 deploy:
   steps:
     - leipert/git-push:
