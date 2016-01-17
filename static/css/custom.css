@@ -34,10 +34,10 @@ div.mirrors-list img.flag {
     margin: 50px 0;
     margin-bottom:0px;
 }
+
 .jumbotron .media-body h1{
     margin-top: 40px;
 }
-
 
 .btn-circle {
   width: 30px;
@@ -48,6 +48,7 @@ div.mirrors-list img.flag {
   line-height: 1.428571429;
   border-radius: 15px;
 }
+
 .btn-circle.btn-lg {
   width: 50px;
   height: 50px;
@@ -56,6 +57,7 @@ div.mirrors-list img.flag {
   line-height: 1.33;
   border-radius: 25px;
 }
+
 .btn-circle.btn-xl {
   width: 110px;
   height: 110px;
@@ -64,7 +66,6 @@ div.mirrors-list img.flag {
   line-height: 1.33;
   border-radius: 35px;
 }
-
 
 div.feature-box {
     clear: both;
@@ -100,11 +101,10 @@ div.feature-box div.feature-box-icon i.image-icon.small {
     top: 2px;
 }
 
-
-
 .features {
     padding-top: 30px;
 }
+
 .features p{
     margin: 30px 0;
 }
@@ -112,9 +112,11 @@ div.feature-box div.feature-box-icon i.image-icon.small {
 .features .col-lg-4:first-child .icon-stack-base{
     color:#52AD81;
 }
+
 .features .col-lg-4:nth-child(2) .icon-stack-base{
     color:#CD5A48;
 }
+
 .features .col-lg-4:last-child .icon-stack-base{
     color:#51A9D6;
 }
@@ -123,8 +125,36 @@ div.feature-box div.feature-box-icon i.image-icon.small {
   display: inline-block;
   float: none;
   vertical-align: top;
+  
 }
 
 .navbar .navbar-collapse {
   text-align: center;
+}
+
+.screens {
+  background: rgba(222,217,200, .85);
+  padding: 30px;
+  color: #000000;
+}
+
+.services {
+  background: rgba(222,217,200, .85);
+  padding: 30px;
+  color: #000000;
+}
+
+.info {
+  background: rgba(44,62,80, .95);
+}
+
+.copyright {
+  background: rgba(44,62,80, .95);
+  font-size: small;
+  color: #EEEDEC;
+}
+
+.fun_facts .section_overlay {
+  background: rgba(44,62,80, .95);
+  padding-bottom: 30px;
 }
