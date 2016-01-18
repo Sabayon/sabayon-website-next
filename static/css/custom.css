@@ -161,4 +161,8 @@ div.feature-box div.feature-box-icon i.image-icon.small {
   padding-bottom: 30px;
 }
 
+.no_ul_style{
+    list-style-type: none;
+}
+
 
