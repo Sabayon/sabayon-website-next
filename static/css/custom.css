@@ -125,7 +125,7 @@ div.feature-box div.feature-box-icon i.image-icon.small {
   display: inline-block;
   float: none;
   vertical-align: top;
-  
+
 }
 
 .navbar .navbar-collapse {
@@ -165,4 +165,8 @@ div.feature-box div.feature-box-icon i.image-icon.small {
 
 .no_ul_style li{
       display:inline-block;
+}
+
+.footer_override{
+      color:#ffffff !important;
 }
