@@ -163,4 +163,6 @@ div.feature-box div.feature-box-icon i.image-icon.small {
     list-style-type: none;
 }
 
-
+.no_ul_style li{
+      display:inline-block;
+}
