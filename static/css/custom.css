@@ -1,5 +1,6 @@
 body {
     margin-top: 110px;
+    background: url(../img/body-bg.jpg);
 }
 
 footer {
@@ -161,14 +162,30 @@ div.feature-box div.feature-box-icon i.image-icon.small {
   padding-bottom: 30px;
 }
 
-.no_ul_style{
+.no_ul_style {
     list-style-type: none;
 }
 
-.no_ul_style li{
+.no_ul_style li {
       display:inline-block;
 }
 
-.footer_override{
+.footer_override {
       color:#ffffff !important;
+}
+
+.well {
+      background: rgba(44,62,80, 1);
+      color:#ffffff;
+}
+
+.panel .panel-heading {
+      background: rgba(222,217,200, 1);
+      color:#000000;
+      border-color: rgba(187, 184, 180, 0.7);
+}
+.panel-default {
+      background: rgba(44,62,80, 1);
+      color:#ffffff;
+      border: solid rgba(187, 184, 180, 0.7);
 }
