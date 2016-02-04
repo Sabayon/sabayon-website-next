@@ -146,7 +146,7 @@ div.feature-box div.feature-box-icon i.image-icon.small {
 }
 
 .info {
-    background-image: rgba(44,62,80, .95);
+    background: rgba(44,62,80, .95);
 }
 
 .copyright {
