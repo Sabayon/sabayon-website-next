@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-
     {{ partial "meta.html" . }}
 
     <title>{{ .Title }} - {{ .Site.BaseURL }}</title>
@@ -9,5 +8,4 @@
     <link rel="shortcut icon" href="https://www.sabayon.org/sites/all/themes/sabayon/favicon.ico" type="image/vnd.microsoft.icon" />
     {{ partial "header.includes.html" . }}
     {{ if .RSSlink }}<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />{{ end }}
-
 </head>
