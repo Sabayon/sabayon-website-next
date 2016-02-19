@@ -118,7 +118,9 @@ div.feature-box div.feature-box-icon i.image-icon.small {
 .features .col-lg-4:last-child .icon-stack-base{
     color:#51A9D6;
 }
-
+.navbar{
+  background: none;
+}
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
