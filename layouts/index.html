@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 <style>
 body {
-margin-top: 0px; /* 100px is double the height of the navbar - I made it a big larger for some more space - keep it at 50px at least if you want to use the fixed top nav */
+margin-top: 0px;
 }
 
 .btn-primary {
@@ -15,90 +15,149 @@ margin-top: 0px; /* 100px is double the height of the navbar - I made it a big l
     <div class="jumbotron" id="home">
         <div class="container">
             <div class="media">
+                <!--      <a href="#" class="pull-right"><i class="fa fa-search fa-3x"></i></a> -->
                 <div class="media-body">
                     <div class="col-md-11">
                       <div class="row">
-                                          <h1 class="title">
-
-<div class="col-md-6">
-                                            Sabayon <span>Linux</span>       </div>         <div class="col-md-6">
-                                                <a class="btn btn-primary btn-md" href="/download" role="button"> <h4><i class="fa fa-download"></i> Download Sabayon </h4></a>
-                                                      <a class="btn btn-primary btn-md" href="/latest" role="button"> <h4><i class="fa fa-newspaper-o"></i> Latest press release </h4></a>
- </div>
-</h1>
-
+                                          <h1>
+                                            Sabayon <span>Linux</span>
+                                                <a class="btn btn-primary btn-md" href="/download" role="button" style="font-size:20px"><i class="fa fa-download"></i> Download Sabayon</a>
+                                                      <a class="btn btn-primary btn-md" href="/latest" role="button" style="font-size:20px"><i class="fa fa-newspaper-o"></i> Latest Press Release</a>
+										   </h1>
                         <p>Sabayon is a beginner-friendly Gentoo-based Open Source Linux distribution.
                             We aim to deliver the best "out of the box" user experience by providing the latest open source technologies in an elegant format.
                             In Sabayon everything should just work. We offer a bleeding edge operating system that is both stable and reliable.
                         </p>
+
                       </div>
                     </div>
                 </div>
             </div>
+        </div></div>
+    	<section class="services" id="SERVICE">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <div>
+					<h3>Architecture</h3>
+                        <ul class="no_ul_style"><li>x86_64 Binary system that is based on Gentoo</li></ul>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div>
+                        <h3>Entropy</h3>
+                        <ul class="no_ul_style"><li>Package manager that handles packages built from portage</li></ul>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div>
+                        <h3>Rolling Release</h3>
+                        <ul class="no_ul_style"><li>Install once and stay up to date with Entropy</li></ul>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div>
+					<h3>Multiple Repositories</h3>
+                        <ul class="no_ul_style"><li>From testing to stable - Limbo, Main, Weekly</li></ul>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="container" id="flavours">
-        <div class="row features">
+    </section>
+		<section class="services" id="SERVICE">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <div>
+					<h3>ISO</h3>
+                        <ul class="no_ul_style"><li>Daily and Monthly ISO images available</li></ul>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div>
+                        <h3>DE</h3>
+                        <ul class="no_ul_style"><li>Multiple Desktop Environment ISOs - KDE, Gnome, Mate, and XFCE</li></ul>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div>
+                        <h3>Molecule </h3>
+                        <ul class="no_ul_style"><li>Build your own Sabayon spin</li></ul>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div>
+					<h3>ARM</h3>
+                        <ul class="no_ul_style"><li>Support for Raspberry Pi 2</li></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="fun_facts">
+    	<section class="flavours" id="flavours" style="background-position: 50% -150px;">
+	        <div class="section_overlay">
+        <div class="container" id="flavours">
+          <div class="row features">
           <div class="col-lg-6 text-center">
-
           <div class="single-fet">
-          <a href="/desktop">
           <div>
           <button type="button" class="btn btn-danger btn-circle btn-xl"><i class="fa fa-desktop fa-3x"></i></button>
           </div>
-
-          <h2>Desktop</a> <span class="label label-warning">Edition</span></h2>
-
-          <p>There are many different Sabayon variants. <br>Each one is designed for a specific purpose and designed to bring out the best in your hardware<br>
-          We provide Live versions of most of our variants, so you can try out Sabayon without touching your Computer's Hard drive. </p>
+          <h2><a href="http://next.sabayon.org/desktop">Desktop</a> <span class="label label-warning">Edition</span></h2>
+          <p><i>Production to Multimedia to Gaming</i></p>
+             </div>
           </div>
-          </div>
-          <div class="col-lg-6 text-center">
+           <div class="col-lg-6 text-center">
           <div class="single-fet">
-          <a href="/server">
           <div>
           <button type="button" class="btn btn-danger btn-circle btn-xl"><i class="fa fa-server fa-3x"></i></button>
           </div>
-
-          <h2>Server</a> <span class="label label-warning">Edition</span></h2>
-
-          <p>Minimalism. A server edition that will fit your needs.</p>
-          <p>Our rolling release model guarantees extremely quick updates.</p>
+          <h2><a href="http://next.sabayon.org/server">Server</a> <span class="label label-warning">Edition</span></h2>
+          <p><i>Minimalism to build to your Needs</i></p>
           </div>
           </div>
-
-        </div>
-        <div class="row features">
-
+    </div>
+    </div>
+	</div>
+    <div class="fun_facts">
+    	<section class="flavours" id="flavours" style="background-position: 50% -150px;">
+	        <div class="section_overlay">
+          <div class="container" id="flavours">
+          <div class="row features">
           <div class="col-lg-6 text-center">
-
           <div class="single-fet">
-          <a href="/cloud">
           <div>
           <button type="button" class="btn btn-danger btn-circle btn-xl"><i class="fa fa-cloud fa-3x"></i></button>
           </div>
-
-          <h2>Cloud</a> <span class="label label-warning">Edition</span></h2>
-
-          <p>Run Sabayon in a virtual machine or container.<br> You can take us to the sky and touch the clouds.</p>
+          <h2><a href="http://next.sabayon.org/cloud">Cloud</a> <span class="label label-warning">Edition</span></h2>
+          <p><i>Virtual Machines to Containers</i></p>
+             </div>
           </div>
-
-
-          </div>
-          <div class="col-lg-6 text-center">
-
+           <div class="col-lg-6 text-center">
           <div class="single-fet">
-          <a href="http://dl.sabayon.org/iso/daily/daily.html">
           <div>
           <button type="button" class="btn btn-danger btn-circle btn-xl"><i class="fa fa-flask fa-3x"></i></button>
           </div>
-
-          <h2>Testing</a> <span class="label label-warning">Edition</span></h2>
-
-          <p>You like living in the edge? You feel adventurous?<br> Enjoy your ultra-super-bleeding system and help us testing the next major releases! <br>Report any <a class="btn btn-xs btn-danger" href="https://bugs.sabayon.org/" role="button"><i class="fa fa-bug"></i> Bug </a> you find! </p>
+          <h2><a href="http://dl.sabayon.org/iso/daily/daily.html">Testing</a> <span class="label label-warning">Edition</span></h2>
+          <p><i>Help find them Bugs </i><a class="btn btn-xs btn-danger" href="https://bugs.sabayon.org/" role="button"><i class="fa fa-bug"></i></a></p>
           </div>
           </div>
-        </div>
     </div>
+    </div>
+    </div>
+  </section>
+       <section class="screens" id="SCREENS">
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <div><p></p>
+					<p><a href="img/sab.png"><img src="img/sab.png" alt="screen shot" height="150" width="250"></a>&nbsp;<a href="img/sab.png"><img src="img/sab.png" alt="screen shot" height="150" width="250"></a>&nbsp;<a href="img/sab.png"><img src="img/sab.png" alt="screen shot" height="150" width="250"></a>&nbsp;<a href="img/sab.png"><img src="img/sab.png" alt="screen shot" height="150" width="250"></a></p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+		</section>
+	</div>
     {{ partial "footer.copyright.html" . }}
     {{ partial "footer.html" . }}
