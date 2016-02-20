@@ -21,6 +21,9 @@ div.mirrors-list img.flag {
     word-wrap: break-word;
 }
 
+.btn-primary {
+  background: #000;
+}
 .jumbotron{
     background: url(../img/intro-bg.jpg);
     color: #ffffff;
