@@ -19,7 +19,7 @@ $(this).attr('target', '_blank');
 
 $(document).ready(function(){
    var scroll_start = 0;
-   var startchange = $('#flavours');
+   var startchange = $('#SERVICE');
    var offset = startchange.offset();
     if (startchange.length){
    $(document).scroll(function() {
