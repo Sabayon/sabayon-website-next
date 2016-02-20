@@ -26,8 +26,12 @@ div.mirrors-list img.flag {
 }
 .jumbotron{
     background: url(../img/intro-bg.jpg);
-    color: #ffffff;
+    color: #fff;
     background-attachment: fixed;
+}
+
+.navbar a{
+  color:#000;
 }
 
 
