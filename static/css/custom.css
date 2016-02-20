@@ -28,6 +28,8 @@ div.mirrors-list img.flag {
     background: url(../img/intro-bg.jpg);
     color: #fff;
     background-attachment: fixed;
+    margin-bottom:0px;
+
 }
 
 .navbar a{
@@ -150,7 +152,7 @@ div.feature-box div.feature-box-icon i.image-icon.small {
 }
 
 .services {
-  background: rgba(222,217,200, .85);
+  background: #fff;
   padding: 30px;
   color: #000000;
 }
