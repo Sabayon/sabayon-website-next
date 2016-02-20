@@ -2,12 +2,16 @@ body {
     margin-top: 110px;
     background: #2c3e50;
     color:#000;
-}
+font-family: 'Quattrocento Sans', sans-serif;}
 
 footer {
     margin: 50px 0;
 }
 
+#getit{
+  background:#000;
+  color:#fff;
+}
 .navbar-nav li{
     margin-top: 10px;
 }
@@ -169,6 +173,23 @@ div.feature-box div.feature-box-icon i.image-icon.small {
 
 .fun_facts{
   background: #fff;
+}
+
+.flavour-cloud{
+  background:#EBF2F2;
+  color:#ADE0DB;
+}
+.flavour-server{
+  background:#C0D5C2;
+  color:#000;
+}
+.flavour-desktop{
+  background:#9BC1C5;
+  color:#fff;
+}
+.flavour-testing{
+  background:#0CAB82;
+  color:#000;
 }
 .fun_facts .section_overlay {
 /*background: rgba(44,62,80, .95); */
