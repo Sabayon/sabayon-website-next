@@ -36,6 +36,14 @@ div.mirrors-list img.flag {
 
 }
 
+.community{
+  background: url(../img/community.jpg);
+  background-attachment: fixed;
+  color: #fff;
+
+
+}
+
 .navbar a{
   color:#000;
 }
