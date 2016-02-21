@@ -1,7 +1,7 @@
 body {
     margin-top: 110px;
-    background: #2c3e50;
-    color:#000;
+    background: #000;
+    color:#fff;
 font-family: 'Quattrocento Sans', sans-serif;}
 
 footer {
@@ -162,17 +162,18 @@ div.feature-box div.feature-box-icon i.image-icon.small {
 }
 
 .info {
-  background: rgba(44,62,80, .95);
+  background: #000;
 }
 
 .copyright {
-  background: rgba(44,62,80, .95);
+  background: #000;
   font-size: small;
   color: #EEEDEC;
 }
 
 .fun_facts{
   background: #fff;
+  color:#000
 }
 
 .flavour-cloud{
@@ -185,7 +186,7 @@ div.feature-box div.feature-box-icon i.image-icon.small {
 }
 .flavour-desktop{
   background:#9BC1C5;
-  color:#fff;
+  color:#000;
 }
 .flavour-testing{
   background:#0CAB82;
