@@ -222,8 +222,12 @@ div.feature-box div.feature-box-icon i.image-icon.small {
 }
 
 .well {
-      background: rgba(44,62,80, 1);
-      color:#ffffff;
+      background: #fff;
+      color:#000;
+}
+
+.well-summary a{
+  color:#000;
 }
 
 .panel .panel-heading {
@@ -232,7 +236,7 @@ div.feature-box div.feature-box-icon i.image-icon.small {
       border-color: rgba(187, 184, 180, 0.7);
 }
 .panel-default {
-      background: rgba(44,62,80, 1);
-      color:#ffffff;
+      background: #fff;
+      color:#000;
       border: solid rgba(187, 184, 180, 0.7);
 }
