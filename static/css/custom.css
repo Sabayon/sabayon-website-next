@@ -21,7 +21,7 @@ div.mirrors-list img.flag {
     margin-top: 1.3em;
 }
 
-.mirror_linlk{
+.mirror_link{
     word-wrap: break-word;
 }
 
@@ -43,6 +43,16 @@ div.mirrors-list img.flag {
 
 
 }
+
+
+.documentation{
+  background: url(../img/documentation.jpg);
+  background-attachment: fixed;
+  color: #fff;
+
+
+}
+
 
 .navbar a{
   color:#000;
@@ -171,6 +181,7 @@ div.feature-box div.feature-box-icon i.image-icon.small {
 
 .info {
   background: #000;
+  color:#fff;
 }
 
 .copyright {
