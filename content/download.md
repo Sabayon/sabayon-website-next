@@ -15,9 +15,10 @@ tags = [
 <div class="single-fet">
 <a href="/desktop">
 <div>
-<button type="button" class="btn btn-danger btn-circle btn-xl"><i class="fa fa-desktop fa-3x"></i></button>
-</div>
-<h2>Desktop</a> <span class="label label-warning">Edition</span></h2>
+<button type="button" class="btn btn-circle btn-xl flavour-desktop"><i class="fa fa-desktop fa-3x"></i></button>
+</div></a>
+<a href="/desktop">
+<h2>Desktop</h2></a>
 
 <p>There are many different Sabayon variants. <br>Each one is designed for a specific purpose and designed to bring out the best in your hardware<br>
 We provide Live versions of most of our variants, so you can try out Sabayon without touching your Computer's Hard drive. </p>
@@ -25,11 +26,12 @@ We provide Live versions of most of our variants, so you can try out Sabayon wit
 </div>
 <div class="col-lg-4 text-center">
 <div class="single-fet">
-<a href="/server">
 <div>
-<button type="button" class="btn btn-danger btn-circle btn-xl"><i class="fa fa-server fa-3x"></i></button>
-</div>
-<h2>Server</a> <span class="label label-warning">Edition</span></h2>
+<a href="/server">
+
+<button type="button" class="btn btn-circle btn-xl flavour-server"><i class="fa fa-server fa-3x"></i></button></div>
+<h2>Server</h2>
+</a>
 
 <p>Minimalism. A server edition that will fit your needs.</p>
 <p>Our rolling release model guarantees extremely quick updates.</p>
@@ -38,13 +40,13 @@ We provide Live versions of most of our variants, so you can try out Sabayon wit
 <div class="col-lg-4 text-center">
 
 <div class="single-fet">
-<a href="/cloud">
 <div>
-<button type="button" class="btn btn-danger btn-circle btn-xl"><i class="fa fa-cloud fa-3x"></i></button>
+<a href="/cloud">
+<button type="button" class="btn btn-circle btn-xl flavour-cloud"><i class="fa fa-cloud fa-3x"></i></button></a>
 </div>
-<h2>Cloud</a> <span class="label label-warning">Edition</span></h2>
+<a href="/cloud"><h2>Cloud</h2></a>
 
-<p>Run Sabayon in a virtual machine or container.</p>
+<p>Run Sabayon in a virtual machine or a container.</p>
 </div>
 
 
