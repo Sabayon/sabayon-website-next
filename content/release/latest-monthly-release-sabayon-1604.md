@@ -1,7 +1,7 @@
 +++
 title = "Latest Monthly Release: Sabayon 16.04"
 description = "16.04 Press release"
-date = "2016-03-01"
+date = "2016-04-01"
 categories = [ "releases", "sabayon" ]
 tags = [
 "releases",
