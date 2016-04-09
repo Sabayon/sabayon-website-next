@@ -11,3 +11,7 @@ $RECYCLE.BIN/
 # OSX
 .DS_Store
 /public
+
+# vim
+*.swp
+*.*~
