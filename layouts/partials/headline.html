@@ -1,0 +1,78 @@
+<style>
+  .headline-container {
+    display: block;
+    margin: 81px auto 0 auto;
+    max-width: 100%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    box-sizing: border-box;
+  }
+
+  .headline .h1 {
+    display: inline-block;
+  }
+
+  .headline .link-button {
+    margin: 21px 1em 10.5px 1em;
+  }
+
+  @media (min-width: 768px) {
+    .jumbotron .headline .link-button {
+      margin-top: 42.3667px;
+      margin-bottom: 21px;
+    }
+  }
+
+  .headline .h1,
+  .headline .link-button {
+    float: left;
+  }
+
+  .headline::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+
+  .headline .why-sabayon {
+    text-align: left;
+  }
+
+  /* To Be Removed */
+  #home a {
+    position: static;
+  }
+</style>
+
+<style>
+  /* Theming */
+  .headline .link-button {
+    background-color: #000;
+    border: 1px solid #2c3e50;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px;
+    padding: 0.6667em 1em;
+    text-align: center;
+    vertical-align: middle;
+  }
+</style>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div id="home" class="headline-container jumbotron">
+  <div class="headline">
+    <h1 class="h1">Sabayon <span>Linux</span></h1>
+    <a href="/download" class="link-button">
+      <span class="fa fa-download"></span> Download Sabayon
+    </a>
+    <a href="/latest" class="link-button">
+      <span class="fa fa-newspaper-o"></span> Latest Press Release
+    </a>
+  </div><!-- .headline -->
+  <p class="why-sabayon">
+    Sabayon is a beginner-friendly Gentoo-based Open Source Linux distribution. We aim to deliver the best "out of the box" user experience by providing the latest open source technologies in an elegant format. In Sabayon everything should just
+    work. We offer a bleeding edge operating system that is both stable and reliable.
+  </p>
+</div><!-- #home.headline-container -->
