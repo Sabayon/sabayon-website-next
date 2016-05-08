@@ -1,6 +1,8 @@
 +++
 title = "Desktop edition"
 description = "Sabayon workstation"
+type = "custom"
+layout = "desktop"
 date = "2015-11-04"
 categories = [ "desktop", "sabayon" ]
 tags = [
@@ -8,94 +10,57 @@ tags = [
 ]
 +++
 
-<style>
-.row {
-  padding-bottom:4px !important;
-}
-</style>
+* ![GNOME logo](/img/gnome-logo.png)
 
+    #### GNOME Edition
 
+    Awesomeness and candies!
+    * [Download](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_GNOME.iso)
+    * [Torrent download](http://dl.saybayon.org/iso/monthly/Sabayon_linux_16.04_amd64_GNOME.iso.torrent)
+    * [MD5](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_GNOME.iso.md5)
+    * [Package list](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_GNOME.iso.pkglist)
 
+* ![KDE logo](/img/kde-logo.png)
 
+    #### KDE edition
 
-<div class="row">
-<div class="col-md-2">
-<button type="button" class="btn btn-circle btn-xl"><img src="/img/gnome-logo.png"
-class="img-responsive"></button></div>
-<div class="col-md-10">
-<h4>GNOME edition</h4>
-<p>Awesomeness and candies!</p>
-<p>
-<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_GNOME.iso" role="button"><i class="fa fa-download"></i> Download </a>
-<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_GNOME.iso.torrent" role="button"><i class="fa fa-magnet"></i> Torrent download </a>
-<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_GNOME.iso.md5" role="button"><i class="fa fa-check-square"></i> MD5 </a>
-<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_GNOME.iso.pkglist" role="button"><i class="fa fa-list"></i> Package list </a>
-</p>
-</div>
+    Smooth, for pro
+    * [Download](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_KDE.iso)
+    * [Torrent download](http://dl.saybayon.org/iso/monthly/Sabayon_linux_16.04_amd64_KDE.iso.torrent)
+    * [MD5](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_KDE.iso.md5)
+    * [Package list](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_KDE.iso.pkglist)
 
-</div>
-<div class="row">
-<div class="col-md-2">
-<button type="button" class="btn btn-circle btn-xl"><img src="/img/kde-logo.png" class="img-responsive"></button></div>
-<div class="col-md-10">
-<h4>KDE edition</h4>
-<p>Smooth, for pro</p>
-<p>
-<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_KDE.iso" role="button"><i class="fa fa-download"></i> Download </a>
-<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_KDE.iso.torrent" role="button"><i class="fa fa-magnet"></i> Torrent download </a>
-<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_KDE.iso.md5" role="button"><i class="fa fa-check-square"></i> MD5 </a>
-<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_KDE.iso.pkglist" role="button"><i class="fa fa-list"></i> Package list </a>
-</p>
-</div>
+* ![Xfce logo](/img/xfce-logo.png)
 
-</div>
-<div class="row">
-<div class="col-md-2">
-<button type="button" class="btn btn-circle  btn-xl"><img src="/img/xfce-logo.png" class="img-responsive"></button>
-</div>
-<div class="col-md-10">
-<h4>Xfce edition</h4>
+    #### Xfce edition
 
-<p>Lightweight but complete</p>
-<p>
-<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_Xfce.iso" role="button"><i class="fa fa-download"></i> Download </a>
-<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_Xfce.iso.torrent" role="button"><i class="fa fa-magnet"></i> Torrent download </a>
-<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_Xfce.iso.md5" role="button"><i class="fa fa-check-square"></i> MD5 </a>
-<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_Xfce.iso.pkglist" role="button"><i class="fa fa-list"></i> Package list </a>
-</p>
-</div>
-</div>
+    Lightweight but complete
+    * [Download](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_Xfce.iso)
+    * [Torrent download](http://dl.saybayon.org/iso/monthly/Sabayon_linux_16.04_amd64_Xfce.iso.torrent)
+    * [MD5](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_Xfce.iso.md5)
+    * [Package list](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_Xfce.iso.pkglist)
 
-<div class="row">
-<div class="col-md-2">
-<button type="button" class="btn btn-circle btn-xl"><img src="/img/mate-logo.png" class="img-responsive"></button>
-</div>
-<div class="col-md-10">
-<h4>Mate edition</h4>
-<p>Wonderful minimalism, with an eye back to the past</p>
-<p>
-<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_MATE.iso" role="button"><i class="fa fa-download"></i> Download </a>
-<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_MATE.iso.torrent" role="button"><i class="fa fa-magnet"></i> Torrent download </a>
-<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_MATE.iso.md5" role="button"><i class="fa fa-check-square"></i> MD5 </a>
-<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_MATE.iso.pkglist" role="button"><i class="fa fa-list"></i> Package list </a>
-</p>
-</div>
-</div>
+* ![Mate logo](/img/mate-logo.png)
 
-<div class="row">
-<div class="col-md-2">
-<button type="button" class="btn btn-circle btn-xl"><img src="/img/fluxbox-logo.png" class="img-responsive"></button></div>
-<div class="col-md-10">
-<h4>Fluxbox edition</h4>
-<p>Minimal, for hackers</p>
-<p>
-<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_Minimal.iso" role="button"><i class="fa fa-download"></i> Download </a>
-<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_Minimal.iso.torrent" role="button"><i class="fa fa-magnet"></i> Torrent download </a>
-<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_Minimal.iso.md5" role="button"><i class="fa fa-check-square"></i> MD5 </a>
-<a class="btn btn-primary btn-xs" href="http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_Minimal.iso.pkglist" role="button"><i class="fa fa-list"></i> Package list </a>
-</p>
-</div>
-</div>
+    #### Mate edition
+
+    Wonderful minimalism, with an eye back to the past
+    * [Download](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_MATE.iso)
+    * [Torrent download](http://dl.saybayon.org/iso/monthly/Sabayon_linux_16.04_amd64_MATE.iso.torrent)
+    * [MD5](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_MATE.iso.md5)
+    * [Package list](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_MATE.iso.pkglist)
+
+* ![Fluxbox logo](/img/fluxbox-logo.png)
+
+    #### Fluxbox edition
+
+    Minimal, for hackers
+    * [Download](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_Minimal.iso)
+    * [Torrent download](http://dl.saybayon.org/iso/monthly/Sabayon_linux_16.04_amd64_Minimal.iso.torrent)
+    * [MD5](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_Minimal.iso.md5)
+    * [Package list](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_Minimal.iso.pkglist)
+
 
 <hr>
-<h4>Have you considered donating yet? Help us! <a class="btn btn-danger btn-xs" href="/donate" role="button"><i class="fa fa-heart"></i> Donate </a> today!</h4>
+
+#### Have you considered donating yet? Help us! [Donate](/donate) today!
