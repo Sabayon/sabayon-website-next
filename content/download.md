@@ -1,6 +1,8 @@
 +++
 title = "Download"
 description = "Choose your Sabayon flavour"
+type = "custom"
+layout = "download"
 date = "2015-09-29"
 categories = [ "mirrors", "sabayon" ]
 tags = [
