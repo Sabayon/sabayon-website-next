@@ -11,7 +11,7 @@ tags = [
 ]
 +++
 
-![Sabayon <3 ARM](http://i.imgur.com/JzlQA4w.jpg)
+<img width="300px" src="http://i.imgur.com/JzlQA4w.jpg">
 
 Dear users,
 
