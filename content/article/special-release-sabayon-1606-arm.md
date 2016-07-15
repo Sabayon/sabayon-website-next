@@ -48,11 +48,7 @@ You can download the image from [our mirrors](http://dl.sabayon.org/iso/monthly/
 	[Sabayon_Linux_16.06_armv7l_RPi_Base_8GB.img.xz](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.06_armv7l_RPi_Base_8GB.img.xz)
 
 
-Or you can use the italian mirror (which already have the image available):
-
-
-http://mirror1.mirror.garr.it/mirrors/sabayonlinux/iso/monthly/Sabayon_Linux_16.06_armv7l_RPi_MediaCenter_8GB.img.xz
-
+Or you can use the [italian mirror](http://mirror1.mirror.garr.it/mirrors/sabayonlinux/iso/monthly/Sabayon_Linux_16.06_armv7l_RPi_MediaCenter_8GB.img.xz) (which already have the image available).
 
 To write the image to the sdcard, you can just use xzcat:
 
@@ -72,10 +68,10 @@ or you can uncompress and use dd:
 Of course replace /dev/mmcblk0 with your device, and the image name with the one you picked up.
 
 
-Apart from what you may expect, we won't release amd64 images this month: we have been slowed down by recent upstream bumps that broke our Calamares Installer, making a sucessfully installation an operation mostly impossible. Also because of that, we are thinking to change the release schedule, and provide stable and fixed in time releases. Don't worry! This does not mean that we will stop building daily images, we will never do that!  We are just considering the idea of slowing down our release model (maybe every two months) to give you the best experience and give us the ability to test the new features and enhancements. 
+Apart from what you may expect, we won't release amd64 images this month: we have been slowed down by recent upstream bumps that broke our Calamares Installer, making a sucessfully installation an operation mostly impossible. Also because of that, we are thinking to change the release schedule, and provide stable and fixed in time releases. Don't worry! This does not mean that we will stop building daily images, we will never do that!  We are just considering the idea of slowing down our release model (maybe every two months) to give you the best experience and give us the ability to test the new features and enhancements.
 
 
-Many thanks to Joost (joost_op), Ben (optiz0r) and of course Fabio (lxnay) for testing and for their support thru the development of the RPi image, and Tom Ruis for the illustration on the top of the article (available in the full size  [here](http://i.imgur.com/Q5COMf1.jpg)  and  [here](http://i.imgur.com/JzlQA4w.jpg) )!  Nothing of that would have been possible without you and our community! 
+Many thanks to Joost (joost_op), Ben (optiz0r) and of course Fabio (lxnay) for testing and for their support thru the development of the RPi image, and Tom Ruis for the illustration on the top of the article (available in the full size  [here](http://i.imgur.com/Q5COMf1.jpg)  and  [here](http://i.imgur.com/JzlQA4w.jpg) )!  Nothing of that would have been possible without you and our community!
 
 
 We have already ~2000 packages in the ARMhfp repository, including Docker already cutted for ARM boards (yay!), GNOME, XFCE, LXDE and bunch of packages you might find interesting.
