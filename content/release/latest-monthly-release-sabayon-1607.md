@@ -19,7 +19,7 @@ The Change-log files related to this release are available on [our mirrors](http
 
 The list of packages included in each Sabayon flavor is available inside "*.pkglist" files. Our team is always busy packaging the latest and greatest stuff. If you want to have a look at what's inside our repositories, just go to our [packages website](https://packages.sabayon.org/).
 
-All the release variants can be found on the [download section.](/download).
+All the release variants can be found on the [download section](/download).
 
 Please read on to know where to find the images and their torrentfiles on our mirrors
 
