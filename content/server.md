@@ -15,10 +15,10 @@ tags = [
     #### Server edition
 
     Minimal, perfect for a pure server
-    * [Download](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_Server.iso)
-    * [Torrent download](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_Server.iso.torrent)
-    * [MD5](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_Server.iso.md5)
-    * [Package list](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_Server.iso.pkglist)
+    * [Download](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.07_amd64_Server.iso)
+    * [Torrent download](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.07_amd64_Server.iso.torrent)
+    * [MD5](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.07_amd64_Server.iso.md5)
+    * [Package list](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.07_amd64_Server.iso.pkglist)
 
 <hr />
 
