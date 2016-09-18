@@ -26,6 +26,8 @@ tags = [
 
     `vagrant init Sabayon spinbase-amd64; vagrant up --provider virutalbox`
 
+<!---
+
 * #### [Vagrant](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_SpinBase.box")
 
     You can use that box locally with vagrant
@@ -46,6 +48,8 @@ tags = [
     * [Download](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.07_amd64_SpinBase-qemu.tar.gz)
     * [MD5](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.07_amd64_SpinBase-qemu.tar.gz-md5)
     * [Package list](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.07_amd64_SpinBase-iso.pkglist)
+
+-->
 
 <hr>
 
