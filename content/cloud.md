@@ -24,7 +24,7 @@ tags = [
 
 * #### [VagrantCloud](https://atlas.hashicorp.com/Sabayon/boxes/spinbase-amd64)
 
-    `vagrant init Sabayon spinbase-amd64; vagrant up --provider virutalbox`
+    `vagrant init Sabayon/spinbase-amd64 && vagrant up`
 
 <!---
 
