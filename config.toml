@@ -1,4 +1,4 @@
-baseurl = "https://next.sabayon.org/"
+baseurl = "https://www.sabayon.org/"
 languageCode = "en-us"
 title = "Sabayon Linux"
 canonifyurls = true
