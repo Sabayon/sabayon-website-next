@@ -15,36 +15,35 @@ tags = [
 
 Sabayon 16.11 is a modern and easy to use Linux distribution based on Gentoo, following an extreme, yet reliable, rolling release model.
 
-This is a *major* release that is the result of a hard round of testing, and it is published to mirrors by our build-servers containing the latest and greatest collection of software available in the Entropy repositories.
-The Change-log files related to this release are available on [our mirrors](http://dl.sabayon.org/iso/monthly/ChangeLogs/).
+This is a *major* release that is the result of a hard round of testing, and it is published to mirrors with the latest and greatest collection of software available in the Entropy repositories.
+The full changelogs for this release are available on [our mirrors](http://dl.sabayon.org/iso/monthly/ChangeLogs/).
 
-The list of packages included in each Sabayon flavor is available inside "*.pkglist" files. Our team is always busy packaging the latest and greatest stuff. If you want to have a look at what's inside our repositories, just go to
+The list of packages included in each Sabayon flavor is available inside ".pkglist" files on the mirrors. Our team is always busy packaging the newest software just for you. If you want to have a look at what's available in our repositories, just go to
 our [packages website](https://packages.sabayon.org/).
 
-All the release variants can be found on the [download section](/download).
+All the release variants can be found in the [download section](/download).
 
-Please read on to know where to find the images and their torrentfiles on our mirrors
+Please read on for links to the images and torrent files on our mirrors.
 
 # Changes
 
-This Sabayon release is the result of hard team work, tested, and not rushed to provide you with a stable, solid, bleeding edge release!
-There are a lot of exciting news in this release, here's a few:
+This Sabayon release is the result of team work, time and care, to provide you with a stable, solid and bleeding edge release!
 
+There are a lot of exciting changes in this release, here's a few:
 * New Anaconda Installer version, with tons of bugfixes
 * Latest kernel 4.7
 * Latest KDE-Plasma version
 * Renewed artwork
 * New Greeter!
 * Latest Nvidia and ATI drivers
-* New devices added to the supported ARM boards!
 * Improvements and fixes to Entropy (the package manager)
+* New supported ARM devices!
 
-Aside from that we also added Odroid X2/U2/U3/C2 to the ARM devices that we support, and thanks also to geaaru we added BananaPi to the lists too. Dailies builds can be found on our mirrors, under the "testing" folder.
+We've added support for Odroid X2/U2/U3/C2 ARM devices, and thanks to geaaru, we added BananaPi to the list too. Daily builds can be found on our mirrors, under the "testing" folder.
 
-Sabayon developers upon common agreement decided to switch to a different release schedule:
-
+Sabayon developers have decided to switch to a different release schedule:
 * Stable releases will be available at the end of January, May and October. They are still found under the "monthly/" directory in the mirrors. This time span will give us a way to test and fix problems that may pop up during the upgrade cycles.
-* Dailies will always be there under the "daily" folder and they are just incremental updates, we can't guarantee their working state all the time.
+* Daily images can always be found under the "daily" folder and these are incremental updates (though we can't guarantee these will always be in a working state).
 
 # New Website
 
@@ -56,7 +55,7 @@ If you want to send feedback about the website or want to contribute, join us on
 
 # New developer announcement
 
-Ben "optiz0r" Roberts joined the Sabayon Development Team
+Ben "optiz0r" Roberts joined the Sabayon Development Team. Ben is a long-time Gentoo and Sabayon user, and will be helping out with the Sabayon Community Repositories, and the Sabayon build infrastructure.
 
 # Thanks to
 
@@ -97,7 +96,7 @@ instance of X, that consequentially bloats the ISO size, but after install all t
 
 ## Binary vs Source Package Manager
 
-It’s up to you whether turn a newly Sabayon installation into a geeky Gentoo ~arch system or just camp on the lazy side and enjoy the power of our binary, dumbed down Applications Manager (a.k.a. Rigo). With Sabayon you are really in control of your system the way you really want. [Read the wiki page if you plan mixing the two package managers](https://wiki.sabayon.org/index.php?title=HOWTO:_Safely_mix_Entropy_and_Portage).
+It’s up to you whether turn a newly Sabayon installation into a geeky Gentoo ~arch system or just camp on the lazy side and enjoy the power of our binary, simplified Applications Manager (a.k.a. Rigo). With Sabayon you are really in control of your system the way you really want. [Read the wiki page if you plan mixing the two package managers](https://wiki.sabayon.org/index.php?title=HOWTO:_Safely_mix_Entropy_and_Portage).
 
 ## Native NVIDIA and AMD GPU drivers support
 
@@ -115,7 +114,15 @@ Users can search packages in the [SCR website](https://sabayon.github.io/communi
 
 More information on how to use SCR is available in the [wiki page](https://wiki.sabayon.org/index.php?title=En:Sabayon_Community_Repositories) (under construction). Meanwhile we are currently working on the project documentation: [Guidelines](https://github.com/Sabayon/scr-docs/blob/master/scr-guidelines.md) and [Bylaws](https://github.com/Sabayon/scr-docs/blob/master/scr-bylaws.md) can be found on the [scr-docs Github repository](https://github.com/Sabayon/scr-docs). More information is also available [here](http://blog.mudler.pm/2016/04/whut-sabayon-community-repositories-is.html)
 
-Here are some packages already available in the SCR community repository (just to name a few): app-editors/sublime-text, app-emulation/genymotion, app-emulation/shashlik-bin, app-misc/neofetch, app-text/cherrytree, net-im/telegram-bin, x11-misc/mugshot and x11-terms/altyo.
+Here are some packages already available in the SCR community repository (just to name a few):
+* app-editors/sublime-text
+* app-emulation/genymotion
+* app-emulation/shashlik-bin
+* app-misc/neofetch
+* app-text/cherrytree
+* net-im/telegram-bin
+* x11-misc/mugshot
+* x11-terms/altyo
 
 ### SCR: Package requests
 If you want a package to be added in the SCR repositories, feel free to open a bug request [in the specific section of our Bugzilla](https://bugs.sabayon.org/enter_bug.cgi?product=Community%20Repositories): be sure to specify if the ebuild is available in layman if you want it to get done faster.
