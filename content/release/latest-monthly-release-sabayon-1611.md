@@ -48,7 +48,7 @@ upgrades cycles.
 
 # New Website
 
-Our old website has been around since the beginning. But we are happy, after a long development period to switch to a more modern and bleeding edge design touch that works out well also on mobile devices.
+Our old website has been around since the beginning. But we are happy, after a long development period to switch to a more modern and bleeding edge design touch that also works better for mobile devices.
 
 Until all the posts and content are migrated, you can find a copy of the old site on [](), but be aware, that website won't be upgraded and won't receive love anymore.
 
