@@ -43,7 +43,7 @@ We've added support for Odroid X2/U2/U3/C2 ARM devices, and thanks to geaaru, we
 
 Sabayon developers have decided to switch to a different release schedule:
 * Stable releases will be available at the end of January, May and October. They are still found under the "monthly/" directory in the mirrors. This time span will give us a way to test and fix problems that may pop up during the upgrade cycles.
-* Daily images can always be found under the "daily" folder and these are incremental updates (though we can't guarantee these wil always be in a working state).
+* Daily images can always be found under the "daily" folder and these are incremental updates (though we can't guarantee these will always be in a working state).
 
 # New Website
 
