@@ -69,11 +69,11 @@ Thanks to everyone who was involved in this release!
 
 # Release informations
 
-Here will follow generic informations about the available releases, along with the current state of Sabayon.
+Here will follow generic information about the available releases, along with the current state of Sabayon.
 
 ## Available releases
 
-As for now we offer 64bit images only.
+As for now, we offer 64bit images only.
 But you are free to choose between the wonderful minimalism of GNOME, the eyecandy of KDE or the old fart called Xfce. If you are the kind of person who just needs Fluxbox/Openbox/whatever else, just get the Minimal image and you won’t be hit by the “OMG candies” bloat that is in the other images.
 
 ## Docker
