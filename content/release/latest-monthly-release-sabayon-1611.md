@@ -27,7 +27,7 @@ Please read on to know where to find the images and their torrentfiles on our mi
 
 # Changes
 
-This Sabayon release is the result of a hard team work, and we wanted to not rush things, providing you a stable, solid, bleeding edge release!
+This Sabayon release is the result of hard team work, tested, and not rushed to provide you with a stable, solid, bleeding edge release!
 There are a lot of exciting news in this release, here's a few:
 
 * New Anaconda Installer version, with tons of bugfixes
