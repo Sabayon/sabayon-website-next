@@ -31,12 +31,13 @@ This Sabayon release is the result of hard team work, tested, and not rushed to 
 There are a lot of exciting news in this release, here's a few:
 
 * New Anaconda Installer version, with tons of bugfixes
-* Latest Kernel 4.7
+* Latest kernel 4.7
 * Latest KDE-Plasma version
 * Renewed artwork
 * New Greeter!
 * Latest Nvidia and ATI drivers
 * New devices added to the supported ARM boards!
+* Improvements and fixes to Entropy (the package manager)
 
 Aside from that we also added Odroid X2/U2/U3/C2 to the ARM devices that we support, and thanks also to geaaru we added BananaPi to the lists too. Dailies builds can be found on our mirrors, under the "testing" folder.
 
@@ -67,7 +68,7 @@ Ben "optiz0r" Roberts joined the Sabayon Development Team
 
 Thanks to everyone who was involved in this release!
 
-# Release informations
+# Release information
 
 Here will follow generic information about the available releases, along with the current state of Sabayon.
 
@@ -91,8 +92,8 @@ Deploying a Sabayon image now can be even more easier:
 
 ## Sabayon Server Edition
 
-The Server Edition is just perfect for those who want to run this distro as a pure server. The installer is still Calamares (just GUI install as for now), but running on a adhoc
-instance of X, that consequentially bloats the ISO size, but after install all the additional components requested by Calamares are removed from the system. We now also service you with Vagrant images.
+The Server Edition is just perfect for those who want to run this distro as a pure server. The installer is still Calamares (just GUI install as for now), but running on an adhoc
+instance of X, that consequentially bloats the ISO size, but after install all the additional components required by Calamares are removed from the system. We now also service you with Vagrant images.
 
 ## Binary vs Source Package Manager
 
@@ -102,11 +103,11 @@ It’s up to you whether turn a newly Sabayon installation into a geeky Gentoo ~
 
 All our releases natively support the latest and greatest GPU hardware from NVIDIA and AMD through their proprietary drivers. Whether you want to enjoy your Linux rig for gaming or video playback, you can. For AMD hardware though, we default to the Open Source implementation for the supported cards. Make sure to pass “nomodeset” to the boot command line to force the proprietary drivers to be used instead: [head over the wiki for more details](https://wiki.sabayon.org/index.php?title=HOWTO:_Get_AMD/ATI_or_Nvidia_Video_Cards_working_in_Sabayon#AMD_-_Open_Source_to_FGLRX).
 
-## LTSI Linux Kernels offered
+## LTSI Linux kernels offered
 
 We are tracking the 3.10, 3.12, 3.14, 3.18 and 4.1 [Long Term Stable Linux kernels](http://ltsi.linuxfoundation.org/what-is-ltsi), offering (almost) same-day updates to them. If you are using Sabayon in a server environment, you surely welcome this. However, if you’re using Sabayon on your laptop, desktop workstation, switching between kernels or just moving to a new version has become a no-brainer operation through Rigo: just go to the preferences menu, select the kernel menu (LTS and regular kernels are listed in separate menus), pick a kernel and click “Install”. Rigo will take care of updating external modules in a reliable and safe way on your behalf.
 
-## Sabayon Community Repositories (SCR) is here!
+## Sabayon Community Repositories (SCR) are here!
 
 Sabayon Community Repositories (SCR) is a collection of repositories available to Sabayon users that could be enabled/removed from the system by using enman -- our layman equivalent. While SCR content is not as stable as main repos (and we put a lot of warnings in the website for this reason) it is now easier and faster than ever before to get bleeding edge packages not available in the official repositories.
 
@@ -114,7 +115,7 @@ Users can search packages in the [SCR website](https://sabayon.github.io/communi
 
 More information on how to use SCR is available in the [wiki page](https://wiki.sabayon.org/index.php?title=En:Sabayon_Community_Repositories) (under construction). Meanwhile we are currently working on the project documentation: [Guidelines](https://github.com/Sabayon/scr-docs/blob/master/scr-guidelines.md) and [Bylaws](https://github.com/Sabayon/scr-docs/blob/master/scr-bylaws.md) can be found on the [scr-docs Github repository](https://github.com/Sabayon/scr-docs). More information is also available [here](http://blog.mudler.pm/2016/04/whut-sabayon-community-repositories-is.html)
 
-Here are some packages already available in the SCR community repository(just to name a few): app-editors/sublime-text, app-emulation/genymotion, app-emulation/shashlik-bin, app-misc/neofetch, app-text/cherrytree, net-im/telegram-bin, x11-misc/mugshot and x11-terms/altyo
+Here are some packages already available in the SCR community repository (just to name a few): app-editors/sublime-text, app-emulation/genymotion, app-emulation/shashlik-bin, app-misc/neofetch, app-text/cherrytree, net-im/telegram-bin, x11-misc/mugshot and x11-terms/altyo.
 
 ### SCR: Package requests
 If you want a package to be added in the SCR repositories, feel free to open a bug request [in the specific section of our Bugzilla](https://bugs.sabayon.org/enter_bug.cgi?product=Community%20Repositories): be sure to specify if the ebuild is available in layman if you want it to get done faster.
