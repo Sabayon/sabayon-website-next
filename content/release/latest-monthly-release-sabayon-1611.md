@@ -10,8 +10,6 @@ tags = [
 ]
 +++
 
-# Sabayon 16.11 is out! New Website, New Artwork, New Forums
-
 <center><img src="/img/press-header-roll_0.png" class="img-responsive" alt="Sabayon Press release"></center>
 
 
