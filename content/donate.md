@@ -20,4 +20,12 @@ This is what we need to cover our daily duties:
 
 **We would like to thank everybody who has donated in the past 2014. We all hope to see you back supporting us in this 2015.**
 
-[![pledgie](https://pledgie.com/campaigns/19051.png)](http://www.pledgie.com/campaigns/19051)
+[![pledgie](https://pledgie.com/campaigns/19051.png)](http://www.pledgie.com/campaigns/31652)
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="hosted_button_id" value="GG8JWTLGQEL56">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
