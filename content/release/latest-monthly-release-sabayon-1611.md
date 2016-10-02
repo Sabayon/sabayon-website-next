@@ -42,7 +42,7 @@ Aside from that we also added Odroid X2/U2/U3/C2 to the ARM devices that we supp
 
 Sabayon developers upon common agreement decided to switch to a different release schedule:
 
-* Stable releases will be available in the end of January, May and October; can be still found under the "monthly/" directory in the mirrors, this time span will give us way to test and fix problems that may pop up during the
+* Stable releases will be available at the end of January, May and October; can be still found under the "monthly/" directory in the mirrors, this time span will give us way to test and fix problems that may pop up during the
 upgrades cycles.
 * Dailies will always be there, as usual under the "daily" folder and they are just incremental updates, we can't guarantee of their working state all the time.
 
