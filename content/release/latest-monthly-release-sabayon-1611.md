@@ -64,7 +64,7 @@ Ben "optiz0r" Roberts joined the Sabayon Development Team
 * geaaru (BananaPi support)
 * Tom Ruis (Boot graphics)
 * Ryuno-Ki (Front-end developing)
-* esciox (Wallpaper graphics)
+* Alessandro Esciana (Wallpaper graphics)
 
 Thanks to everyone who was involved in this release!
 
@@ -141,7 +141,11 @@ Please find the official file names and hashes below.
 * [<i class="fa fa-download"></i> Sabayon MATE (64 bit)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.11_amd64_MATE.iso)
 * [<i class="fa fa-download"></i> Sabayon Minimal (64 bit)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.11_amd64_Minimal.iso)
 * [<i class="fa fa-download"></i> Sabayon Server (64 bit)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.11_amd64_Server.iso)
-* [<i class="fa fa-download"></i> Sabayon RPi2/3 Base (console) (armhfp)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.06_armv7l_RPi_Base_8GB.img.xz)
-* [<i class="fa fa-download"></i> Sabayon RPi2/3 Kodi (Media Center mode + auto-upgrades) (armhfp)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.06_armv7l_RPi_MediaCenter_8GB.img.xz)
+* [<i class="fa fa-download"></i> Sabayon RPi2/3 Base (console) (armhfp)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.11_armv7l_RPi_Base_8GB.img.xz)
+* [<i class="fa fa-download"></i> Sabayon RPi2/3 Kodi (Media Center mode + auto-upgrades) (armhfp)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.11_armv7l_RPi_MediaCenter_8GB.img.xz)
+* [<i class="fa fa-download"></i> Sabayon Odroid X2/X2+ U2/U3 (armhfp)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.11_armv7l_Odroid_X2_U2_8GB.img.xz)
+* [<i class="fa fa-download"></i> Sabayon Odroid C2 (armhfp)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.11_armv7l_Odroid_C2_8GB.img.xz)
+* [<i class="fa fa-download"></i> Sabayon BananaPi (armhfp)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.11_armv7l_BananaPi_8GB.img.xz)
+
 
 <h4>Have you considered donating yet? Help us! <a class="btn btn-danger btn-xs" href="/donate" role="button"><i class="fa fa-heart"></i> Donate </a> today!</h4>
