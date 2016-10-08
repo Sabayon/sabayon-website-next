@@ -144,17 +144,17 @@ Please find the official file names and hashes below.
 
 # Files - download directly
 
-* [<i class="fa fa-download"></i> Sabayon GNOME (64 bit)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.11_amd64_GNOME.iso)
-* [<i class="fa fa-download"></i> Sabayon KDE (64 bit)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.11_amd64_KDE.iso)
-* [<i class="fa fa-download"></i> Sabayon Xfce (64 bit)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.11_amd64_Xfce.iso)
-* [<i class="fa fa-download"></i> Sabayon MATE (64 bit)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.11_amd64_MATE.iso)
-* [<i class="fa fa-download"></i> Sabayon Minimal (64 bit)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.11_amd64_Minimal.iso)
-* [<i class="fa fa-download"></i> Sabayon Server (64 bit)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.11_amd64_Server.iso)
-* [<i class="fa fa-download"></i> Sabayon RPi2/3 Base (console) (armhfp)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.11_armv7l_RPi_Base_8GB.img.xz)
-* [<i class="fa fa-download"></i> Sabayon RPi2/3 Kodi (Media Center mode + auto-upgrades) (armhfp)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.11_armv7l_RPi_MediaCenter_8GB.img.xz)
-* [<i class="fa fa-download"></i> Sabayon Odroid X2/X2+ U2/U3 (armhfp)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.11_armv7l_Odroid_X2_U2_8GB.img.xz)
-* [<i class="fa fa-download"></i> Sabayon Odroid C2 (armhfp)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.11_armv7l_Odroid_C2_8GB.img.xz)
-* [<i class="fa fa-download"></i> Sabayon BananaPi (armhfp)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.11_armv7l_BananaPi_8GB.img.xz)
+* [<i class="fa fa-download"></i> Sabayon GNOME (64 bit)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_amd64_GNOME.iso)
+* [<i class="fa fa-download"></i> Sabayon KDE (64 bit)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_amd64_KDE.iso)
+* [<i class="fa fa-download"></i> Sabayon Xfce (64 bit)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_amd64_Xfce.iso)
+* [<i class="fa fa-download"></i> Sabayon MATE (64 bit)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_amd64_MATE.iso)
+* [<i class="fa fa-download"></i> Sabayon Minimal (64 bit)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_amd64_Minimal.iso)
+* [<i class="fa fa-download"></i> Sabayon Server (64 bit)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_amd64_Server.iso)
+* [<i class="fa fa-download"></i> Sabayon RPi2/3 Base (console) (armhfp)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_armv7l_RPi_Base_8GB.img.xz)
+* [<i class="fa fa-download"></i> Sabayon RPi2/3 Kodi (Media Center mode + auto-upgrades) (armhfp)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_armv7l_RPi_MediaCenter_8GB.img.xz)
+* [<i class="fa fa-download"></i> Sabayon Odroid X2/X2+ U2/U3 (armhfp)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_armv7l_Odroid_X2_U2_8GB.img.xz)
+* [<i class="fa fa-download"></i> Sabayon Odroid C2 (armhfp)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_armv7l_Odroid_C2_8GB.img.xz)
+* [<i class="fa fa-download"></i> Sabayon BananaPi (armhfp)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_armv7l_BananaPi_8GB.img.xz)
 
 
 <h4>Have you considered donating yet? Help us! <a class="btn btn-danger btn-xs" href="/donate" role="button"><i class="fa fa-heart"></i> Donate </a> today!</h4>
