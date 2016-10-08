@@ -30,6 +30,7 @@ Please read on for links to the images and torrent files on our mirrors.
 This Sabayon release is the result of team work, time and care, to provide you with a stable, solid and bleeding edge release!
 
 There are a lot of exciting changes in this release, here's a few:
+
 * New Anaconda Installer version, with tons of bugfixes
 * Latest kernel 4.7
 * Latest KDE-Plasma version
@@ -42,6 +43,7 @@ There are a lot of exciting changes in this release, here's a few:
 We've added support for Odroid X2/U2/U3/C2 ARM devices, and thanks to geaaru, we added BananaPi to the list too. Daily builds can be found on our mirrors, under the "testing" folder.
 
 Sabayon developers have decided to switch to a different release schedule:
+
 * Stable releases will be available at the end of January, May and October. They are still found under the "monthly/" directory in the mirrors. This time span will give us a way to test and fix problems that may pop up during the upgrade cycles.
 * Daily images can always be found under the "daily" folder and these are incremental updates (though we can't guarantee these will always be in a working state).
 
