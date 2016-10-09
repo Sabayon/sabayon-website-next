@@ -57,11 +57,11 @@ If you want to send feedback about the website or want to contribute, join us on
 
 # New developer announcement
 
-Ben "optiz0r" Roberts joined the Sabayon Development Team. Ben is a long-time Gentoo and Sabayon user, and will be helping out with the Sabayon Community Repositories, and the Sabayon build infrastructure.
+Ben "optiz0r" Roberts joined the Sabayon Development Team. Ben is a long-time Gentoo and Sabayon user, and will be helping out with the Sabayon Community Repositories, and the Sabayon building Infrastructure.
 
 # Thanks to
 
-* the development team did a great job (extra thanks to mudler, optiz0r, Enlik, joost_op, wolfden)
+* the development team did a great job (extra thanks to mudler, optiz0r, Enlik, joost_op, lxnay wolfden)
 * geaaru (BananaPi support)
 * Tom Ruis (Boot graphics)
 * Ryuno-Ki (Front-end developing)
@@ -75,7 +75,7 @@ Here will follow generic information about the available releases, along with th
 
 ## Available releases
 
-As for now, we offer 64bit images only.
+As for now, we offer 64bit and ARM images.
 But you are free to choose between the wonderful minimalism of GNOME, the eyecandy of KDE or the old fart called Xfce. If you are the kind of person who just needs Fluxbox/Openbox/whatever else, just get the Minimal image and you won’t be hit by the “OMG candies” bloat that is in the other images.
 
 ## Docker
@@ -125,6 +125,11 @@ Here are some packages already available in the SCR community repository (just t
 * net-im/telegram-bin
 * x11-misc/mugshot
 * x11-terms/altyo
+* games-arcade/fretsonfire
+* media-sound/guitarix2
+* dev-embedded/arduino
+* app-emulation/RemoteBox
+* ... and many others! 
 
 ### SCR: Package requests
 If you want a package to be added in the SCR repositories, feel free to open a bug request [in the specific section of our Bugzilla](https://bugs.sabayon.org/enter_bug.cgi?product=Community%20Repositories): be sure to specify if the ebuild is available in layman if you want it to get done faster.
