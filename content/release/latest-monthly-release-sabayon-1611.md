@@ -32,7 +32,7 @@ This Sabayon release is the result of team work, time and care, to provide you w
 There are a lot of exciting changes in this release, here's a few:
 
 * New Anaconda Installer version, with tons of bugfixes
-* Latest kernel 4.7
+* Latest kernel 4.8
 * Latest KDE-Plasma version
 * Renewed artwork
 * New Greeter!
