@@ -129,7 +129,13 @@ Here are some packages already available in the SCR community repository (just t
 * media-sound/guitarix2
 * dev-embedded/arduino
 * app-emulation/RemoteBox
+* app-crypt/veracrypt
 * ... and many others! 
+
+If you care about security (you should), you will welcome the addition of [VeraCrypt](https://veracrypt.codeplex.com/).
+Using this program, you can encrypt container on your hard drive.
+VeraCrypt succeedes TrueCrypt and was
+[recently audited](http://blog.quarkslab.com/security-assessment-of-veracrypt-fixes-and-evolutions-from-truecrypt.html).
 
 ### SCR: Package requests
 If you want a package to be added in the SCR repositories, feel free to open a bug request [in the specific section of our Bugzilla](https://bugs.sabayon.org/enter_bug.cgi?product=Community%20Repositories): be sure to specify if the ebuild is available in layman if you want it to get done faster.
