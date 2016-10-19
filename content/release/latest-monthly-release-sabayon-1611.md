@@ -136,6 +136,7 @@ If you care about security (you should), you will welcome the addition of [VeraC
 Using this program, you can encrypt container on your hard drive.
 VeraCrypt succeedes TrueCrypt and was
 [recently audited](http://blog.quarkslab.com/security-assessment-of-veracrypt-fixes-and-evolutions-from-truecrypt.html).
+If you want to encrypt your entire disk, Anaconda supports that out-of-the-box.
 
 ### SCR: Package requests
 If you want a package to be added in the SCR repositories, feel free to open a bug request [in the specific section of our Bugzilla](https://bugs.sabayon.org/enter_bug.cgi?product=Community%20Repositories): be sure to specify if the ebuild is available in layman if you want it to get done faster.
