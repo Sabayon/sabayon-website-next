@@ -10,12 +10,14 @@ To get started, you should simply fork or clone this repository! That's definite
 
 [Install Hugo](http://gohugo.io/overview/installing) in a way that best suits your environment and comfort level (on sabayon you can install it by doing `sudo equo i hugo`)
 
-Since the theme was moved to [a separate repo](https://github.com/Sabayon/sabayon-website-next-theme) you need to take another step:
-Either build the website by running `HUGO_THEME=https://github.com/Sabayon/sabayon-website-next-theme make build` or if you want to hack on the theme instead:
-Create a _themes_ directory and clone the repo in there:
-`git clone https://github.com/Sabayon/sabayon-website-next-theme themes/website-next`.
 
-In a command prompt or terminal, navigate to the path that contains your `config.toml` file and run `hugo`. That's it!
+Since the theme was moved to [a separate repo](https://github.com/Sabayon/sabayon-website-next-theme) you need to take some more steps:
+```
+HUGO_THEME=https://github.com/Sabayon/sabayon-website-next-theme make dependencies
+HUGO_THEME=https://github.com/Sabayon/sabayon-website-next-theme make build
+```
+
+In 2a command prompt or terminal, navigate to the path that contains your `config.toml` file and run `hugo`. That's it!
 You should now have a `public` directory with a complete blog! Open `public/index.html` in your browser and bask.
 
 If that wasn't amazing enough, from the same terminal, run `hugo server -w --theme=website-next`. This will watch your directories for changes
