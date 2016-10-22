@@ -9,7 +9,6 @@ tags = [
 "16.11"
 ]
 +++
-
 ![Sabayon Press release](/img/press-header-roll_0.png)
 
 Sabayon 16.11 is a modern and easy to use Linux distribution based on Gentoo,
@@ -235,29 +234,29 @@ if you want it to get done faster.
 # Download Links
 
 * [Sabayon Mirrors Page](/mirrors)
-* [<i class="fa fa-cloud"></i> Sabayon Docker Hub](https://hub.docker.com/r/sabayon)
-* [<i class="fa fa-cloud"></i> Sabayon on Atlas (VagrantCloud)](https://atlas.hashicorp.com/Sabayon/boxes/spinbase-amd64)
+* [Sabayon Docker Hub](https://hub.docker.com/r/sabayon)
+* [Sabayon on Atlas (VagrantCloud)](https://atlas.hashicorp.com/Sabayon/boxes/spinbase-amd64)
 * [Sabayon Monthly Images Download Page](http://dl.sabayon.org/iso/monthly/monthly.html)
 * [Sabayon BitTorrent Tracker](http://torrents.sabayon.org/)
-* [<i class="fa fa-facebook"></i> Join us on Facebook](https://www.facebook.com/groups/36125411841)
-* [<i class="fa fa-google"></i> Join us on Google+](https://plus.google.com/+sabayon)
+* [Join us on Facebook](https://www.facebook.com/groups/36125411841)
+* [Join us on Google+](https://plus.google.com/+sabayon)
 * [Donate to Sabayon!](http://www.sabayon.org/donate)
 
 Please find the official file names and hashes below.
 
 # Files - download directly
 
-* [<i class="fa fa-download"></i> Sabayon GNOME (64 bit)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_amd64_GNOME.iso)
-* [<i class="fa fa-download"></i> Sabayon KDE (64 bit)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_amd64_KDE.iso)
-* [<i class="fa fa-download"></i> Sabayon Xfce (64 bit)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_amd64_Xfce.iso)
-* [<i class="fa fa-download"></i> Sabayon MATE (64 bit)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_amd64_MATE.iso)
-* [<i class="fa fa-download"></i> Sabayon Minimal (64 bit)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_amd64_Minimal.iso)
-* [<i class="fa fa-download"></i> Sabayon Server (64 bit)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_amd64_Server.iso)
-* [<i class="fa fa-download"></i> Sabayon RPi2/3 Base (console) (armhfp)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_armv7l_RPi_Base_8GB.img.xz)
-* [<i class="fa fa-download"></i> Sabayon RPi2/3 Kodi (Media Center mode + auto-upgrades) (armhfp)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_armv7l_RPi_MediaCenter_8GB.img.xz)
-* [<i class="fa fa-download"></i> Sabayon Odroid X2/X2+ U2/U3 (armhfp)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_armv7l_Odroid_X2_U2_8GB.img.xz)
-* [<i class="fa fa-download"></i> Sabayon Odroid C2 (armhfp)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_armv7l_Odroid_C2_8GB.img.xz)
-* [<i class="fa fa-download"></i> Sabayon BananaPi (armhfp)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_armv7l_BananaPi_8GB.img.xz)
+* [Sabayon GNOME (64 bit)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_amd64_GNOME.iso)
+* [Sabayon KDE (64 bit)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_amd64_KDE.iso)
+* [Sabayon Xfce (64 bit)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_amd64_Xfce.iso)
+* [Sabayon MATE (64 bit)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_amd64_MATE.iso)
+* [Sabayon Minimal (64 bit)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_amd64_Minimal.iso)
+* [Sabayon Server (64 bit)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_amd64_Server.iso)
+* [Sabayon RPi2/3 Base (console) (armhfp)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_armv7l_RPi_Base_8GB.img.xz)
+* [Sabayon RPi2/3 Kodi (Media Center mode + auto-upgrades) (armhfp)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_armv7l_RPi_MediaCenter_8GB.img.xz)
+* [Sabayon Odroid X2/X2+ U2/U3 (armhfp)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_armv7l_Odroid_X2_U2_8GB.img.xz)
+* [Sabayon Odroid C2 (armhfp)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_armv7l_Odroid_C2_8GB.img.xz)
+* [Sabayon BananaPi (armhfp)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_armv7l_BananaPi_8GB.img.xz)
 
 
-<h4>Have you considered donating yet? Help us! <a class="btn btn-danger btn-xs" href="/donate" role="button"><i class="fa fa-heart"></i> Donate </a> today!</h4>
+#### Have you considered donating yet? Help us! [Donate](/donate) today!
