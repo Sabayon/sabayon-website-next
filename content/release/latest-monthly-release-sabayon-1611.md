@@ -131,10 +131,8 @@ Deploying a Sabayon image now can be even more easier:
 
 The Server Edition is just perfect for those
 who want to run this distro as a pure server.
-The installer is still Calamares (just GUI install as for now),
-but running on an adhoc instance of X,
-that consequentially bloats the ISO size,
-but after install all the additional components required by Calamares
+The installer is still Anaconda (with Text install mode),
+after install all the additional components required by Anaconda
 are removed from the system. We now also service you with Vagrant images.
 
 ## Binary vs Source Package Manager
