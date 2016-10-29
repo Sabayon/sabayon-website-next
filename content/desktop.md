@@ -12,7 +12,7 @@ date = "2015-11-04"
 
     Awesomeness and candies!
     * [Download](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_GNOME.iso)
-    * [Torrent download](http://dl.saybayon.org/stable/Sabayon_linux_16.11_amd64_GNOME.iso.torrent)
+    * [Torrent download](http://dl.sabayon.org/stable/Sabayon_linux_16.11_amd64_GNOME.iso.torrent)
     * [MD5](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_GNOME.iso.md5)
     * [Package list](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_GNOME.iso.pkglist)
 
@@ -22,7 +22,7 @@ date = "2015-11-04"
 
     Smooth, for pro
     * [Download](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_KDE.iso)
-    * [Torrent download](http://dl.saybayon.org/stable/Sabayon_linux_16.11_amd64_KDE.iso.torrent)
+    * [Torrent download](http://dl.sabayon.org/stable/Sabayon_linux_16.11_amd64_KDE.iso.torrent)
     * [MD5](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_KDE.iso.md5)
     * [Package list](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_KDE.iso.pkglist)
 
@@ -32,7 +32,7 @@ date = "2015-11-04"
 
     Lightweight but complete
     * [Download](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_Xfce.iso)
-    * [Torrent download](http://dl.saybayon.org/stable/Sabayon_linux_16.11_amd64_Xfce.iso.torrent)
+    * [Torrent download](http://dl.sabayon.org/stable/Sabayon_linux_16.11_amd64_Xfce.iso.torrent)
     * [MD5](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_Xfce.iso.md5)
     * [Package list](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_Xfce.iso.pkglist)
 
@@ -42,7 +42,7 @@ date = "2015-11-04"
 
     Wonderful minimalism, with an eye back to the past
     * [Download](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_MATE.iso)
-    * [Torrent download](http://dl.saybayon.org/stable/Sabayon_linux_16.11_amd64_MATE.iso.torrent)
+    * [Torrent download](http://dl.sabayon.org/stable/Sabayon_linux_16.11_amd64_MATE.iso.torrent)
     * [MD5](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_MATE.iso.md5)
     * [Package list](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_MATE.iso.pkglist)
 
@@ -52,7 +52,7 @@ date = "2015-11-04"
 
     Minimal, for hackers
     * [Download](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_Minimal.iso)
-    * [Torrent download](http://dl.saybayon.org/stable/Sabayon_linux_16.11_amd64_Minimal.iso.torrent)
+    * [Torrent download](http://dl.sabayon.org/stable/Sabayon_linux_16.11_amd64_Minimal.iso.torrent)
     * [MD5](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_Minimal.iso.md5)
     * [Package list](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_Minimal.iso.pkglist)
 
