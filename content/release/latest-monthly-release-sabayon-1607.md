@@ -5,8 +5,7 @@ date = "2016-06-28"
 categories = [ "releases", "sabayon" ]
 tags = [
 "releases",
-"sabayon",
-"16.07"
+"sabayon"
 ]
 +++
 

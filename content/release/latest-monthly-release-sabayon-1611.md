@@ -5,8 +5,7 @@ date = "2016-10-28"
 categories = [ "releases", "sabayon" ]
 tags = [
 "releases",
-"sabayon",
-"16.11"
+"sabayon"
 ]
 +++
 ![Sabayon Press release](/img/press-header-roll_0.png)
