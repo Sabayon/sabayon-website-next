@@ -159,7 +159,7 @@ to force the proprietary drivers to be used instead:
 
 ## LTSI Linux kernels offered
 
-We are tracking the 3.10, 3.12, 3.14, 3.18 and 4.1
+We are tracking the 3.10, 3.12, 3.18, 4.1 and 4.4
 [Long Term Stable Linux kernels](http://ltsi.linuxfoundation.org/what-is-ltsi),
 offering (almost) same-day updates to them.
 If you are using Sabayon in a server environment, you surely welcome this.
