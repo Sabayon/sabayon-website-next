@@ -8,9 +8,9 @@ $(document).ready(function() {
     boxTemplate = [
         '<div class="panel panel-default">',
         '<div class="panel-heading">',
-        '<h4>Latest forum news</h4>',
+        '<h4>Active forum topics</h4>',
         '</div>',
-        '<div id="latest-forum-posts" class="panel-body" style="padding:0;max-width:100%;word-break:break-all;">',
+        '<div id="active-forum-posts" class="panel-body">',
         '</div>',
         '</div>'
     ].join('');
@@ -28,6 +28,7 @@ $(document).ready(function() {
         if (shortTitle.indexOf('Re:') > -1) {
             shortTitle = shortTitle.replace('Re:', '');
         }
+
         return shortTitle.trim();
     };
 
@@ -35,10 +36,10 @@ $(document).ready(function() {
     if ($forum.length > 0) {
         $(document.body).append('<script type="text/javascript" src="/js/jquery.rss.min.js"></script>');
         $forum.parents('.panel').after(boxTemplate);
-        $('#latest-forum-posts').rss(forumFeedURL, {
+        $('#active-forum-posts').rss(forumFeedURL, {
             ssl: true,
-            entryTemplate: '<li><a href="{url}">{shortTitle}</a><br />{shortBodyPlain}</li>',
-            layoutTemplate: '<ul style="list-style:none;padding:0;">{entries}</ul>',
+            entryTemplate: '<li><a href="{url}">{shortTitle}</a>{shortBodyPlain}</li>',
+            layoutTemplate: '<ul>{entries}</ul>',
             tokens: {
                 shortTitle: formatShortTitle
             }
