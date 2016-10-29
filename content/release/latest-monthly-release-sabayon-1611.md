@@ -64,10 +64,6 @@ Our old website has been around since the beginning.
 But we are happy, after a long development period to switch to a more modern
 and bleeding edge design touch that also works better for mobile devices.
 
-Until all the posts and content are migrated,
-you can find a copy of the old site on [oldwww.sabayon.org](http://oldwww.sabayon.org),
-but be aware, that website won't be upgraded and won't receive love anymore.
-
 If you want to send feedback about the website or want to contribute,
 join us on IRC or drop an email to [website@sabayon.org](mailto:website@sabayon.org).
 
