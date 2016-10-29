@@ -41,7 +41,6 @@ There are a lot of exciting changes in this release, here's a few:
 * Latest KDE-Plasma version
 * Renewed artwork
 * New Greeter!
-* Latest Nvidia and ATI drivers
 * Improvements and fixes to Entropy (the package manager)
 * New supported ARM devices!
 
@@ -72,7 +71,7 @@ but be aware, that website won't be upgraded and won't receive love anymore.
 If you want to send feedback about the website or want to contribute,
 join us on IRC or drop an email to [website@sabayon.org](mailto:website@sabayon.org).
 
-# New developer announcement
+# New developers announcement
 
 Ben "optiz0r" Roberts joined the Sabayon Development Team.
 Ben is a long-time Gentoo and Sabayon user,
@@ -82,7 +81,7 @@ and the Sabayon building Infrastructure.
 # Thanks to
 
 * the development team did a great job
-  (extra thanks to mudler, optiz0r, Enlik, joost_op, lxnay wolfden)
+  (extra thanks to mudler, optiz0r, Enlik, joost_op, lxnay, dgikiller, wolfden)
 * geaaru (BananaPi support)
 * Tom Ruis (Boot graphics)
 * Ryuno-Ki (Front-end developing)
@@ -250,6 +249,7 @@ Please find the official file names and hashes below.
 * [Sabayon Minimal (64 bit)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_Minimal.iso)
 * [Sabayon Server (64 bit)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_Server.iso)
 * [Sabayon RPi2/3 Base (console) (armhfp)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_armv7l_RPi_Base_8GB.img.xz)
+* [Sabayon RPi2/3 Base (console) with OpenRC (armhfp)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_armv7l_RPi_OpenRC_8GB.img.xz)
 * [Sabayon RPi2/3 Kodi (Media Center mode + auto-upgrades) (armhfp)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_armv7l_RPi_MediaCenter_8GB.img.xz)
 * [Sabayon Odroid X2/X2+ U2/U3 (armhfp)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_armv7l_Odroid_X2_U2_8GB.img.xz)
 * [Sabayon Odroid C2 (armhfp)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_armv7l_Odroid_C2_8GB.img.xz)
