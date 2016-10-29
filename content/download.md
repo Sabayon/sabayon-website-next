@@ -4,11 +4,6 @@ description = "Choose your Sabayon flavour"
 type = "custom"
 layout = "download"
 date = "2015-09-29"
-categories = [ "mirrors", "sabayon" ]
-tags = [
-    "mirrors",
-    "download",
-]
 +++
 
 * ## [Desktop](/desktop)
@@ -31,6 +26,6 @@ tags = [
 
 <hr />
 
-### ... someone said bleeding edge images? grab a *-dev* [<span class='fa fa-flask'></span> Daily builds](http://dl.sabayon.org/iso/daily/daily.html)
+### ... someone said bleeding edge images? grab a *-dev* [Daily builds](http://dl.sabayon.org/iso/daily/daily.html)
 
 ### If you are interested in browsing our mirrors, [head over here](/mirrors)

@@ -29,7 +29,7 @@ The list of packages included in each Sabayon flavor is available inside “.pkg
 
 Please read on to know where to find the images and their torrent files on our mirrors.
 
-##Fresh software, at all times
+## Fresh software, at all times
 
 Sabayon developers have the funny habit of packaging all the latest stuff that is in the Gentoo repositories and make it available as soon as possible to our users. If you are looking for the latest KDE, GNOME or LibreOffice, the chance that “it’s all in the repos already” are very high. We keep rolling 24/7, 365 days a year, because old software get us instantly bored.
 
