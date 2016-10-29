@@ -246,17 +246,17 @@ Please find the official file names and hashes below.
 
 # Files - download directly
 
-* [Sabayon GNOME (64 bit)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_amd64_GNOME.iso)
-* [Sabayon KDE (64 bit)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_amd64_KDE.iso)
-* [Sabayon Xfce (64 bit)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_amd64_Xfce.iso)
-* [Sabayon MATE (64 bit)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_amd64_MATE.iso)
-* [Sabayon Minimal (64 bit)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_amd64_Minimal.iso)
-* [Sabayon Server (64 bit)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_amd64_Server.iso)
-* [Sabayon RPi2/3 Base (console) (armhfp)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_armv7l_RPi_Base_8GB.img.xz)
-* [Sabayon RPi2/3 Kodi (Media Center mode + auto-upgrades) (armhfp)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_armv7l_RPi_MediaCenter_8GB.img.xz)
-* [Sabayon Odroid X2/X2+ U2/U3 (armhfp)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_armv7l_Odroid_X2_U2_8GB.img.xz)
-* [Sabayon Odroid C2 (armhfp)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_armv7l_Odroid_C2_8GB.img.xz)
-* [Sabayon BananaPi (armhfp)](http://dl.sabayon.org/iso/stable/Sabayon_Linux_16.11_armv7l_BananaPi_8GB.img.xz)
+* [Sabayon GNOME (64 bit)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_GNOME.iso)
+* [Sabayon KDE (64 bit)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_KDE.iso)
+* [Sabayon Xfce (64 bit)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_Xfce.iso)
+* [Sabayon MATE (64 bit)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_MATE.iso)
+* [Sabayon Minimal (64 bit)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_Minimal.iso)
+* [Sabayon Server (64 bit)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_Server.iso)
+* [Sabayon RPi2/3 Base (console) (armhfp)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_armv7l_RPi_Base_8GB.img.xz)
+* [Sabayon RPi2/3 Kodi (Media Center mode + auto-upgrades) (armhfp)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_armv7l_RPi_MediaCenter_8GB.img.xz)
+* [Sabayon Odroid X2/X2+ U2/U3 (armhfp)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_armv7l_Odroid_X2_U2_8GB.img.xz)
+* [Sabayon Odroid C2 (armhfp)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_armv7l_Odroid_C2_8GB.img.xz)
+* [Sabayon BananaPi (armhfp)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_armv7l_BananaPi_8GB.img.xz)
 
 
 #### Have you considered donating yet? Help us! [Donate](/donate) today!
