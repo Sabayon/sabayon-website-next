@@ -4,6 +4,14 @@ description = "Sabayon on Docker, Vagrant, VirtualBox"
 type = "custom"
 layout = "cloud"
 date = "2015-11-04"
+categories = [ "cloud", "sabayon" ]
+tags = [
+    "server",
+    "cloud",
+    "vagrant",
+    "docker",
+    "virtualbox"
+]
 +++
 
 * #### [DockerHub](https://hub.docker.com/u/sabayon/dashboard/)
