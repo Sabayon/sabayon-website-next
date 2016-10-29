@@ -2,11 +2,6 @@
 title = "Chat"
 description = "Live support"
 date = "2015-09-29"
-categories = [ "chat", "sabayon" ]
-tags = [
-    "chat",
-    "live support",
-]
 +++
 
 <div class="embed-responsive embed-responsive-4by3">

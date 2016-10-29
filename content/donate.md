@@ -2,10 +2,6 @@
 title = "Donate"
 description = "If you enjoyed the feeling and the experience that Sabayon gave you, consider giving back!"
 date = "2015-11-04"
-categories = [ "donate", "sabayon" ]
-tags = [
-    "donate"
-]
 +++
 
 The Sabayon foundation is always looking for funds. Please read below for a list of goals we are pursuing:
