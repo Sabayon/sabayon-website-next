@@ -2,11 +2,6 @@
 title = "Chat"
 description = "Live support"
 date = "2015-09-29"
-categories = [ "chat", "sabayon" ]
-tags = [
-    "chat",
-    "live support",
-]
 +++
 * Don't ask to ask, just ask your question
 * Don't expect an immediate answer, stay until someone answers

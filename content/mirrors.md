@@ -4,11 +4,6 @@ description = "List of Sabayon mirrors"
 type = "custom"
 layout = "mirrors"
 date = "2015-09-29"
-categories = [ "mirrors", "sabayon" ]
-tags = [
-    "mirrors",
-    "download",
-]
 +++
 
 1. ## Argentina
