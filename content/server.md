@@ -4,6 +4,10 @@ description = "Sabayon on servers"
 type = "custom"
 layout = "server"
 date = "2015-11-04"
+categories = [ "server", "sabayon" ]
+tags = [
+    "server"
+]
 +++
 
 * ![](/img/sabayon-server.png)

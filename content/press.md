@@ -4,6 +4,11 @@ description = "Press artworks files"
 type = "custom"
 layout = "press"
 date = "2015-09-29"
+categories = [ "sabayon" ]
+tags = [
+    "sabayon",
+    "press"
+]
 +++
 
 This is the Press/Artwork page. Here you will find Sabayon Linux logos,

@@ -4,6 +4,10 @@ description = "Sabayon workstation"
 type = "custom"
 layout = "desktop"
 date = "2015-11-04"
+categories = [ "desktop", "sabayon" ]
+tags = [
+    "desktop"
+]
 +++
 
 * ![GNOME logo](/img/gnome-logo.png)
