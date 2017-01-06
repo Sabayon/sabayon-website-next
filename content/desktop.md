@@ -6,7 +6,7 @@ layout = "desktop"
 date = "2015-11-04"
 +++
 
-* ![GNOME logo](/img/gnome-logo.png)
+* [![GNOME logo](/img/gnome-logo.png)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_GNOME.iso)
 
     #### GNOME Edition
 
@@ -16,7 +16,7 @@ date = "2015-11-04"
     * [MD5](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_GNOME.iso.md5)
     * [Package list](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_GNOME.iso.pkglist)
 
-* ![KDE logo](/img/kde-logo.png)
+* [![KDE logo](/img/kde-logo.png)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_KDE.iso)
 
     #### KDE edition
 
@@ -26,7 +26,7 @@ date = "2015-11-04"
     * [MD5](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_KDE.iso.md5)
     * [Package list](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_KDE.iso.pkglist)
 
-* ![Xfce logo](/img/xfce-logo.png)
+* [![Xfce logo](/img/xfce-logo.png)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_Xfce.iso)
 
     #### Xfce edition
 
@@ -36,7 +36,7 @@ date = "2015-11-04"
     * [MD5](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_Xfce.iso.md5)
     * [Package list](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_Xfce.iso.pkglist)
 
-* ![Mate logo](/img/mate-logo.png)
+* [![Mate logo](/img/mate-logo.png)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_MATE.iso)
 
     #### Mate edition
 
@@ -46,7 +46,7 @@ date = "2015-11-04"
     * [MD5](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_MATE.iso.md5)
     * [Package list](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_MATE.iso.pkglist)
 
-* ![Fluxbox logo](/img/fluxbox-logo.png)
+* [![Fluxbox logo](/img/fluxbox-logo.png)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_Minimal.iso)
 
     #### Fluxbox edition
 

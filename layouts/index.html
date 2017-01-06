@@ -1,15 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
-        <title>{{ .Title }} - {{ .Site.BaseURL }}</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="{{ .Description }}" />
-        <meta name="author" content="Sabayonlinux crew" />
-        <link rel="canonical" href="{{ .Permalink }}">
-        <link rel="shortcut icon" href="https://www.sabayon.org/sites/all/themes/sabayon/favicon.ico" type="image/vnd.microsoft.icon" />
-        {{ if .RSSlink }}<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />{{ end }}
+        {{ partial "meta.html" . }}
         {{ partial "header.includes.html" . }}
         <style type="text/css">
             body {

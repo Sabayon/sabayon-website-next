@@ -6,7 +6,7 @@ layout = "server"
 date = "2015-11-04"
 +++
 
-* ![](/img/sabayon-server.png)
+* [![](/img/sabayon-server.png)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_Server.iso)
 
     #### Server edition
 
