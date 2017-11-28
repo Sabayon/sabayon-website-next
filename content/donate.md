@@ -16,6 +16,7 @@ This is what we need to cover our daily duties:
 **We would like to thank everybody who has donated in the past. We all hope to see you back supporting us next year.**
 
 **Money donations via Cryptocurrency**
+
 * BTC 1FLyFTtyKtGpGytqsqh53TbcDf1tZb9oKZ
 * BCH 1FczSuSntg2jPztcreqWv2FywnzUpRxSuB
 * ETH 0xbe15335b19F854802554C974Dd637650f1201525
