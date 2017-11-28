@@ -24,6 +24,13 @@ This is what we need to cover our daily duties:
 * XMR 49oFnBbQbwXEJ8eTcWxVDb12Sbktn9XHQ6ysezutij4xGbXLYaygeDNTWEKoae9E4fMedQJy5g9QMQk1Hy7YuB7HHaJSGdg
 * NEO AR1zu4fWX6bzfQ8nRi677REgs4TxaYuHLr
 
+<form action="https://bitpay.com/checkout" method="post">
+  <input type="hidden" name="action" value="checkout"/>
+  <input type="hidden" name="posData" value=""/>
+  <input type="hidden" name="data" value="fPb7mv8gWi4bWFtOeSKXr0lJzfKR2EaAFKJQqkMIrD+3wISLznCMvOQhVK+gBRU15L23yCF+2oiZmItlLN6egFQD/9YtRdJpeuw4FCvRy6w6ckwAa4DcizSofD/HXK2jRraLJP+ZCXlH2wNcTgAY6hoLc1t84ZoE1LttJtQoyCZHAP2mLcLWyG6BUSXI42Qe+z+46n9doudD60CnES1ZKQ=="/>
+  <input type="image" src="https://bitpay.com/img/button-small.png" border="0" name="submit" alt="BitPay, the easy way to pay with bitcoins.">
+</form>
+
 **Money donations via PayPal**
 <div align="center" style="margin-top: 0.5em">
     <table cellspacing="15px">
