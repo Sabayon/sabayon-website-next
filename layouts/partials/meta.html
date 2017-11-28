@@ -6,4 +6,7 @@
 <meta name="author" content="Sabayonlinux crew" />
 <link rel="canonical" href="{{ .Permalink }}" />
 <link rel="shortcut icon" href="https://www.sabayon.org/sites/all/themes/sabayon/favicon.ico" type="image/vnd.microsoft.icon" />
-{{ if .RSSlink }}<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />{{ end }}
+{{ if .RSSLink }}
+  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+{{ end }}
