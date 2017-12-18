@@ -43,44 +43,32 @@
 
         <section class="services" id="SERVICE">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-3 text-center">
-                        <div>
-                            <h3>
-                                <i class="fa fa-calendar fa-3x"></i><br />
-                                Extreme release cycle
-                            </h3>
-                            <p>Daily and Monthly images available</p>
-                        </div>
-                    </div><!-- .col-md-3.text-center -->
-                    <div class="col-md-3 text-center">
-                        <div>
-                            <h3>
-                                <i class="fa fa-3x fa-laptop"></i><br />
-                                Multiple Desktop Environment
-                            </h3>
-                            <p>Multiple Desktop Environment - KDE, Gnome, Mate, and XFCE</p>
-                        </div>
-                    </div><!-- .col-md-3.text-center -->
-                    <div class="col-md-3 text-center">
-                        <div>
-                            <h3>
-                                <i class="fa fa-3x fa-cogs"></i><br />
-                                Customize it!
-                            </h3>
-                            <p>Build your own Sabayon spin easily! It can even be built with Docker! </p>
-                        </div>
-                    </div><!-- .col-md-3.text-center -->
-                    <div class="col-md-3 text-center">
-                        <div>
-                            <h3>
-                                <i class="fa fa-3x fa-terminal"></i><br />
-                                ARM
-                            </h3>
-                            <p>Support for Raspberry Pi 2/3, Odroid X2, U2/3 C2 and BananaPi</p>
-                        </div>
-                    </div><!-- .col-md-3.text-center -->
-                </div><!-- .row -->
+                <ul class="services">
+                    <li class="service">
+                        {{ with .Site.GetPage "page" "_landingpage/_features/extreme-release-cycle.md" }}
+                            <i class="fa fa-3x {{ .Params.icon }}"></i>
+                            {{ .Content }}
+                        {{ end }}
+                    </li>
+                    <li class="service">
+                        {{ with .Site.GetPage "page" "_landingpage/_features/multiple-desktop-environment.md" }}
+                            <i class="fa fa-3x {{ .Params.icon }}"></i>
+                            {{ .Content }}
+                        {{ end }}
+                    </li>
+                    <li class="service">
+                        {{ with .Site.GetPage "page" "_landingpage/_features/customize-it.md" }}
+                            <i class="fa fa-3x {{ .Params.icon }}"></i>
+                            {{ .Content }}
+                        {{ end }}
+                    </li>
+                    <li class="service">
+                        {{ with .Site.GetPage "page" "_landingpage/_features/arm.md" }}
+                            <i class="fa fa-3x {{ .Params.icon }}"></i>
+                            {{ .Content }}
+                        {{ end }}
+                    </li>
+                </ul>
             </div><!-- .container -->
         </section><!-- #SERVICE.services -->
 
