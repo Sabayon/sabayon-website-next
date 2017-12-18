@@ -3,162 +3,41 @@
     <head>
         {{ partial "meta.html" . }}
         {{ partial "header.includes.html" . }}
-        <style type="text/css">
-            body {
-                margin-top: 0px;
-            }
-
-            .btn-primary {
-                margin: 1px !important;
-            }
-
-            #home h1 {
-                display: inline-block;
-            }
-
-            #home a {
-                position: relative;
-                top: -20px;
-            }
-
-            #home p {
-                margin-bottom: 230px;
-                margin-bottom: 10em;
-            }
-
-            #SERVICE img {
-                margin-bottom: 30px;
-                margin-bottom: 2em;
-            }
-
-            #SERVICE h3 i {
-                display: block;
-            }
-
-            .bold {
-                font-weight: bold;
-            }
-
-            .italic {
-                font-style: italic;
-            }
-            
-            .headline-container {
-                display: block;
-                margin: 81px auto 0 auto;
-                max-width: 100%;
-                padding-left: 7.5%;
-                padding-right: 7.5%;
-                box-sizing: border-box;
-            }
-
-            .headline .h1 {
-                display: inline-block;
-            }
-
-            .headline .link-button {
-                margin: 21px 1em 10.5px 1em;
-            }
-
-            @media (min-width: 768px) {
-                .jumbotron .headline .link-button {
-                    margin-top: 42.3667px;
-                    margin-bottom: 21px;
-                }
-            }
-
-            .headline .h1,
-            .headline .link-button {
-                float: left;
-            }
-
-            .headline::after {
-                content: " ";
-                display: block;
-                clear: both;
-            }
-
-            .headline .why-sabayon {
-                text-align: left;
-            }
-
-            /* To Be Removed */
-            #home a {
-                position: static;
-            }
-            
-            /* Theming */
-            .headline .link-button {
-                background-color: #000;
-                border: 1px solid #2c3e50;
-                border-radius: 4px;
-                color: #fff;
-                cursor: pointer;
-                display: inline-block;
-                padding: 10px 15px;
-                padding: 0.6667em 1em;
-                text-align: center;
-                vertical-align: middle;
-            }
-        </style>
+        {{ partial "index-styles.html" . }}
+        {{ partial "homepage-feature-styles.html" . }}
     </head>
     <body>
-{{ partial "navbar.html" . }}
-{{ partial "headline.html" . }}
+        {{ partial "navbar.html" . }}
+        {{ partial "headline.html" . }}
         <section class="services" id="SERVICE">
             <div class="container">
-                <div class="row">
-                    <img src="img/laptop.jpg" alt="Laptop" class="img-responsive" />
-                </div><!-- .row -->
-                <div class="row">
-                    <div class="col-md-3 text-center">
-                        <h3>
-                            <i class="fa fa-rocket fa-3x"></i><br />
-                            Out of the box!
-                        </h3>
-                        <p>
-                            Just start it,
-                            everything should be already in place
-                        </p>
-                    </div><!-- .col-md-3.text-center -->
-                    <div class="col-md-3 text-center">
-                        <div>
-                            <h3>
-                                <i class="fa fa-bolt fa-3x"></i><br />
-                                Fast
-                            </h3>
-                            <p>
-                                Fast and optimized for your hardware!
-                                It’s up to you whether you turn a fresh
-                                Sabayon installation into
-                                a geeky Gentoo ~arch system or
-                                simply enjoy the power of
-                                our binary package manager.
-                            </p>
-                        </div>
-                    </div><!-- .col-md-3.text-center -->
-                    <div class="col-md-3 text-center">
-                        <div>
-                            <h3>
-                                <i class="fa fa-refresh fa-3x"></i><br />
-                                Rolling Release
-                            </h3>
-                            <p>
-                                Install just once, you can upgrade everytime
-                                you wish to the latest release
-                            </p>
-                        </div>
-                    </div><!-- .col-md-3.text-center -->
-                    <div class="col-md-3 text-center">
-                        <div>
-                            <h3>
-                                <i class="fa fa-cog fa-3x"></i><br />
-                                Multiple Repositories
-                            </h3>
-                            <p>From testing to Community Repositories</p>
-                        </div>
-                    </div><!-- .col-md-3.text-center -->
-                </div><!-- .row -->
+                {{ .Content }}
+                <ul class="services">
+                    <li class="service">
+                        {{ with .Site.GetPage "page" "_landingpage/_features/out-of-the-box.md" }}
+                            <i class="fa fa-3x {{ .Params.icon }}"></i>
+                            {{ .Content }}
+                        {{ end }}
+                    </li>
+                    <li class="service">
+                        {{ with .Site.GetPage "page" "_landingpage/_features/fast.md" }}
+                            <i class="fa fa-3x {{ .Params.icon }}"></i>
+                            {{ .Content }}
+                        {{ end }}
+                    </li>
+                    <li class="service">
+                        {{ with .Site.GetPage "page" "_landingpage/_features/multiple-repositories.md" }}
+                            <i class="fa fa-3x {{ .Params.icon }}"></i>
+                            {{ .Content }}
+                        {{ end }}
+                    </li>
+                    <li class="service">
+                        {{ with .Site.GetPage "page" "_landingpage/_features/rolling-release.md" }}
+                            <i class="fa fa-3x {{ .Params.icon }}"></i>
+                            {{ .Content }}
+                        {{ end }}
+                    </li>
+                </ul>
             </div><!-- .container -->
         </section><!-- #SERVICE.services -->
 
