@@ -1,30 +1,23 @@
+{{ $site := .Site }}
 <section class="services" id="SERVICE">
     <div class="container">
         {{ .Content }}
         <ul class="services">
             <li class="service">
-                {{ with .Site.GetPage "page" "_landingpage/_features/out-of-the-box.md" }}
-                    <i class="fa fa-3x {{ .Params.icon }}"></i>
-                    {{ .Content }}
-                {{ end }}
+                {{ $file := "_landingpage/_features/out-of-the-box.md" }}
+                {{ partial "service.html" (dict "Site" $site "file" $file) }}
             </li><!-- .service -->
             <li class="service">
-                {{ with .Site.GetPage "page" "_landingpage/_features/fast.md" }}
-                    <i class="fa fa-3x {{ .Params.icon }}"></i>
-                    {{ .Content }}
-                {{ end }}
+                {{ $file := "_landingpage/_features/fast.md" }}
+                {{ partial "service.html" (dict "Site" $site "file" $file) }}
             </li><!-- .service -->
             <li class="service">
-                {{ with .Site.GetPage "page" "_landingpage/_features/multiple-repositories.md" }}
-                    <i class="fa fa-3x {{ .Params.icon }}"></i>
-                    {{ .Content }}
-                {{ end }}
+                {{ $file := "_landingpage/_features/multiple-repositories.md" }}
+                {{ partial "service.html" (dict "Site" $site "file" $file) }}
             </li><!-- .service -->
             <li class="service">
-                {{ with .Site.GetPage "page" "_landingpage/_features/rolling-release.md" }}
-                    <i class="fa fa-3x {{ .Params.icon }}"></i>
-                    {{ .Content }}
-                {{ end }}
+                {{ $file := "_landingpage/_features/rolling-release.md" }}
+                {{ partial "service.html" (dict "Site" $site "file" $file) }}
             </li><!-- .service -->
         </ul><!-- .services -->
     </div><!-- .container -->
@@ -34,28 +27,20 @@
     <div class="container">
         <ul class="services">
             <li class="service">
-                {{ with .Site.GetPage "page" "_landingpage/_features/extreme-release-cycle.md" }}
-                    <i class="fa fa-3x {{ .Params.icon }}"></i>
-                    {{ .Content }}
-                {{ end }}
+                {{ $file := "_landingpage/_features/extreme-release-cycle.md" }}
+                {{ partial "service.html" (dict "Site" $site "file" $file) }}
             </li><!-- .service -->
             <li class="service">
-                {{ with .Site.GetPage "page" "_landingpage/_features/multiple-desktop-environment.md" }}
-                    <i class="fa fa-3x {{ .Params.icon }}"></i>
-                    {{ .Content }}
-                {{ end }}
+                {{ $file := "_landingpage/_features/multiple-desktop-environment.md" }}
+                {{ partial "service.html" (dict "Site" $site "file" $file) }}
             </li><!-- .service -->
             <li class="service">
-                {{ with .Site.GetPage "page" "_landingpage/_features/customize-it.md" }}
-                    <i class="fa fa-3x {{ .Params.icon }}"></i>
-                    {{ .Content }}
-                {{ end }}
+                {{ $file := "_landingpage/_features/customize-it.md" }}
+                {{ partial "service.html" (dict "Site" $site "file" $file) }}
             </li><!-- .service -->
             <li class="service">
-                {{ with .Site.GetPage "page" "_landingpage/_features/arm.md" }}
-                    <i class="fa fa-3x {{ .Params.icon }}"></i>
-                    {{ .Content }}
-                {{ end }}
+                {{ $file := "_landingpage/_features/arm.md" }}
+                {{ partial "service.html" (dict "Site" $site "file" $file) }}
             </li><!-- .service -->
         </ul><!-- .services -->
     </div><!-- .container -->
