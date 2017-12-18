@@ -1,0 +1,4 @@
+{{ with .Site.GetPage "page" .file }}
+    <i class="fa fa-3x {{ .Params.icon }}"></i>
+    {{ .Content }}
+{{ end }}
