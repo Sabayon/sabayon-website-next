@@ -31,7 +31,7 @@ HUGO_NAME := hugo_$(HUGO_VERSION)_$(ARCH)-$(OS)
 
 # Tools
 CURL = curl -L
-HUGO = $(HUGO_PATH)/$(HUGO_NAME)/$(HUGO_NAME)
+HUGO = $(HUGO_PATH)/$(HUGO_NAME)/hugo
 MKDIR = mkdir -p
 GIT = git
 
