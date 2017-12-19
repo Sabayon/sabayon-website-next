@@ -1,3 +1,4 @@
+{{ $site := .Site }}
 <section class="services" id="getit">
     <div class="container">
         <div class="row">
@@ -9,62 +10,32 @@
             <h2 class="text-center" style="margin-bottom:21.4333px;">Our sponsors:</h2>
         </div><!-- .row -->
         <div class="row">
-            <div class="col-md-4">
-                <div class="col-md-2">
-                    <img src="/img/sponsor/unitn.png" alt="Logo of University of Trento" />
-                </div><!-- .col-md-2 -->
-                <div class="col-md-10">
-                    <small>
-                        <span class="bold">University of Trento</span><br>
-                        Sponsors Sabayon by housing our Entropy build server inside CISCA.
-                    </small>
-                </div><!-- .col-md-10 -->
-            </div><!-- .col-md-4 -->
-            <div class="col-md-4">
-                <div class="col-md-2">
-                    <img src="/img/sponsor/bicocca.png" alt="Logo of University of Milano-Bicocca" />
-                </div><!-- .col-md-2 -->
-                <div class="col-md-10">
-                    <small>
-                        <span class="bold">University of Milano-Bicocca</span><br>
-                        Sponsors Sabayon by housing our Entropy build servers and WWW inside DISCo
-                    </small>
-                </div><!-- .col-md-10 -->
-            </div><!-- .col-md-4 -->
-            <div class="col-md-4">
-                <div class="col-md-2">
-                    <img src="/img/sponsor/unibs.png" alt="Logo of University of Brescia" />
-                </div><!-- .col-md-2 -->
-                <div class="col-md-10">
-                    <small>
-                        <span class="bold">University of Brescia</span><br>
-                        Housing our Entropy build server inside the Faculty Network Center at the Department of Electronics.
-                    </small>
-                </div><!-- .col-md-10 -->
-            </div><!-- .col-md-4 -->
-        </div><!-- .row -->
-        <div class="row">
-            <div class="col-md-4">
-                <div class="col-md-6">
-                    <img src="/img/sponsor/topix.png" alt="Logo of Top-ix.org" />
-                </div><!-- .col-md-6 -->
-                <div class="col-md-6">
-                    <small class="bold">Top-ix.org Development Program</small>
-                </div><!-- .col-md-6 -->
-            </div><!-- .col-md-4 -->
-            <div class="col-md-4">
-                <div class="col-md-6">
-                    <img src="/img/sponsor/nlnet.png" alt="Logo of NLNet Foundation" />
-                </div><!-- .col-md-6 -->
-                <div class="col-md-6">
-                    <small class="bold">NLNet Foundation</small>
-                </div><!-- .col-md-6 -->
-            </div><!-- .col-md-4 -->
-            <div class="col-md-4" >
-                <div class="col-md-8">
-                    <a href="http://www.trustica.cz/en/"><img src="/img/sponsor/trustica.svg" alt="Logo of Trustica.cz" /></a>
-                </div><!-- .col-md-8 -->
-            </div><!-- .col-md-4 -->
+            <ul class="sponsors">
+                <li class="sponsor">
+                    {{ $file := "_landingpage/_sponsors/university-of-trento.md" }}
+                    {{ partial "sponsor.html" (dict "Site" $site "file" $file) }}
+                </li>
+                <li class="sponsor">
+                    {{ $file := "_landingpage/_sponsors/university-of-milano-bicocca.md" }}
+                    {{ partial "sponsor.html" (dict "Site" $site "file" $file) }}
+                </li>
+                <li class="sponsor">
+                    {{ $file := "_landingpage/_sponsors/university-of-brescia.md" }}
+                    {{ partial "sponsor.html" (dict "Site" $site "file" $file) }}
+                </li>
+                <li class="sponsor">
+                    {{ $file := "_landingpage/_sponsors/top-ix.md" }}
+                    {{ partial "sponsor.html" (dict "Site" $site "file" $file) }}
+                </li>
+                <li class="sponsor">
+                    {{ $file := "_landingpage/_sponsors/nlnet-foundation.md" }}
+                    {{ partial "sponsor.html" (dict "Site" $site "file" $file) }}
+                </li>
+                <li class="sponsor">
+                    {{ $file := "_landingpage/_sponsors/trustica.md" }}
+                    {{ partial "sponsor.html" (dict "Site" $site "file" $file) }}
+                </li>
+            </ul>
         </div><!-- .row -->
     </div><!-- .container -->
-</section><!-- #getit.services -->
+<section><!-- #getit.services -->
