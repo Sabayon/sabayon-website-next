@@ -26,7 +26,7 @@ THEMES_PATH := $(BASE_PATH)/themes
 THEME_NAME := $(shell basename $(HUGO_THEME))
 THEME_PATH := $(THEMES_PATH)/$(THEME_NAME)
 HUGO_PATH := $(BASE_PATH)/.hugo
-HUGO_URL = github.com/spf13/hugo
+HUGO_URL = github.com/gohugoio/hugo
 HUGO_NAME := hugo_$(HUGO_VERSION)_$(ARCH)_$(OS)
 
 # Tools
