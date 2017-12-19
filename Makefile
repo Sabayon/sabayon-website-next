@@ -7,14 +7,14 @@ GIT_COMMITTER_EMAIL ?= autohugo@autohugo.local
 # System
 OS = amd64
 ifeq ($(OS),Windows_NT)
-    ARCH = windows
+    ARCH = Windows
 else
     UNAME_S := $(shell uname -s)
     ifeq ($(UNAME_S),Linux)
-			ARCH = linux
+			ARCH = Linux
     endif
     ifeq ($(UNAME_S),Darwin)
-			ARCH = darwin
+			ARCH = Darwin
     endif
 endif
 
@@ -49,10 +49,10 @@ dependencies: init
 		$(MKDIR) $(HUGO_PATH); \
 		cd $(HUGO_PATH); \
 		ext="zip"; \
-		if [ "$(ARCH)" == "linux" ]; then ext="tar.gz"; fi; \
+		if [ "$(ARCH)" == "Linux" ]; then ext="tar.gz"; fi; \
 		file="hugo.$${ext}"; \
 		$(CURL) https://$(HUGO_URL)/releases/download/v$(HUGO_VERSION)/$(HUGO_NAME).$${ext} -o $${file}; \
-		if [ "$(ARCH)" == "linux" ]; then tar -xvzf $${file}; else unzip $${file}; fi; \
+		if [ "$(ARCH)" == "Linux" ]; then tar -xvzf $${file}; else unzip $${file}; fi; \
 	fi;
 	@if [[ ! -d $(THEME_PATH) ]]; then \
 		$(MKDIR) $(THEMES_PATH); \
