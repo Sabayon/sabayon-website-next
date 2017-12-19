@@ -1,11 +1,11 @@
 # Configuration
-HUGO_VERSION ?= 0.31
+HUGO_VERSION ?= 0.31.1
 HUGO_THEME ?= ""
 GIT_COMMITTER_NAME ?= autohugo
 GIT_COMMITTER_EMAIL ?= autohugo@autohugo.local
 
 # System
-OS = amd64
+OS = 64bit
 ifeq ($(OS),Windows_NT)
     ARCH = Windows
 else
@@ -27,7 +27,7 @@ THEME_NAME := $(shell basename $(HUGO_THEME))
 THEME_PATH := $(THEMES_PATH)/$(THEME_NAME)
 HUGO_PATH := $(BASE_PATH)/.hugo
 HUGO_URL = github.com/gohugoio/hugo
-HUGO_NAME := hugo_$(HUGO_VERSION)_$(ARCH)_$(OS)
+HUGO_NAME := hugo_$(HUGO_VERSION)_$(ARCH)-$(OS)
 
 # Tools
 CURL = curl -L
