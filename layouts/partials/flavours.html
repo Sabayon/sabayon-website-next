@@ -1,0 +1,52 @@
+<div class="fun_facts">
+    <div class="section_overlay">
+        <div class="container" id="flavours">
+            <ul class="row features">
+                <li class="feature">
+                    {{ with .Site.GetPage "page" "_landingpage/_flavours/desktop.md" }}
+                        <a href="{{ .Params.target }}">
+                            <div class="btn btn-circle btn-xl flavour-{{ .Params.flavour }}">
+                                <i class="fa fa-3x {{ .Params.icon }}"></i>
+                                <span class="sr-only">{{ .Params.label }} Icon</span>
+                            </div>
+                        </a>
+                        {{ .Content }}
+                    {{ end }}
+                </li>
+                <li class="feature">
+                    {{ with .Site.GetPage "page" "_landingpage/_flavours/server.md" }}
+                        <a href="{{ .Params.target }}">
+                            <div class="btn btn-circle btn-xl flavour-{{ .Params.flavour }}">
+                                <i class="fa fa-3x {{ .Params.icon }}"></i>
+                                <span class="sr-only">{{ .Params.label }} Icon</span>
+                            </div>
+                        </a>
+                        {{ .Content }}
+                    {{ end }}
+                </li>
+                <li class="feature">
+                    {{ with .Site.GetPage "page" "_landingpage/_flavours/cloud.md" }}
+                        <a href="{{ .Params.target }}">
+                            <div class="btn btn-circle btn-xl flavour-{{ .Params.flavour }}">
+                                <i class="fa fa-3x {{ .Params.icon }}"></i>
+                                <span class="sr-only">{{ .Params.label }} Icon</span>
+                            </div>
+                        </a>
+                        {{ .Content }}
+                    {{ end }}
+                </li>
+                <li class="feature">
+                    {{ with .Site.GetPage "page" "_landingpage/_flavours/testing.md" }}
+                        <a href="{{ .Params.target }}">
+                            <div class="btn btn-circle btn-xl flavour-{{ .Params.flavour }}">
+                                <i class="fa fa-3x {{ .Params.icon }}"></i>
+                                <span class="sr-only">{{ .Params.label }} Icon</span>
+                            </div>
+                        </a>
+                        {{ .Content }}
+                    {{ end }}
+                </li>
+            </ul>
+        </div><!-- #flavours.container -->
+    </div><!-- .section_overlay -->
+</div><!-- .fun_facts -->
