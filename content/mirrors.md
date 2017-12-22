@@ -344,6 +344,16 @@ date = "2015-09-29"
 
         #### HTTP
         * [http://ftp.portlane.com/pub/os/linux/sabayon/](http://ftp.portlane.com/pub/os/linux/sabayon/)
+        
+     * ### Ctrl-C Mirror
+        #### Connection Speed:
+        1,000Mb/s
+
+        #### FTP
+        * [ftp://mirror.ctrl-c.liu.se/sabayon/](ftp://mirror.ctrl-c.liu.se/sabayon/)
+
+        #### HTTP
+        * [http://mirror.ctrl-c.liu.se/sabayon/](http://mirror.ctrl-c.liu.se/sabayon/)
 
 1. ## United States
 
