@@ -20,7 +20,7 @@ infrastructure were incorrectly pushed to all users. The updates that
 contained the offending content were only available for a short window 
 (less than 24 hours) and have now been removed from all official mirrors.
 
-The update contained an experimental cryptocurrency miner and it's
+The update contained an experimental cryptocurrency miner and its
 configuration files. The intention was to leverage the idle CPU time on Sabayon
 infrastructure hosts to increase funding for the project via a Monero
 wallet. This was setup on one of the internal development repositories for testing
