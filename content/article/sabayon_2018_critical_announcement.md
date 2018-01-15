@@ -1,5 +1,5 @@
 +++
-title = "Critical Incident - 2018-01-14"
+title = "Critical Incident - 2018-01-15"
 description = ""
 date = "2018-01-15"
 categories = [ "sabayon" ]
@@ -10,7 +10,7 @@ tags = [
 ]
 +++
 
-# Critical Incident - 2018-01-14
+# Critical Incident - 2018-01-15
 
 ## What happened?
 
