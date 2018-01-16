@@ -72,5 +72,5 @@ manual work on servers, and make the build processes more transparent to users.
 
 Thanks to
 [Joe Cuchac](https://plus.google.com/u/1/112606733744204696895/posts/fVaWrXkHUsn)
-for bringing this issue to our attention earlier today, and to concerned\_, iTitou,
+for bringing this issue to our attention earlier today, and to nks0ne, iTitou,
 and Mr-Hide from IRC for their assistance in tracking down the source.
