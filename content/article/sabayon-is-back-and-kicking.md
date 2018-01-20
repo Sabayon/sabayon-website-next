@@ -1,5 +1,5 @@
 +++
-title = "Sabayon is back - and kicking!"
+title = "Sabayon is still around!"
 description = ""
 date = "2018-01-21"
 categories = [ "sabayon" ]
@@ -85,16 +85,17 @@ If you have ideas,
 
 ## New release strategy
 
-Sabayon used to release a new version every month.
-Sadly it turned out to not be sustainable
-given the limited number of people available.
+Sadly it turned out that our
+[current release cycle](https://www.sabayon.org/release/latest-monthly-release-sabayon-1611/#changes)
+were not sustainable given the limited number of people available.
 
 The new official strategy is to follow
 the Ubuntu cycle of April and November of every year.
 
-Releases will be paired with LTS kernels (though as always,
+Stable releases will be paired with LTS kernels (though as always,
 newer kernels will be available for those who want them).
-Daily built ISOs will still be offered.
+Monthly and daily built ISOs will still be offered, but are not guaranteed to
+be thoroughly tested.
 
 ## New build infrastructure
 
