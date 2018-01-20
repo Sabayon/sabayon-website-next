@@ -1,7 +1,7 @@
 +++
 title = "Sabayon is back - and kicking!"
 description = ""
-date = "2018-01-01"
+date = "2018-01-21"
 categories = [ "sabayon" ]
 tags = [
 "development",
@@ -10,62 +10,115 @@ tags = [
 author = "Ryuno-Ki"
 +++
 
-**After more than a year of silence, we are back**
+## We're still here!
 
-We know, you were already wondering, whether this project is still alive,
-but rest assured that the development was steadily ongoing.
+We're sure some of you are wondering when the next release will happen,
+or if we're even still alive.
 
-A lot has changed, so we are excited to share the news with you! Let's go!
+Well, rest assured, we're here and doing all kinds of work on Sabayon to make
+the best release possible for you!
 
-<abbr title="Too long; didn't read">TL;DR</abbr>:
-* New team
-* New release strategy
-* New build system
-* Funding situation
+Here's a <abbr title="Too long; didn't read">TL;DR</abbr>:
+
+* moving ecosystem
+* Meltdown and Spectre
+* new team
+* new release strategy
+* new build infrastructure
+* funding
+
+## Moving ecosystem
+
+There's a lot going on in the world of Linux.
+2017 was a huge year for Linux dev!
+
+Graphics drivers were exploding in size and features, several kernel releases,
+wine hit 3.0rc, new hardware and drivers (some amazing, some disappointing),
+compilers changed, KDE and Gnome grew by leaps and bounds.
+
+We switched to FFmpeg upon user requests for software compatibility,
+bumped X.org with AMDGPU, took on the bleeding edge
+without falling into the chaos of going unstable,
+and we've even done some internal restructuring to lower our cost.
+
+## Meltdown and Spectre
+
+Now we're looking to patch Meltdown and Spectre bugs where we can.
+
+After all that is said and done we are now looking to sync up
+with the rest of the Linux community.
+Gentoo has moved on and made several underlying changes
+and we plan to follow suit.
+
+This is mostly stuff on the underlying portion of Sabayon,
+but results in a lot of rebuilt packages.
+This can be a rather painful experience,
+but we're committed to getting it done and passing on the finished
+and polished product to our end users.
+
+Everything is a moving target.
+Even so, we want to find the best place to make a snapshot to show you,
+our users, that we have you covered!
 
 ## New team
 
 In 2017 the team behind Sabayon grew.
 Now we have a test team, a webmaster and motivated "old dogs".
+
 So expect more changes to happen ;-)
 
-The focus of the webmaster will be on the website first, then turning to the
-wiki before looking on improving the forums.
+* optiz0r - <abbr title="Sabayon Community Repositories">SCR</abbr> maintainer
+* darksurf - Testing team
+* Ryuno-Ki - Webmaster
+* Enlik - Overlay and binary package maintainer
 
-If you have ideas, feel free to drop them at
-ryuno-ki at sabayonlinux.org.
+The focus of the webmaster will be on the website first, then turning to the
+wiki before looking on improving the forums. Any help is very welcome!
+
+Interested in joining the Sabayon team? Everybody is welcome!
+[Contact us on IRC](https://www.sabayon.org/chat/)
+
+freenode.net #sabayon-dev
+
+If you have ideas,
+[feel free to share them with us](https://bugs.sabayon.org/enter_bug.cgi?product=Hosted%20Services) :-)
 
 ## New release strategy
 
 Sabayon used to release a new version every month.
-Sadly it turned out to not be sustainable given the limited number of persons
-working on it.
-The new strategy is to keep on releasing daily images for testing and
-contributors and publish stable images for every new LTS Linux kernel.
+Sadly it turned out to not be sustainable
+given the limited number of people available.
 
-### Available releases
+The new official strategy is to follow
+the Ubuntu cycle of April and November of every year.
 
-We offer only 64bit releases.
+Releases will be paired with LTS kernels (though as always,
+newer kernels will be available for those who want them).
+Daily built ISOs will still be offered.
 
-You can find GNOME, KDE, Xfce and Mate images in the release section.
-If you happen to find bugs, please report them(), so we can fix :-)
+## New build infrastructure
 
-## New build system
-
-The homepage listed, that several universities were hosting Sabayon's build
-servers. In 2017 it was moved to Google Cloud to have a more reliable and
-better specced machine.
-Moreover, with the advent of
-<abbr title="Sabayon Community-Repositories">SCR</abbr> the team could trim down
-the core code base to something easier to guarantee to be stable without
-sacrificing new software versions.
+In 2017 the Sabayon build infrastructure was moved
+to more powerful and reliable servers.
+This also allows more flexibility for testing significant upcoming changes
+in Gentoo without affecting the daily running of Sabayon operations.
 
 ## Funding situation
 
-Sadly, the move to Google Cloud incurred a price which can't be paid by the team
-alone. We never asked you for anything, but you would do us a favour if you
-could donate a few bucks every month to keep this distribution running.
+We provide Sabayon to you free of charge,
+but sadly the infrastructure we need to build it does cost us money.
+We've recently restructured to cut costs and continue the project.
+Any [donations](https://www.sabayon.org/donate/) would be greatly appreciated.
 
-With that the team wishes you a Happy New Year 2018!
+We accept the following cryptocurrencies:
+
+* <abbr title="Bitcoin">BTC</abbr>
+* <abbr title="Bitcoin Cash">BCH</abbr>
+* <abbr title="Ethereum">ETH</abbr>
+* <abbr title="LiteCoin">LTC</abbr>
+* <abbr title="Monero">XMR</abbr>
+* <abbr title="Neo">NEO</abbr>
+
+With that the team wishes you a New Year 2018!
 
 Keep rocking!
