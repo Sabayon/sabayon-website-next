@@ -1,6 +1,7 @@
 ---
 icon: fa-rocket
 ---
+
 ### Out-of-the-box!
 
 Just start it,

@@ -2,21 +2,25 @@
 <html lang="en">
     <head>
         {{ partial "meta.html" . }}
+        <!--
         {{ partial "header.includes.html" . }}
-        {{ partial "index-styles.html" . }}
-        {{ partial "homepage-feature-styles.html" . }}
+        -->
     </head>
     <body>
-        {{ partial "navbar.html" . }}
-        {{ partial "headline.html" . }}
-        {{ partial "services.html" . }}
-        {{ partial "cta.html" . }}
-        {{ partial "flavours.html" . }}
-        {{ partial "community.html" . }}
-        {{ partial "documentation.html" . }}
-        {{ partial "sponsors.html" . }}
-
-        {{ partial "footer.copyright.html" . }}
-        {{ partial "footer.includes.html" . }}
+        <header>
+            {{ partial "navbar.html" . }}
+        </header>
+        <main>
+            {{ partial "headline.html" . }}
+            {{ partial "features.html" . }}
+            {{ partial "flavours.html" . }}
+            {{ partial "community.html" . }}
+            {{ partial "documentation.html" . }}
+            {{ partial "sponsors.html" . }}
+        </main>
+        <footer>
+            {{ partial "footer.copyright.html" . }}
+            {{ partial "footer.includes.html" . }}
+        </footer>
     </body>
 </html>

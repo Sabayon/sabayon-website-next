@@ -1,6 +1,7 @@
 ---
 icon: fa-bolt
 ---
+
 ### Fast
 
 Fast and optimized for your hardware!

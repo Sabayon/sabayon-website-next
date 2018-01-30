@@ -1,41 +1,33 @@
 {{ $site := .Site }}
-<section class="services" id="getit">
-    <div class="container">
-        <div class="row">
-            <h1 class="text-center" style="margin-top:42.3333px;">
-                You are free to use, modify and redistribute it! Spread the word!
-            </h1>
-        </div><!-- .row -->
-        <div class="row">
-            <h2 class="text-center" style="margin-bottom:21.4333px;">Our sponsors:</h2>
-        </div><!-- .row -->
-        <div class="row">
-            <ul class="sponsors">
-                <li class="sponsor">
-                    {{ $file := "_landingpage/_sponsors/university-of-trento.md" }}
-                    {{ partial "sponsor.html" (dict "Site" $site "file" $file) }}
-                </li>
-                <li class="sponsor">
-                    {{ $file := "_landingpage/_sponsors/university-of-milano-bicocca.md" }}
-                    {{ partial "sponsor.html" (dict "Site" $site "file" $file) }}
-                </li>
-                <li class="sponsor">
-                    {{ $file := "_landingpage/_sponsors/university-of-brescia.md" }}
-                    {{ partial "sponsor.html" (dict "Site" $site "file" $file) }}
-                </li>
-                <li class="sponsor">
-                    {{ $file := "_landingpage/_sponsors/top-ix.md" }}
-                    {{ partial "sponsor.html" (dict "Site" $site "file" $file) }}
-                </li>
-                <li class="sponsor">
-                    {{ $file := "_landingpage/_sponsors/nlnet-foundation.md" }}
-                    {{ partial "sponsor.html" (dict "Site" $site "file" $file) }}
-                </li>
-                <li class="sponsor">
-                    {{ $file := "_landingpage/_sponsors/trustica.md" }}
-                    {{ partial "sponsor.html" (dict "Site" $site "file" $file) }}
-                </li>
-            </ul>
-        </div><!-- .row -->
-    </div><!-- .container -->
-<section><!-- #getit.services -->
+<section>
+    <h2>
+        You are free to use, modify and redistribute it! Spread the word!
+    </h2>
+    <h3>Our sponsors</h3>
+    <ul>
+        <li>
+            {{ $file := "_landingpage/_sponsors/university-of-trento.md" }}
+            {{ partial "details/sponsor.html" (dict "Site" $site "file" $file) }}
+        </li>
+        <li>
+            {{ $file := "_landingpage/_sponsors/university-of-milano-bicocca.md" }}
+            {{ partial "details/sponsor.html" (dict "Site" $site "file" $file) }}
+        </li>
+        <li>
+            {{ $file := "_landingpage/_sponsors/university-of-brescia.md" }}
+            {{ partial "details/sponsor.html" (dict "Site" $site "file" $file) }}
+        </li>
+        <li>
+            {{ $file := "_landingpage/_sponsors/top-ix.md" }}
+            {{ partial "details/sponsor.html" (dict "Site" $site "file" $file) }}
+        </li>
+        <li>
+            {{ $file := "_landingpage/_sponsors/nlnet-foundation.md" }}
+            {{ partial "details/sponsor.html" (dict "Site" $site "file" $file) }}
+        </li>
+        <li>
+            {{ $file := "_landingpage/_sponsors/trustica.md" }}
+            {{ partial "details/sponsor.html" (dict "Site" $site "file" $file) }}
+        </li>
+    </ul>
+</section>
