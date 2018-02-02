@@ -6,6 +6,18 @@ layout = "desktop"
 date = "2015-11-04"
 +++
 
+<mark>
+  Pay attention! The team is currently in the midst of a major update of GCC
+  and therefore unable to fix known issues with monthly release __18.02__.
+  We recommend to use _18.01_ for installation.
+</mark>
+
+<mark>
+  If you use encryption, be aware, that the newer systemd version causes
+  troubles with the boot process.
+  For more information watch out the forums.
+</mark>
+
 * [![GNOME logo](/img/gnome-logo.png)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_GNOME.iso)
 
     #### GNOME Edition
