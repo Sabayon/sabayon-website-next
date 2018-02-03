@@ -1,9 +1,8 @@
 {{ $site := .Site }}
 <section class="sponsors">
-    <h2>
-        You are free to use, modify and redistribute it! Spread the word!
-    </h2>
-    <h3>Our sponsors</h3>
+    {{ with .Site.GetPage "page" "_landingpage/sponsors.md" }}
+        {{ .Content }}
+    {{ end }}
     <ul>
         <li>
             {{ $file := "_landingpage/_sponsors/university-of-trento.md" }}

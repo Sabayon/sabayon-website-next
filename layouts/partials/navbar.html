@@ -1,18 +1,5 @@
 <nav>
-    <a href="{{ .Site.BaseURL }}">
-        <img src="/img/navbar_sabayon_logo_trans.png" alt="Sabayon Logo"
-             width="135" height="35" />
-    </a>
-
-    <ul>
-        <li><a href="/donate/">DONATE</a></li>
-        <li><a href="https://forum.sabayon.org/">Forum</a></li>
-        <li><a href="/chat/">Support</a></li>
-        <li><a href="https://wiki.sabayon.org/">Wiki</a></li>
-        <li><a href="/download">Download</a></li>
-        <li><a href="https://bugs.sabayon.org/">Bugs</a></li>
-        <li><a href="https://packages.sabayon.org/">Packages</a></li>
-        <li><a href="https://sabayon.github.io/community-website/">SCR</a></li>
-        <li><a href="/blog/">Blog</a></li>
-    </ul>
+    {{ with .Site.GetPage "page" "_landingpage/navbar.md" }}
+        {{ .Content }}
+    {{ end }}
 </nav>

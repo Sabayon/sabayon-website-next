@@ -1,8 +1,9 @@
 {{ $site := .Site }}
 <section>
-    {{ .Content }}
+    {{ with .Site.GetPage "page" "_landingpage/features.md" }}
+        {{ .Content }}
+    {{ end }}
 
-    <h2>Why you should go for us</h2>
     <ul>
         <li>
             {{ $file := "_landingpage/_features/out-of-the-box.md" }}

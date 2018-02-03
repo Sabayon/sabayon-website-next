@@ -1,19 +1,5 @@
 <section>
-    <h2>Community Collaboration</h2>
-    <h3>
-        Sabayon is developed with
-        <i class="fa fa-heart" style="color:#FF4E50"></i>
-        from people all around the world that work together
-    </h3>
-    <p>
-        Be part of our family, be part of our
-        <a href="https://forum.sabayon.org">community</a>.
-    </p>
-    <p>
-        If you want to contribute,
-        <a href="https://github.com/Sabayon/"> our code is hosted on GitHub</a>.<br />
-        If you want to support us,
-        but you don't have time or any coding/computer skills,
-        you can <a href="/donate"> donate </a>.
-    </p>
+    {{ with .Site.GetPage "page" "_landingpage/community.md" }}
+        {{ .Content }}
+    {{ end }}
 </section>

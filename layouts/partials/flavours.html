@@ -1,5 +1,8 @@
 <section>
-    <h2>Our flavours</h2>
+    {{ with .Site.GetPage "page" "_landingpage/flavours.md" }}
+        {{ .Content }}
+    {{ end }}
+
     <ul>
         <li>
             {{ with .Site.GetPage "page" "_landingpage/_flavours/desktop.md" }}

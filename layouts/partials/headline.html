@@ -1,17 +1,5 @@
 <section>
-    <h1>Sabayon Linux</h1>
-    <a href="/download">Download Sabayon</a>
-    <!-- Call to Action should be triggering downloads
-    <a href="/latest">Latest Press Release</a>
-    -->
-    <p>
-        Sabayon is a beginner-friendly Gentoo-based
-        open-source Linux distribution.
-        We aim to deliver the best "out of the box" user experience
-        by providing the latest open source technologies in an elegant format.
-        In Sabayon everything should just work.
-        We offer a bleeding edge operating system that is both
-        stable and reliable.
-    </p>
+    {{ with .Site.GetPage "page" "_landingpage/headline.md" }}
+        {{ .Content }}
+    {{ end }}
 </section>
-
