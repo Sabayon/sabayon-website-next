@@ -6,6 +6,10 @@ layout = "cloud"
 date = "2015-11-04"
 +++
 
+### Cloud edition
+
+Sabayon on Docker, Vagrant, VirtualBox
+
 * #### [DockerHub](https://hub.docker.com/u/sabayon/dashboard/)
 
     docker pull... and there you go

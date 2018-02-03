@@ -6,6 +6,10 @@ layout = "desktop"
 date = "2015-11-04"
 +++
 
+### Desktop edition
+
+Sabayon workstation
+
 * [![GNOME logo](/img/gnome-logo.png)](http://dl.sabayon.org/stable/Sabayon_Linux_18.05_amd64_GNOME.iso)
 
     #### GNOME Edition
