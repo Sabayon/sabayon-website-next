@@ -1,10 +1,13 @@
 +++
 title = "Download"
 description = "Choose your Sabayon flavour"
-type = "custom"
-layout = "download"
+type = "single"
 date = "2015-09-29"
 +++
+
+### Download
+
+Choose your Sabayon flavour
 
 * ## [Desktop](/desktop)
 

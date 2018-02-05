@@ -1,10 +1,29 @@
 +++
 title = "Mirrors"
 description = "List of Sabayon mirrors"
-type = "custom"
-layout = "mirrors"
+type = "single"
 date = "2015-09-29"
 +++
+
+### Mirrors
+
+List of Sabayon mirrors
+
+1. ## Argentina
+
+    ![Argentina](https://static.sabayon.org/site/img/flags/Argentina.png)
+    * ### Cooperativa Telefónica de Villa Gobernador Gálvez Ltda.
+        #### Connection Speed:
+        1,000Mb/s
+
+        #### FTP
+        * [ftp://mirrors.coopvgg.com.ar/sabayon/](ftp://mirrors.coopvgg.com.ar/sabayon/)
+
+        #### HTTP
+        * [http://mirrors.coopvgg.com.ar/sabayon/](http://mirrors.coopvg.com.ar/sabayon/)
+
+        #### Rsync
+        * [rsync://mirrors.coopvgg.com.ar/sabayon/](rsync://mirrors.coopvgg.com.ar/sabayon/)
 
 1. ## Austria
 

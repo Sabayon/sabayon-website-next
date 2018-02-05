@@ -1,8 +1,7 @@
 +++
 title = "Desktop edition"
 description = "Sabayon workstation"
-type = "custom"
-layout = "desktop"
+type = "single"
 date = "2015-11-04"
 +++
 

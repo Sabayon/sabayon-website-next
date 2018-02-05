@@ -1,10 +1,13 @@
 +++
 title = "Server edition"
 description = "Sabayon on servers"
-type = "custom"
-layout = "server"
+type = "single"
 date = "2015-11-04"
 +++
+
+### Server edition
+
+Sabayon on servers
 
 * [![](/img/sabayon-server.png)](http://dl.sabayon.org/stable/Sabayon_Linux_17.03_amd64_Server.iso)
 

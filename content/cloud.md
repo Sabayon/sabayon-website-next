@@ -1,8 +1,7 @@
 +++
 title = "Cloud edition"
 description = "Sabayon on Docker, Vagrant, VirtualBox"
-type = "custom"
-layout = "cloud"
+type = "single"
 date = "2015-11-04"
 +++
 
