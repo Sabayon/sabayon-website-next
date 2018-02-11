@@ -36,11 +36,6 @@ This is what we need to cover our daily duties:
     <table cellspacing="15px">
     <tbody><tr>
         <td style="padding-right: 15px">
-           Donate via Pledgie.com:<br>
-           <a href="https://pledgie.com/campaigns/31652"><img alt="Click here to lend your support to: Support Sabayon in 2017 and make a donation at pledgie.com !" 
-src="https://pledgie.com/campaigns/31652.png?skin_name=chrome" border="0"></a>
-        </td>
-        <td style="padding-right: 15px">
            Setup a monthly payment:<br>
 
 <form method="post" action="https://www.paypal.com/cgi-bin/webscr">
