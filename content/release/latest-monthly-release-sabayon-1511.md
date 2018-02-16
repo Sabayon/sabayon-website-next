@@ -83,7 +83,7 @@ We are tracking the 3.10, 3.12, 3.14, 3.18 and 4.1 [Long Term Stable Linux kerne
 * [Sabayon BitTorrent Tracker](http://torrents.sabayon.org/)
 * [<i class="fa fa-facebook"></i> Join us on Facebook](https://www.facebook.com/groups/36125411841)
 * [<i class="fa fa-google"></i> Join us on Google+](https://plus.google.com/+sabayon)
-* [Donate to Sabayon!](http://www.sabayon.org/donate)
+* [Donate to Sabayon!](https://www.sabayon.org/donate)
 
 Please find the official file names and hashes below.
 
