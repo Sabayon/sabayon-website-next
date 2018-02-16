@@ -27,12 +27,7 @@ The OS is set to automatically boot and start eth0 and sshd (so you can connect 
 
 The images will be soon available on all the Sabayon mirrors. For now you can download it from the official TOP-IX italian mirror:
 
-
-http://mirror.it.sabayon.org/iso/monthly/Sabayon_Linux_16_armv7l_RPi_Base_8GB.img.xz
-
-http://mirror.it.sabayon.org/iso/monthly/Sabayon_Linux_16_armv7l_RPi_Base_8GB.img.xz.md5
-
-
+<ins datetime="2018-02-16">(Removed broken links)</ins>
 
 you can however browse our mirror list the image could be found under the iso/monthly/ directory.
 
