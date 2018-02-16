@@ -71,9 +71,6 @@ date = "2015-09-29"
         #### FTP
         * [ftp://ftp.belnet.be/mirror/sabayonlinux](ftp://ftp.belnet.be/mirror/sabayonlinux)
 
-        #### HTTP
-        * [http://ftp.belnet.be/sabayonlinux](http://ftp.belnet.be/sabayonlinux)
-
         #### Rsync
         * [rsync://rsync.betlnet.be/sabayon](rsync://rsync.belnet.be/sabayon)
 
