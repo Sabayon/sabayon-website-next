@@ -277,9 +277,6 @@ date = "2015-09-29"
         #### FTP
         * [ftp://ftp.rnl.tecnico.ulisboa.pt/pub/sabayon](ftp://ftp.rnl.tecnico.ulisboar.pt/pub/sabayon)
 
-        #### HTTP
-        * [http://ftp.rnl.tecnico.ulisboa.pt/pub/sabayon](http://ftp.rnl.tecnico.ulisboar.pt/pub/sabayon)
-
         #### Rsync
         * [rsync://ftp.rnl.tecnico.ulisboa.pt/pub/sabayon](rsnyc://ftp.rnl.tecnico.ulisboa.pt/pub/sabayon)
 
