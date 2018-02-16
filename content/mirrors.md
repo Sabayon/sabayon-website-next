@@ -6,22 +6,6 @@ layout = "mirrors"
 date = "2015-09-29"
 +++
 
-1. ## Argentina
-
-    ![Argentina](https://static.sabayon.org/site/img/flags/Argentina.png)
-    * ### Cooperativa Telefónica de Villa Gobernador Gálvez Ltda.
-        #### Connection Speed:
-        1,000Mb/s
-
-        #### FTP
-        * [ftp://mirrors.coopvgg.com.ar/sabayon/](ftp://mirrors.coopvgg.com.ar/sabayon/)
-
-        #### HTTP
-        * [http://mirrors.coopvgg.com.ar/sabayon/](http://mirrors.coopvg.com.ar/sabayon/)
-
-        #### Rsync
-        * [rsync://mirrors.coopvgg.com.ar/sabayon/](rsync://mirrors.coopvgg.com.ar/sabayon/)
-
 1. ## Austria
 
     ![Austria](https://static.sabayon.org/site/img/flags/Austria.png)
