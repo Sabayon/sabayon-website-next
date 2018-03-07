@@ -76,4 +76,4 @@ You can find us here:
 
 * [Join us on Facebook](https://www.facebook.com/groups/36125411841)
 * [Join us on Google+](https://plus.google.com/+sabayon)
-* [Donate to Sabayon!](http://www.sabayon.org/donate)
+* [Donate to Sabayon!](https://www.sabayon.org/donate)
