@@ -247,19 +247,15 @@ date = "2015-09-29"
 
     ![Portugal](https://static.sabayon.org/site/img/flags/Portugal.png)
 
-    * ### University of Aveiro
-        #### Connection Speed:
-        100Mb/s
-
-        #### FTP
-        * [ftp://glua.ua.pt/sabayon/](ftp://glua.ua.pt/sabayon/)
-
     * ### Rede das Novas Licenciaturas - Técnico Lisboa
         #### Connection Speed:
         1,000Mb/s
 
         #### FTP
         * [ftp://ftp.rnl.tecnico.ulisboa.pt/pub/sabayon](ftp://ftp.rnl.tecnico.ulisboar.pt/pub/sabayon)
+
+        #### HTTP
+        * [http://ftp.rnl.tecnico.ulisboa.pt/pub/sabayon](https://ftp.rnl.tecnico.ulisboa.pt/pub/sabayon)
 
         #### Rsync
         * [rsync://ftp.rnl.tecnico.ulisboa.pt/pub/sabayon](rsnyc://ftp.rnl.tecnico.ulisboa.pt/pub/sabayon)
