@@ -69,7 +69,8 @@ There also is a [Docker image](https://hub.docker.com/r/sabayon/builder-amd64/) 
 
 ## Vagrant images
 
-We couldn't ship just docker images of course. You can find a barebone Sabayon image in the [VagrantCloud (now called Atlas)](https://atlas.hashicorp.com/Sabayon/boxes/spinbase-amd64).
+We couldn't ship just docker images of course. You can find a barebone Sabayon image in the VagrantCloud (now called Atlas).
+<ins datetime="2018-02-16">(Removed broken link)</ins>
 Deploying a Sabayon image now can be even more easier:
 
     vagrant init Sabayon/spinbase-amd64; vagrant up --provider virtualbox
@@ -96,12 +97,12 @@ We are tracking the 3.10, 3.12, 3.14, 3.18 and 4.1 [Long Term Stable Linux kerne
 
 * [Sabayon Mirrors Page](/mirrors)
 * [<i class="fa fa-cloud"></i> Sabayon Docker Hub](https://hub.docker.com/r/sabayon)
-* [<i class="fa fa-cloud"></i> Sabayon on Atlas (VagrantCloud)](https://atlas.hashicorp.com/Sabayon/boxes/spinbase-amd64)
+* <i class="fa fa-cloud"></i> Sabayon on Atlas (VagrantCloud) <ins datetime="2018-02-16">(Removed broken link)</ins>
 * [Sabayon Monthly Images Download Page](http://dl.sabayon.org/iso/monthly/monthly.html)
 * [Sabayon BitTorrent Tracker](http://torrents.sabayon.org/)
 * [<i class="fa fa-facebook"></i> Join us on Facebook](https://www.facebook.com/groups/36125411841)
 * [<i class="fa fa-google"></i> Join us on Google+](https://plus.google.com/+sabayon)
-* [Donate to Sabayon!](http://www.sabayon.org/donate)
+* [Donate to Sabayon!](https://www.sabayon.org/donate)
 
 Please find the official file names and hashes below.
 

@@ -6,22 +6,6 @@ layout = "mirrors"
 date = "2015-09-29"
 +++
 
-1. ## Argentina
-
-    ![Argentina](https://static.sabayon.org/site/img/flags/Argentina.png)
-    * ### Cooperativa Telefónica de Villa Gobernador Gálvez Ltda.
-        #### Connection Speed:
-        1,000Mb/s
-
-        #### FTP
-        * [ftp://mirrors.coopvgg.com.ar/sabayon/](ftp://mirrors.coopvgg.com.ar/sabayon/)
-
-        #### HTTP
-        * [http://mirrors.coopvgg.com.ar/sabayon/](http://mirrors.coopvg.com.ar/sabayon/)
-
-        #### Rsync
-        * [rsync://mirrors.coopvgg.com.ar/sabayon/](rsync://mirrors.coopvgg.com.ar/sabayon/)
-
 1. ## Austria
 
     ![Austria](https://static.sabayon.org/site/img/flags/Austria.png)
@@ -70,9 +54,6 @@ date = "2015-09-29"
 
         #### FTP
         * [ftp://ftp.belnet.be/mirror/sabayonlinux](ftp://ftp.belnet.be/mirror/sabayonlinux)
-
-        #### HTTP
-        * [http://ftp.belnet.be/sabayonlinux](http://ftp.belnet.be/sabayonlinux)
 
         #### Rsync
         * [rsync://rsync.betlnet.be/sabayon](rsync://rsync.belnet.be/sabayon)
@@ -144,22 +125,6 @@ date = "2015-09-29"
 
         #### Rsync
         * [rsync://mirror.uta.edu.ec/sabayon](rsync://mirror.uta.edu.ec/sabayon)
-
-1. ## United Kingdom
-
-    ![United Kingdom](https://static.sabayon.org/site/img/flags/United-Kingdom.png)
-    * ### Go-Parts.com UK
-        #### Connection Speed:
-        1,000Mb/s
-
-        #### FTP
-        * [ftp://mirrors-uk.go-parts.com/sabayonlinux/](ftp://mirrors-uk.go-parts.com/sabayonlinux)
-
-        #### HTTP
-        * [http://mirrors-uk.go-parts.com/sabayonlinux/](http://mirrors-uk.go-parts.com/sabayonlinux/)
-
-        #### Rsync
-        * [rsync://mirrors-uk.go-parts.com/sabayonlinux/](rsync://mirrors-uk.go-parts.com/sabayonlinux/)
 
 * ## Greece
 
@@ -282,13 +247,6 @@ date = "2015-09-29"
 
     ![Portugal](https://static.sabayon.org/site/img/flags/Portugal.png)
 
-    * ### University of Aveiro
-        #### Connection Speed:
-        100Mb/s
-
-        #### FTP
-        * [ftp://glua.ua.pt/sabayon/](ftp://glua.ua.pt/sabayon/)
-
     * ### Rede das Novas Licenciaturas - Técnico Lisboa
         #### Connection Speed:
         1,000Mb/s
@@ -297,7 +255,7 @@ date = "2015-09-29"
         * [ftp://ftp.rnl.tecnico.ulisboa.pt/pub/sabayon](ftp://ftp.rnl.tecnico.ulisboar.pt/pub/sabayon)
 
         #### HTTP
-        * [http://ftp.rnl.tecnico.ulisboa.pt/pub/sabayon](http://ftp.rnl.tecnico.ulisboar.pt/pub/sabayon)
+        * [http://ftp.rnl.tecnico.ulisboa.pt/pub/sabayon](https://ftp.rnl.tecnico.ulisboa.pt/pub/sabayon)
 
         #### Rsync
         * [rsync://ftp.rnl.tecnico.ulisboa.pt/pub/sabayon](rsnyc://ftp.rnl.tecnico.ulisboa.pt/pub/sabayon)
@@ -318,19 +276,6 @@ date = "2015-09-29"
         
         #### Rsync
         * [rsync://mirror.yandex.ru/sabayon/](rsync://mirror.yandex.ru/sabayon/)
-
-    * ### Go-Parts.com Russia
-        #### Connection Speed:
-        1,000Mb/s
-
-        #### FTP
-        * [ftp://mirrors-ru.go-parts.com/sabayonlinux/](ftp://mirrors-ru.go-parts.com/sabayonlinux/)
-
-        #### HTTP
-        * [http://mirrors-ru.go-parts.com/sabayonlinux/](http://mirrors-ru.go-parts.com/sabayonlinux/)
-
-        #### Rsync
-        * [rsync://mirrors-ru.go-parts.com/sabayonlinux/](rsync://mirrors-ru.go-parts.com/sabayonlinux/)
 
 1. ## Sweden
 
