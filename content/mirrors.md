@@ -126,22 +126,6 @@ date = "2015-09-29"
         #### Rsync
         * [rsync://mirror.uta.edu.ec/sabayon](rsync://mirror.uta.edu.ec/sabayon)
 
-1. ## United Kingdom
-
-    ![United Kingdom](https://static.sabayon.org/site/img/flags/United-Kingdom.png)
-    * ### Go-Parts.com UK
-        #### Connection Speed:
-        1,000Mb/s
-
-        #### FTP
-        * [ftp://mirrors-uk.go-parts.com/sabayonlinux/](ftp://mirrors-uk.go-parts.com/sabayonlinux)
-
-        #### HTTP
-        * [http://mirrors-uk.go-parts.com/sabayonlinux/](http://mirrors-uk.go-parts.com/sabayonlinux/)
-
-        #### Rsync
-        * [rsync://mirrors-uk.go-parts.com/sabayonlinux/](rsync://mirrors-uk.go-parts.com/sabayonlinux/)
-
 * ## Greece
 
     ![Greece](https://static.sabayon.org/site/img/flags/Greece.png)
