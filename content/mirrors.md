@@ -297,19 +297,6 @@ date = "2015-09-29"
         #### Rsync
         * [rsync://mirror.yandex.ru/sabayon/](rsync://mirror.yandex.ru/sabayon/)
 
-    * ### Go-Parts.com Russia
-        #### Connection Speed:
-        1,000Mb/s
-
-        #### FTP
-        * [ftp://mirrors-ru.go-parts.com/sabayonlinux/](ftp://mirrors-ru.go-parts.com/sabayonlinux/)
-
-        #### HTTP
-        * [http://mirrors-ru.go-parts.com/sabayonlinux/](http://mirrors-ru.go-parts.com/sabayonlinux/)
-
-        #### Rsync
-        * [rsync://mirrors-ru.go-parts.com/sabayonlinux/](rsync://mirrors-ru.go-parts.com/sabayonlinux/)
-
 1. ## Sweden
 
     ![Sweden](https://static.sabayon.org/site/img/flags/Sweden.png)
