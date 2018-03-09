@@ -1,4 +1,0 @@
-+++
-type = "custom"
-layout = "releases"
-+++
