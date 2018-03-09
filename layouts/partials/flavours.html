@@ -7,11 +7,12 @@
     {{- $flavours := readDir "/content/_landingpage/_flavours/" -}}
     <ul>
         {{- range $flavours }}
-          <li>
-              {{- $filepath := (printf "%s/%s" "_landingpage/_flavours" .Name) -}}
-              {{ with $Site.GetPage "page" $filepath }}
-                  {{ .Content }}
-              {{ end }}
+            <li>
+                {{- $filepath := (printf "%s/%s" "_landingpage/_flavours" .Name) -}}
+                {{ with $Site.GetPage "page" $filepath }}
+                    {{ .Content }}
+                {{ end }}
+            </li>
         {{- end }}
     </ul>
 </section>

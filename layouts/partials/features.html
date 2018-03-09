@@ -1,41 +1,16 @@
-{{ $site := .Site }}
+{{ $Site := .Site }}
 <section>
-    {{ with .Site.GetPage "page" "_landingpage/features.md" }}
+    {{ with $Site.GetPage "page" "_landingpage/features.md" }}
         {{ .Content }}
     {{ end }}
 
+    {{- $features := readDir "/content/_landingpage/_features/" -}}
     <ul>
-        <li>
-            {{ $file := "_landingpage/_features/out-of-the-box.md" }}
-            {{ partial "details/feature.html" (dict "Site" $site "file" $file) }}
-        </li>
-        <li>
-            {{ $file := "_landingpage/_features/fast.md" }}
-            {{ partial "details/feature.html" (dict "Site" $site "file" $file) }}
-        </li>
-        <li>
-            {{ $file := "_landingpage/_features/multiple-repositories.md" }}
-            {{ partial "details/feature.html" (dict "Site" $site "file" $file) }}
-        </li>
-        <li>
-            {{ $file := "_landingpage/_features/rolling-release.md" }}
-            {{ partial "details/feature.html" (dict "Site" $site "file" $file) }}
-        </li>
-        <li>
-            {{ $file := "_landingpage/_features/extreme-release-cycle.md" }}
-            {{ partial "details/feature.html" (dict "Site" $site "file" $file) }}
-        </li>
-        <li>
-            {{ $file := "_landingpage/_features/multiple-desktop-environment.md" }}
-            {{ partial "details/feature.html" (dict "Site" $site "file" $file) }}
-        </li>
-        <li>
-            {{ $file := "_landingpage/_features/customize-it.md" }}
-            {{ partial "details/feature.html" (dict "Site" $site "file" $file) }}
-        </li>
-        <li>
-            {{ $file := "_landingpage/_features/arm.md" }}
-            {{ partial "details/feature.html" (dict "Site" $site "file" $file) }}
-        </li>
+        {{- range $features }}
+            <li>
+                {{- $file := (printf "%s/%s" "_landingpage/_features" .Name) -}}
+                {{ partial "details/feature.html" (dict "Site" $Site "file" $file) }}
+            </li>
+        {{- end }}
     </ul>
 </section>
