@@ -1,28 +1,17 @@
+{{- $Site := .Site -}}
 <section>
-    {{ with .Site.GetPage "page" "_landingpage/flavours.md" }}
+    {{ with $Site.GetPage "page" "_landingpage/flavours.md" }}
         {{ .Content }}
     {{ end }}
 
+    {{- $flavours := readDir "/content/_landingpage/_flavours/" -}}
     <ul>
-        <li>
-            {{ with .Site.GetPage "page" "_landingpage/_flavours/desktop.md" }}
-                {{ .Content }}
-            {{ end }}
-        </li>
-        <li>
-            {{ with .Site.GetPage "page" "_landingpage/_flavours/server.md" }}
-                {{ .Content }}
-            {{ end }}
-        </li>
-        <li>
-            {{ with .Site.GetPage "page" "_landingpage/_flavours/cloud.md" }}
-                {{ .Content }}
-            {{ end }}
-        </li>
-        <li>
-            {{ with .Site.GetPage "page" "_landingpage/_flavours/testing.md" }}
-                {{ .Content }}
-            {{ end }}
-        </li>
+        {{- range $flavours }}
+          <li>
+              {{- $filepath := (printf "%s/%s" "_landingpage/_flavours" .Name) -}}
+              {{ with $Site.GetPage "page" $filepath }}
+                  {{ .Content }}
+              {{ end }}
+        {{- end }}
     </ul>
 </section>
