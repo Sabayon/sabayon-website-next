@@ -1,7 +1,7 @@
 +++
-title = "Finally a new stable release"
-description = "Sabayon 18.03 was published! Grab it while it's hot!"
-date = "2018-03-31"
+title = "Sabayon 18.03 - Finally a new stable release"
+description = "18.03 Press release"
+date = "2018-03-08"
 categories = ["releases", "sabayon"]
 tags = ["releases", "sabayon"]
 +++
@@ -48,8 +48,8 @@ With this release, we are dropping support for Qt4, which
 Whenever a Linux kernel reaches its end-of-life, we will drop it from entropy,
 too. After all, you're here to enjoy the latest and greatest, aren't you? ;-)
 
-Sadly, we stopped updating the updates for ARM devices like Raspberry Pi,
-Odroid or BananaPi due to a lack of time for maintenance.
+Sadly, we stopped updating the updates for ARM devices (Raspberry Pi, Odroid
+and BananaPi) due to a lack of time for maintenance.
 
 Due to changes in its policy, we had to take down or Vagrant image.
 We still have a [Docker profile](https://hub.docker.com/r/sabayon) though.
