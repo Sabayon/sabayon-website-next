@@ -1,32 +1,16 @@
-{{ $site := .Site }}
+{{ $Site := .Site }}
 <section class="sponsors">
-    {{ with .Site.GetPage "page" "_landingpage/sponsors.md" }}
+    {{ with $Site.GetPage "page" "_landingpage/sponsors.md" }}
         {{ .Content }}
     {{ end }}
+
+    {{- $sponsors := readDir "/content/_landingpage/_sponsors/" -}}
     <ul>
-        <li>
-            {{ $file := "_landingpage/_sponsors/university-of-trento.md" }}
-            {{ partial "details/sponsor.html" (dict "Site" $site "file" $file) }}
-        </li>
-        <li>
-            {{ $file := "_landingpage/_sponsors/university-of-milano-bicocca.md" }}
-            {{ partial "details/sponsor.html" (dict "Site" $site "file" $file) }}
-        </li>
-        <li>
-            {{ $file := "_landingpage/_sponsors/university-of-brescia.md" }}
-            {{ partial "details/sponsor.html" (dict "Site" $site "file" $file) }}
-        </li>
-        <li>
-            {{ $file := "_landingpage/_sponsors/top-ix.md" }}
-            {{ partial "details/sponsor.html" (dict "Site" $site "file" $file) }}
-        </li>
-        <li>
-            {{ $file := "_landingpage/_sponsors/nlnet-foundation.md" }}
-            {{ partial "details/sponsor.html" (dict "Site" $site "file" $file) }}
-        </li>
-        <li>
-            {{ $file := "_landingpage/_sponsors/trustica.md" }}
-            {{ partial "details/sponsor.html" (dict "Site" $site "file" $file) }}
-        </li>
+        {{- range $sponsors }}
+            <li>
+                {{ $file := (printf "%s/%s" "_landingpage/_sponsors" .Name) }}
+                {{ partial "details/sponsor.html" (dict "Site" $Site "file" $file) }}
+            </li>
+        {{- end }}
     </ul>
 </section>
