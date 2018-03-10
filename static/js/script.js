@@ -1,18 +1,16 @@
-$(document).ready(function() {
+document.addEventListener('DOMContentLoaded', function () {
     'use strict';
 
-    var forumFeedURL, forumURL, boxTemplate, formatShortTitle, $forum;
+    var forumFeedURL, forumURL, boxTemplate, formatShortTitle, asideElement,
+        rssScript;
 
     forumFeedURL = 'https://forum.sabayon.org/feed.php';
     forumURL = 'https://forum.sabayon.org/';
     boxTemplate = [
-        '<div class="panel panel-default">',
-        '<div class="panel-heading">',
+        '<section>',
         '<h4>Active forum topics</h4>',
-        '</div>',
-        '<div id="active-forum-posts" class="panel-body">',
-        '</div>',
-        '</div>'
+        '<div id="active-forum-posts"></div>',
+        '</section>'
     ].join('');
 
     formatShortTitle = function(entry) {
@@ -32,17 +30,23 @@ $(document).ready(function() {
         return shortTitle.trim();
     };
 
-    $forum = $('.panel').find('a[href="' + forumURL + '"]');
-    if ($forum.length > 0) {
-        $(document.body).append('<script type="text/javascript" src="/js/jquery.rss.min.js"></script>');
-        $forum.parents('.panel').after(boxTemplate);
-        $('#active-forum-posts').rss(forumFeedURL, {
-            ssl: true,
-            entryTemplate: '<li><a href="{url}">{shortTitle}</a>{shortBodyPlain}</li>',
-            layoutTemplate: '<ul>{entries}</ul>',
-            tokens: {
-                shortTitle: formatShortTitle
-            }
-        });
+    asideElement = document.querySelector('aside');
+    if (asideElement) {
+        rssScript = document.createElement('script');
+        rssScript.type = 'text/javascript';
+        rssScript.src = '/js/jquery.rss.min.js';
+        rssScript.onload = function () {
+            $('aside').append(boxTemplate);
+            console.log($('#active-forum-posts'));
+            $('#active-forum-posts').rss(forumFeedURL, {
+                ssl: true,
+                entryTemplate: '<li><p><a href="{url}">{shortTitle}</a></p><div>{shortBodyPlain}</div></li>',
+                layoutTemplate: '<ul>{entries}</ul>',
+                tokens: {
+                    shortTitle: formatShortTitle
+                }
+            });
+        };
+        document.body.appendChild(rssScript);
     }
 });
