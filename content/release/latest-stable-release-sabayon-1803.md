@@ -25,7 +25,6 @@ Please read on or [download](/download) your flavour :-)
 * Kernel 4.14
 * GNOME 3.24
 * KDE 5.12
-* Xfce 4.13
 * Mate 1.18
 
 ### What's new?
@@ -33,8 +32,6 @@ Please read on or [download](/download) your flavour :-)
 Sabayon has now a [Facebook profile](https://www.facebook.com/sabayon.linux)
 with a speaking name next to our
 [Facebook group](https://www.facebook.com/groups/36125411841).
-
-Switching from nvidia to nouveau drivers.
 
 The display manager SDDM now uses Breeze as default theme instead of ours.
 If you are interesting in creating a theme,
@@ -45,8 +42,11 @@ If you are interesting in creating a theme,
 With this release, we are dropping support for Qt4, which
 [reached its end of life in december 2015](https://wiki.qt.io/Main#Quick_Access_.28Portal.29) (!)
 
-Whenever a Linux kernel reaches its end-of-life, we will drop it from entropy,
-too. After all, you're here to enjoy the latest and greatest, aren't you? ;-)
+As mentioned in earlier articles, we are trying to stay on par with
+Linux LTS kernels for our stable releases.
+We are considering dropping ones from entropy, when they reach their
+end-of-life. After all, you're here to enjoy the latest and greatest,
+aren't you? ;-)
 
 Sadly, we stopped updating the updates for ARM devices (Raspberry Pi, Odroid
 and BananaPi) due to a lack of time for maintenance.
@@ -71,10 +71,8 @@ All ISOs are 64bit only.
 
 * [Sabayon GNOME]
 * [Sabayon KDE]
-* [Sabayon Xfce]
 * [Sabayon MATE]
-* [Sabayon Minimal]
 * [Sabayon Server]
 
-Thank you for your patience. If you would like to support our work,
+Thank you for your trust in us. If you would like to support our work,
 [talk to us](/chat/) or consider a [donation](/donate/).
