@@ -3,3 +3,4 @@ languageCode = "en-us"
 title = "Sabayon Linux"
 canonifyurls = true
 
+sectionPagesMenu = "main"

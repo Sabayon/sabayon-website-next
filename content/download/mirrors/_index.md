@@ -5,8 +5,6 @@ type = "single"
 date = "2015-09-29"
 +++
 
-### Mirrors
-
 List of Sabayon mirrors
 
 1. ## Argentina

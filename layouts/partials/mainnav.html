@@ -1,0 +1,26 @@
+<nav>
+    {{ $currentPage := . }}
+    <a href="/">
+        <img src="/img/navbar_sabayon_logo_trans.png"
+             alt="Sabayon Logo" />
+    </a>
+    <ul>
+        {{ range .Site.Menus.main }}
+            {{ $isPartialPage := hasPrefix .Name "_" }}
+            {{ if not $isPartialPage }}
+                <li>
+                    <a href="{{ .URL }}"
+                       {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+                       class="active"
+                       {{ end }}>
+                        {{ .Name }}
+                    </a>
+                </li>
+            {{ end }}
+        {{ end }}
+    </ul>
+
+    {{ with .Site.GetPage "page" "_landingpage/navbar.md" }}
+        {{ .Content }}
+    {{ end }}
+</nav>

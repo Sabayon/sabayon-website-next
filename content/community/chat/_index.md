@@ -1,5 +1,5 @@
 +++
-title = "Chat"
+title = "Support"
 description = "Live support"
 type = "single"
 date = "2015-09-29"
