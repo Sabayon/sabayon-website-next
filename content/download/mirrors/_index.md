@@ -1,95 +1,12 @@
 +++
 title = "Mirrors"
 description = "List of Sabayon mirrors"
-type = "single"
+layout = "data-driven"
+json = "mirrors.json"
 date = "2015-09-29"
 +++
 
 List of Sabayon mirrors
-
-1. ## Argentina
-
-    ![Argentina](https://static.sabayon.org/site/img/flags/Argentina.png)
-    * ### Cooperativa Telefónica de Villa Gobernador Gálvez Ltda.
-        #### Connection Speed:
-        1,000Mb/s
-
-        #### FTP
-        * [ftp://mirrors.coopvgg.com.ar/sabayon/](ftp://mirrors.coopvgg.com.ar/sabayon/)
-
-        #### HTTP
-        * [http://mirrors.coopvgg.com.ar/sabayon/](http://mirrors.coopvg.com.ar/sabayon/)
-
-        #### Rsync
-        * [rsync://mirrors.coopvgg.com.ar/sabayon/](rsync://mirrors.coopvgg.com.ar/sabayon/)
-
-1. ## Austria
-
-    ![Austria](https://static.sabayon.org/site/img/flags/Austria.png)
-    * ### Vienna University of Technology (http://www.gdsw.at)
-        #### Connection Speed:
-        100Mb/s
-
-        #### FTP
-        * [ftp://gd.tuwien.ac.at/linux/sabayonlinux/](ftp://gd.tuwien.ac.at/linux/sabayonlinux/)
-
-        #### HTTP
-        * [http://gd.tuwien.ac.at/linux/sabayonlinux/](http://gd.tuwien.ac.at/linux/sabayonlinux/)
-
-        #### Rsync
-        * [rsync://gd.tuwien.ac.at/linux/sabayonlinux/](rsync://gd.tuwien.ac.at/linux/sabayonlinux/)
-
-1. ## Australia
-
-    ![Australia](https://static.sabayon.org/site/img/flags/Australia.png)
-    * ### Yes Optus Mirror
-        #### Connection Speed:
-        2,000Mb/s
-
-        #### FTP
-        * [ftp://mirror.optusnet.com.au/sabayon/](ftp://mirror.optusnet.com/au/sabayon/)
-
-        #### HTTP
-        * [http://mirror.optusnet.com.au/sabayon/](http://mirror.optusnet.com.au/sabayon/)
-
-    * ### Internode
-        #### Connection Speed:
-        1,000Mb/s
-
-        #### FTP
-        * [ftp://mirror.internode.on.net/pub/sabayon/](ftp://mirror.internode.on.net/pub/sabayon/)
-
-        #### HTTP
-        * [http://mirror.internode.on.net/pub/sabayon/](http://mirror.internode.on.net/pub/sabayon/)
-
-1. ## Belgium
-
-    ![Belgium](https://static.sabayon.org/site/img/flags/Belgium.png)
-    * ### Belnet (Belgian Education and Research Network)
-        #### Connection Speed:
-        10,000Mb/s
-
-        #### FTP
-        * [ftp://ftp.belnet.be/mirror/sabayonlinux](ftp://ftp.belnet.be/mirror/sabayonlinux)
-
-        #### Rsync
-        * [rsync://rsync.betlnet.be/sabayon](rsync://rsync.belnet.be/sabayon)
-
-1. ## Brazil
-
-    ![Brazil](https://static.sabayon.org/site/img/flags/Brazil.png)
-    * ### Universidade Federal Do Paranà
-        #### Connection Speed:
-        10,000Mb/s
-
-        #### FTP
-        * [ftp://sabayon.c3sl.ufpr.br/sabayon](ftp://sabayon.c3sl.ufpr.br/sabayon)
-
-        #### HTTP
-        * [http://sabayon.c3sl.ufpr.br/](http://sabayon.c3sl.ufpr.br/)
-
-        #### Rsync
-        * [rsync://sabayon.c3sl.ufpr.br/sabayon](rsync://sabayon.c3sl.ufpr.br/sabayon)
 
 1. ## Czech Republic
 
