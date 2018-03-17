@@ -1,4 +1,4 @@
 +++
 title = "Blog"
-type = "single"
+type = "list"
 +++

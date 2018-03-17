@@ -1,7 +1,9 @@
----
-icon: fa-calendar
----
++++
+title = "Release cycle"
+type = "single"
+icon = "fa-calendar"
++++
 
-### Extreme release cycle
+## Extreme release cycle
 
 Daily and Monthly images available

@@ -6,11 +6,11 @@
     </a>
     <ul>
         {{ range .Site.Menus.main }}
-            {{ $isPartialPage := hasPrefix .Name "_" }}
-            {{ if not $isPartialPage }}
+            {{ $isMainMenuItem := (eq .Menu "main") }}
+            {{ if $isMainMenuItem }}
                 <li>
                     <a href="{{ .URL }}"
-                       {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+                       {{ if ($currentPage.IsMenuCurrent "main" .) }}
                        class="active"
                        {{ end }}>
                         {{ .Name }}

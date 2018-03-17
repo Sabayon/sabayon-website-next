@@ -1,6 +1,8 @@
 +++
 title = "Social Media"
-type = "single"
+layout = "data-driven"
+json = "data/social-media.json"
+partial = "social-media.html"
 +++
 
-Facebook, Twitter and Google+
+Sabayon is present on Social Media.

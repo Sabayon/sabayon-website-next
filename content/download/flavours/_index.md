@@ -1,6 +1,6 @@
 +++
 title = "Flavours"
-type = "single"
+type = "list"
 +++
 
 Cloud, Desktop or Server

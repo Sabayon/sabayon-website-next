@@ -1,0 +1,13 @@
+{
+    "accounts": [{
+        "name": "Facebook",
+        "links": [
+            "https://www.facebook.com/groups/36125411841"
+        ]
+    }, {
+        "name": "Google+",
+        "links": [
+            "https://plus.google.com/+sabayon"
+        ]
+    }]
+}

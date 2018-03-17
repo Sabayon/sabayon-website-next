@@ -1,4 +1,4 @@
 +++
 title = "Features"
-type = "single"
+type = "list"
 +++

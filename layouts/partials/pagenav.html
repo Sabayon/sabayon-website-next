@@ -1,5 +1,5 @@
 <nav>
-    <ol  class="nav navbar-nav">
+    <ol  class="pagenav">
         {{ template "pagenav" (dict "p1" . "p2" .) }}
     </ol>
     {{ define "pagenav" }}
@@ -8,8 +8,15 @@
         {{ else if not .p1.IsHome }}
             {{ template "pagenav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
         {{ end }}
-        <li{{ if eq .p1 .p2 }} class="active"{{ end }}>
-            <a href="{{ .p1.Permalink }}">{{ .p1.Title }}</a>
+        <li>
+            <a href="{{ .p1.Permalink }}"
+               {{ if eq .p1 .p2 }} class="active"{{ end }}>
+                {{ if eq .p1.Title "" }}
+                    /
+                {{ else }}
+                    {{ .p1.Title }}
+                {{ end }}
+            </a>
         </li>
     {{ end }}
 </nav>

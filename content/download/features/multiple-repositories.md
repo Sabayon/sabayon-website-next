@@ -1,7 +1,9 @@
----
-icon: fa-cog
----
++++
+title = "Repositories"
+type = "single"
+icon = "fa-cog"
++++
 
-### Multiple Repositories
+## Multiple Repositories
 
 From testing to Community Repositories

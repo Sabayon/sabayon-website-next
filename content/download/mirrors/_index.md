@@ -2,7 +2,8 @@
 title = "Mirrors"
 description = "List of Sabayon mirrors"
 layout = "data-driven"
-json = "mirrors.json"
+json = "data/mirrors.json"
+partial = "mirrors.html"
 date = "2015-09-29"
 +++
 
