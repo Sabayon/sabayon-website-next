@@ -9,7 +9,4 @@ type = "single"
 
 Minimal, for hackers
 
-* [Download](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_Minimal.iso)
-* [Torrent download](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_Minimal.iso.torrent)
-* [MD5](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_Minimal.iso.md5)
-* [Package list](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_Minimal.iso.pkglist)
+{{< download cadence="stable" version="16.11" arch="amd64" flavour="Minimal" >}}

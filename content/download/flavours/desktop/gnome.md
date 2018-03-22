@@ -9,7 +9,4 @@ type = "single"
 
 Awesomeness and candies!
 
-* [Download](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_GNOME.iso)
-* [Torrent download](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_GNOME.iso.torrent)
-* [MD5](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_GNOME.iso.md5)
-* [Package list](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_amd64_GNOME.iso.pkglist)
+{{< download cadence="stable" version="16.11" arch="amd64" flavour="GNOME" >}}
