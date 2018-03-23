@@ -1,5 +1,6 @@
 <nav>
-    <ol  class="pagenav">
+    <p class="pagenav-label">You are here:</p>
+    <ol class="pagenav">
         {{ template "pagenav" (dict "p1" . "p2" .) }}
     </ol>
     {{ define "pagenav" }}
@@ -12,7 +13,7 @@
             <a href="{{ .p1.Permalink }}"
                {{ if eq .p1 .p2 }} class="active"{{ end }}>
                 {{ if eq .p1.Title "" }}
-                    /
+                    Home
                 {{ else }}
                     {{ .p1.Title }}
                 {{ end }}
