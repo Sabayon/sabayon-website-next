@@ -4,10 +4,11 @@
 #### Join us on Facebook, Google+
 
 Meet our crazy community on
-[Facebook](http://www.facebook.com/group.php?gid=36125411841).
+{{< social-media channel="Facebook" >}}
 Alternatively, have fun with the guys and gals on
-[Google+](https://plus.google.com/u/1/communities/111215969224831918857),
-or simply +1 us our [Google+ page](https://plus.google.com/+sabayon).
+{{< social-media channel="Google+ community" >}}
+or simply +1 us our
+{{< social-media channel="Google+ page" >}}.
 
 [There are many different Sabayon variants](/download/).
 

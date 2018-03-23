@@ -1,0 +1,11 @@
+{{- $channel := .Get "channel" }}
+{{- $jsonPath := "/data/social-media.json" -}}
+{{- $data := getJSON $jsonPath -}}
+
+{{ range $data.accounts }}
+    {{- if eq .name $channel }}
+        {{ range .links }}
+            <a href="{{ . }}">{{ $channel }}</a>
+        {{ end }}
+    {{ end }}
+{{ end }}
