@@ -14,4 +14,4 @@ If you are into technology, you can find more information on this sites:
 
 [Packages](https://packages.sabayon.org/)
 
-[SCR](https://sabayon.github.io/community-website/)
+[SCR](https://sabayon.github.io/community-website/ "Sabayon Community Repositories")
