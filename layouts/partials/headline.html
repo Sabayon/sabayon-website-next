@@ -1,5 +1,5 @@
-<section>
-    {{ with .Site.GetPage "page" "_landingpage/headline.md" }}
+{{ with .Site.GetPage "page" "_landingpage/headline.md" }}
+    <section{{- if .Params.classes }} class="{{ .Params.classes }}"{{ end }}>
         {{ .Content }}
-    {{ end }}
-</section>
+    </section>
+{{ end }}

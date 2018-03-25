@@ -1,12 +1,12 @@
 +++
+classes = "artwork hero-image"
 +++
 
 # Sabayon Linux
 
-[Download Sabayon](/download)
+![Sabayon wallpaper](img/hero.jpg)
+[Download Sabayon](/download/)
+[Learn more](/download/features/)
 
 Sabayon is a beginner-friendly Gentoo-based open-source Linux distribution.
-We aim to deliver the best "out of the box" user experience by providing
-the latest open source technologies in an elegant format.
-In Sabayon everything should just work.
-We offer a bleeding edge operating system that is both stable and reliable.
+Get recent open source technologies, that just works<sup>TM</sup>.
