@@ -54,6 +54,12 @@ and BananaPi) due to a lack of time for maintenance.
 Due to changes in its policy, we had to take down or Vagrant image.
 We still have a [Docker profile](https://hub.docker.com/r/sabayon) though.
 
+### Known Issues
+
+* Xfce icons aren't uniform. Switch to obsidian theme.
+* Anaconda crashes on installation when one hits F12. We're investigating.
+* Video drivers require updates. ATI, mesa and NVIDIA are affected.
+
 ## Download
 
 * [Sabayon Mirrors Page](/mirrors/)
