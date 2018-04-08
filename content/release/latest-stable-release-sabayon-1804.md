@@ -6,24 +6,22 @@ categories = ["releases", "sabayon"]
 tags = ["releases", "sabayon"]
 +++
 
-The team behind Sabayon is excited to present you the latest of its releases:
+The team behind Sabayon is excited to present you the latest release:
 Sabayon 18.04.
 
 Sabayon is a modern and easy to use distribution based on Gentoo,
 which follows a reliable rolling release model.
 
 Originally we planned to release it last December,
-but than an update with GCC on Gentoo profiles made us compile all packages
-again.
-In January, Spectre and Meltdown happened, so we wanted to have something
-not only stable, but as secure as we could have it.
+but then an update with GCC on Gentoo profiles made us rebuild almost all
+packages.
 
 Please read on or [download](/download) your flavour :-)
 
-In general, this new release is a new snapshot so that after fresh install you
+In general, the release is a new snapshot so that after fresh install you
 have less updates, but there is more: it has been worked out, tested, improved,
-fixed and discussed, all within the small but active team of the voluteers that
-work on this distribution, so that we can get it, install it and enjoy it!
+fixed and discussed, all within the small but active team of voluteers that
+work on this distribution, so that you can get it, install it and enjoy it!
 
 ## Changes
 
@@ -38,17 +36,13 @@ Sabayon has now a [Facebook profile](https://www.facebook.com/sabayon.linux)
 with a speaking name next to our
 [Facebook group](https://www.facebook.com/groups/36125411841).
 
-The display manager SDDM now uses Breeze as default theme instead of ours.
-If you are interesting in creating a theme,
-[get in touch with us](/chat/) :-)
+Development is open, so if you want to have a look at what has been done in
+detail, it's right there; you can find the link in the Download section below.
 
 ### What was dropped?
 
 With this release, we are in the process of dropping support for Qt4, which
 [reached its end of life in december 2015](https://wiki.qt.io/Main#Quick_Access_.28Portal.29) (!)
-
-Sadly, we stopped updating the updates for ARM devices (Raspberry Pi, Odroid
-and BananaPi) due to a lack of time for maintenance.
 
 Due to changes in its policy, we had to take down or Vagrant image.
 We still have a [Docker profile](https://hub.docker.com/r/sabayon) though.
@@ -63,6 +57,7 @@ We still have a [Docker profile](https://hub.docker.com/r/sabayon) though.
 * [Like our Facebook profile](https://www.facebook.com/sabayon.linux)
 * [Join us on Google+](https://plus.google.com/+sabayon)
 * [Donate to Sabayon!](/donate/)
+* [Code repositories](https://github.com/Sabayon/)
 
 ### ISOs
 
@@ -74,4 +69,4 @@ All ISOs are 64bit only.
 * [Sabayon Server]
 
 Thank you for your trust in us. If you would like to support our work,
-[talk to us](/chat/) or consider a [donation](/donate/).
+[talk to us](/chat/) or consider making a [donation](/donate/).
