@@ -1,13 +1,13 @@
 +++
-title = "Sabayon 18.03 - Finally a new stable release"
-description = "18.03 Press release"
-date = "2018-03-08"
+title = "Sabayon 18.04 - Finally a new stable release"
+description = "18.04 Press release"
+date = "2018-04-08"
 categories = ["releases", "sabayon"]
 tags = ["releases", "sabayon"]
 +++
 
 The team behind Sabayon is excited to present you the latest of its releases:
-Sabayon "Thin Lizzy" 18.03.
+Sabayon 18.04.
 
 Sabayon is a modern and easy to use distribution based on Gentoo,
 which follows a reliable rolling release model.
@@ -20,6 +20,11 @@ not only stable, but as secure as we could have it.
 
 Please read on or [download](/download) your flavour :-)
 
+In general, this new release is a new snapshot so that after fresh install you
+have less updates, but there is more: it has been worked out, tested, improved,
+fixed and discussed, all within the small but active team of the voluteers that
+work on this distribution, so that we can get it, install it and enjoy it!
+
 ## Changes
 
 * Kernel 4.14
@@ -27,7 +32,7 @@ Please read on or [download](/download) your flavour :-)
 * KDE 5.12
 * Mate 1.18
 
-### What's new?
+### Some picks
 
 Sabayon has now a [Facebook profile](https://www.facebook.com/sabayon.linux)
 with a speaking name next to our
@@ -39,26 +44,14 @@ If you are interesting in creating a theme,
 
 ### What was dropped?
 
-With this release, we are dropping support for Qt4, which
+With this release, we are in the process of dropping support for Qt4, which
 [reached its end of life in december 2015](https://wiki.qt.io/Main#Quick_Access_.28Portal.29) (!)
-
-As mentioned in earlier articles, we are trying to stay on par with
-Linux LTS kernels for our stable releases.
-We are considering dropping ones from entropy, when they reach their
-end-of-life. After all, you're here to enjoy the latest and greatest,
-aren't you? ;-)
 
 Sadly, we stopped updating the updates for ARM devices (Raspberry Pi, Odroid
 and BananaPi) due to a lack of time for maintenance.
 
 Due to changes in its policy, we had to take down or Vagrant image.
 We still have a [Docker profile](https://hub.docker.com/r/sabayon) though.
-
-### Known Issues
-
-* Xfce icons aren't uniform. Switch to obsidian theme.
-* Anaconda crashes on installation when one hits F12. We're investigating.
-* Video drivers require updates. ATI, mesa and NVIDIA are affected.
 
 ## Download
 
