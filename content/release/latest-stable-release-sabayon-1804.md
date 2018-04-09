@@ -1,7 +1,7 @@
 +++
 title = "Sabayon 18.04 - Finally a new stable release"
 description = "18.04 Press release"
-date = "2018-04-08"
+date = "2018-04-09"
 categories = ["releases", "sabayon"]
 tags = ["releases", "sabayon"]
 +++
