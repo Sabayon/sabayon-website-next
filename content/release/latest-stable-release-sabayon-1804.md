@@ -58,17 +58,7 @@ If you are interested or want to contribute, [talk to us](/chat/)!
 
 ## Download
 
-* [Sabayon Mirrors Page](/mirrors/)
-* [Sabayon Docker Hub](https://hub.docker.com/r/sabayon)
-* [Sabayon Monthly Images Download Page](http://dl.sabayon.org/iso/monthly/monthly.html)
-* [Sabayon BitTorrent Tracker](http://torrents.sabayon.org/)
-* [Join our Facebook group](https://www.facebook.com/groups/36125411841)
-* [Like our Facebook profile](https://www.facebook.com/sabayon.linux)
-* [Join us on Google+](https://plus.google.com/+sabayon)
-* [Donate to Sabayon!](/donate/)
-* [Code repositories](https://github.com/Sabayon/)
-
-### ISOs
+### Stable ISOs
 
 All ISOs are 64bit only.
 
@@ -77,6 +67,21 @@ All ISOs are 64bit only.
 * [Sabayon MATE](http://dl.sabayon.org/stable/Sabayon_Linux_17.03_amd64_MATE.iso)
 * [Sabayon Xfce](http://dl.sabayon.org/stable/Sabayon_Linux_17.03_amd64_Xfce.iso)
 * [Sabayon Server](http://dl.sabayon.org/stable/Sabayon_Linux_17.03_amd64_Server.iso)
+
+### Further download options
+
+* [Sabayon Mirrors Page](/mirrors/)
+* [Sabayon Docker Hub](https://hub.docker.com/r/sabayon)
+* [Sabayon Monthly Images Download Page](http://dl.sabayon.org/iso/monthly/monthly.html)
+* [Sabayon BitTorrent Tracker](http://torrents.sabayon.org/)
+
+## Get in touch with us
+
+* [Join our Facebook group](https://www.facebook.com/groups/36125411841)
+* [Like our Facebook profile](https://www.facebook.com/sabayon.linux)
+* [Join us on Google+](https://plus.google.com/+sabayon)
+* [Donate to Sabayon!](/donate/)
+* [Code repositories](https://github.com/Sabayon/)
 
 Thank you for your trust in us. If you would like to support our work,
 [talk to us](/chat/) or consider making a [donation](/donate/).
