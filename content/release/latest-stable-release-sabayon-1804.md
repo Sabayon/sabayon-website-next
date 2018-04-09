@@ -16,7 +16,7 @@ Originally we planned to release it last December,
 but then an update with GCC on Gentoo profiles made us rebuild almost all
 packages.
 
-Please read on or [download](/download) your flavour :-)
+Please read on or [download](/download/) your flavour :-)
 
 In general, the release is a new snapshot so that after fresh install you
 have less updates, but there is more: it has been worked out, tested, improved,
@@ -29,6 +29,7 @@ work on this distribution, so that you can get it, install it and enjoy it!
 * GNOME 3.24
 * KDE 5.12
 * Mate 1.18
+* Xfce 4.12
 
 ### Some picks
 
@@ -47,6 +48,14 @@ With this release, we are in the process of dropping support for Qt4, which
 Due to changes in its policy, we had to take down or Vagrant image.
 We still have a [Docker profile](https://hub.docker.com/r/sabayon) though.
 
+### Plans for the future
+
+We are already planning what to do for the next stable release (hopefully to be released this year!)
+For example, we would like to stick to one DisplayManager greeter across all our flavours.
+Or drop Anaconda as system installer and use Calamares.
+
+If you are interested or want to contribute, [talk to us](/chat/)!
+
 ## Download
 
 * [Sabayon Mirrors Page](/mirrors/)
@@ -63,10 +72,11 @@ We still have a [Docker profile](https://hub.docker.com/r/sabayon) though.
 
 All ISOs are 64bit only.
 
-* [Sabayon GNOME]
-* [Sabayon KDE]
-* [Sabayon MATE]
-* [Sabayon Server]
+* [Sabayon GNOME](http://dl.sabayon.org/stable/Sabayon_Linux_17.03_amd64_GNOME.iso)
+* [Sabayon KDE](http://dl.sabayon.org/stable/Sabayon_Linux_17.03_amd64_KDE.iso)
+* [Sabayon MATE](http://dl.sabayon.org/stable/Sabayon_Linux_17.03_amd64_MATE.iso)
+* [Sabayon Xfce](http://dl.sabayon.org/stable/Sabayon_Linux_17.03_amd64_Xfce.iso)
+* [Sabayon Server](http://dl.sabayon.org/stable/Sabayon_Linux_17.03_amd64_Server.iso)
 
 Thank you for your trust in us. If you would like to support our work,
 [talk to us](/chat/) or consider making a [donation](/donate/).
