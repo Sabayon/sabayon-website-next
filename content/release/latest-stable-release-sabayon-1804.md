@@ -1,7 +1,7 @@
 +++
 title = "Sabayon 18.04 - Finally a new stable release"
 description = "18.04 Press release"
-date = "2018-04-09"
+date = "2018-04-11"
 categories = ["releases", "sabayon"]
 tags = ["releases", "sabayon"]
 +++
@@ -50,9 +50,9 @@ We still have a [Docker profile](https://hub.docker.com/r/sabayon) though.
 
 ### Plans for the future
 
-We are already planning what to do for the next stable release (hopefully to be released this year!)
-For example, we would like to stick to one DisplayManager greeter across all our flavours.
-Or drop Anaconda as system installer and use Calamares.
+We are already planning what to do for the next stable release (which hopefully happens this year!).
+For example, we would like to stick to one display manager greeter across all our flavours.
+Other plans include: replacing the Anaconda installer with Calamares, releasing several improvements to Entropy, the package manager...
 
 If you are interested or want to contribute, [talk to us](/chat/)!
 
