@@ -23,23 +23,23 @@ date = "2015-11-04"
 * #### [Vagrant](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_SpinBase.box")
 
     You can use that box locally with vagrant
-    * [Download](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_17.03_amd64_SpinBase.box)
-    * [MD5](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_17.03_amd64_SpinBase.box.md5)
-    * [Package list](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_17.03_amd64_SpinBase.iso.pkglist)
+    * [Download](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_18.04_amd64_SpinBase.box)
+    * [MD5](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_18.04_amd64_SpinBase.box.md5)
+    * [Package list](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_18.04_amd64_SpinBase.iso.pkglist)
 
-* #### [VirtualBox](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_17.03_amd64_SpinBase-ovz.tar.gz)
+* #### [VirtualBox](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_18.04_amd64_SpinBase-ovz.tar.gz)
 
     OVZ image
-    * [Download](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_17.03_amd64_SpinBase-ovz.tar.gz)
-    * [MD5](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_17.03_amd64_SpinBase-ovz.tar.gz.md5)
-    * [Package list](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_17.03_amd64_SpinBase.iso.pkglist)
+    * [Download](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_18.04_amd64_SpinBase-ovz.tar.gz)
+    * [MD5](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_18.04_amd64_SpinBase-ovz.tar.gz.md5)
+    * [Package list](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_18.04_amd64_SpinBase.iso.pkglist)
 
-* #### [QEMU](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_17.03_amd64_SpinBase-qemu.tar.gz)
+* #### [QEMU](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_18.04_amd64_SpinBase-qemu.tar.gz)
 
     Qcow2 images
-    * [Download](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_17.03_amd64_SpinBase-qemu.tar.gz)
-    * [MD5](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_17.03_amd64_SpinBase-qemu.tar.gz-md5)
-    * [Package list](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_17.03_amd64_SpinBase-iso.pkglist)
+    * [Download](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_18.04_amd64_SpinBase-qemu.tar.gz)
+    * [MD5](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_18.04_amd64_SpinBase-qemu.tar.gz-md5)
+    * [Package list](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_18.04_amd64_SpinBase-iso.pkglist)
 
 -->
 
