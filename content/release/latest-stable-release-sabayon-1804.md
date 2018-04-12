@@ -1,7 +1,7 @@
 +++
 title = "Sabayon 18.04 - Finally a new stable release"
 description = "18.04 Press release"
-date = "2018-04-11"
+date = "2018-04-12"
 categories = ["releases", "sabayon"]
 tags = ["releases", "sabayon"]
 +++
@@ -62,11 +62,12 @@ If you are interested or want to contribute, [talk to us](/chat/)!
 
 All ISOs are 64bit only.
 
-* [Sabayon GNOME](http://dl.sabayon.org/stable/Sabayon_Linux_17.03_amd64_GNOME.iso)
-* [Sabayon KDE](http://dl.sabayon.org/stable/Sabayon_Linux_17.03_amd64_KDE.iso)
-* [Sabayon MATE](http://dl.sabayon.org/stable/Sabayon_Linux_17.03_amd64_MATE.iso)
-* [Sabayon Xfce](http://dl.sabayon.org/stable/Sabayon_Linux_17.03_amd64_Xfce.iso)
-* [Sabayon Server](http://dl.sabayon.org/stable/Sabayon_Linux_17.03_amd64_Server.iso)
+* [Sabayon GNOME](http://dl.sabayon.org/stable/Sabayon_Linux_18.04_amd64_GNOME.iso)
+* [Sabayon KDE](http://dl.sabayon.org/stable/Sabayon_Linux_18.04_amd64_KDE.iso)
+* [Sabayon MATE](http://dl.sabayon.org/stable/Sabayon_Linux_18.04_amd64_MATE.iso)
+* [Sabayon Xfce](http://dl.sabayon.org/stable/Sabayon_Linux_18.04_amd64_Xfce.iso)
+* [Sabayon Server](http://dl.sabayon.org/stable/Sabayon_Linux_18.04_amd64_Server.iso)
+* [Sabayon Minimal](http://dl.sabayon.org/stable/Sabayon_Linux_18.04_amd64_Minimal.iso)
 
 ### Further download options
 
