@@ -1,13 +1,13 @@
 +++
-title = "Sabayon 18.04 - Finally a new stable release"
-description = "18.04 Press release"
-date = "2018-04-12"
+title = "Sabayon 18.05 - Finally a new stable release"
+description = "18.05 Press release"
+date = "2018-04-14"
 categories = ["releases", "sabayon"]
 tags = ["releases", "sabayon"]
 +++
 
 The team behind Sabayon is excited to present you the latest release:
-Sabayon 18.04.
+Sabayon 18.05.
 
 Sabayon is a modern and easy to use distribution based on Gentoo,
 which follows a reliable rolling release model.
@@ -70,11 +70,11 @@ Daniele "geearu" Rondina joined the Sabayon Development Team.
 
 All ISOs are 64bit only.
 
-* [Sabayon GNOME](http://dl.sabayon.org/stable/Sabayon_Linux_18.04_amd64_GNOME.iso)
-* [Sabayon KDE](http://dl.sabayon.org/stable/Sabayon_Linux_18.04_amd64_KDE.iso)
-* [Sabayon MATE](http://dl.sabayon.org/stable/Sabayon_Linux_18.04_amd64_MATE.iso)
-* [Sabayon Xfce](http://dl.sabayon.org/stable/Sabayon_Linux_18.04_amd64_Xfce.iso)
-* [Sabayon Minimal](http://dl.sabayon.org/stable/Sabayon_Linux_18.04_amd64_Minimal.iso)
+* [Sabayon GNOME](http://dl.sabayon.org/stable/Sabayon_Linux_18.05_amd64_GNOME.iso)
+* [Sabayon KDE](http://dl.sabayon.org/stable/Sabayon_Linux_18.05_amd64_KDE.iso)
+* [Sabayon MATE](http://dl.sabayon.org/stable/Sabayon_Linux_18.05_amd64_MATE.iso)
+* [Sabayon Xfce](http://dl.sabayon.org/stable/Sabayon_Linux_18.05_amd64_Xfce.iso)
+* [Sabayon Minimal](http://dl.sabayon.org/stable/Sabayon_Linux_18.05_amd64_Minimal.iso)
 
 ### Further download options
 
