@@ -62,7 +62,7 @@ If you are interested or want to contribute, [talk to us](/chat/)!
 
 # New developer announcement
 
-Daniele "geearu" Rondina joined the Sabayon Development Team.
+Daniele "geaaru" Rondina joined the Sabayon Development Team.
 
 ## Download
 
