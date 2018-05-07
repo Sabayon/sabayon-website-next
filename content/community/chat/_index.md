@@ -10,4 +10,4 @@ date = "2015-09-29"
 * Since we are a small community, you will likely get an answer in evening hours CET.
 * Load [chat](https://kiwiirc.com/client/chat.freenode.net/?nick=SabayonGuest|?&theme=cli#sabayon) in a new tab if this fails to load.
 
-{{<kiwiirc>}}
+{{<kiwiirc room="sabayon">}}
