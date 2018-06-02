@@ -76,7 +76,7 @@ The focus of the webmaster will be on the website first, then turning to the
 wiki before looking on improving the forums. Any help is very welcome!
 
 Interested in joining the Sabayon team? Everybody is welcome!
-[Contact us on IRC](https://www.sabayon.org/chat/)
+[Contact us on IRC](/community/chat/)
 
 freenode.net #sabayon-dev
 
@@ -86,7 +86,7 @@ If you have ideas,
 ## New release strategy
 
 Sadly it turned out that our
-[current release cycle](https://www.sabayon.org/release/latest-monthly-release-sabayon-1611/#changes)
+[current release cycle](/press/release/latest-monthly-release-sabayon-1611/#changes)
 were not sustainable given the limited number of people available.
 
 The new official strategy is to follow
@@ -109,7 +109,7 @@ in Gentoo without affecting the daily running of Sabayon operations.
 We provide Sabayon to you free of charge,
 but sadly the infrastructure we need to build it does cost us money.
 We've recently restructured to cut costs and continue the project.
-Any [donations](https://www.sabayon.org/donate/) would be greatly appreciated.
+Any [donations](/press/donate/) would be greatly appreciated.
 
 We accept the following cryptocurrencies:
 

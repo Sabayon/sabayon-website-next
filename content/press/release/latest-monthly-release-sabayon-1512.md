@@ -18,7 +18,7 @@ The Change-log files related to this release are available on [our mirrors](http
 
 The list of packages included in each Sabayon flavor is available inside "*.pkglist" files. Our team is always busy packaging the latest and greatest stuff. If you want to have a look at what's inside our repositories, just go to our [packages website](https://packages.sabayon.org/).
 
-All the release variants can be found on the [download section.](/download).
+All the release variants can be found on the [download section.](/download/).
 
 Please read on to know where to find the images and their torrentfiles on our mirrors
 
@@ -46,7 +46,7 @@ ARM, we are coming! we successfully built RaspberryPi2 images, as you are readin
 
 We actually rented an ARM server for that purpose since we are going to fully support the ARM hfp architecture in that way you can use Sabayon on your favorite boards!
 
-If you want help us, please take in consideration also <a href="/donate" role="button">donating <i class="fa fa-heart"></i> </a>. 
+If you want help us, please take in consideration also <a href="/press/donate/" role="button">donating <i class="fa fa-heart"></i> </a>. 
 
 ## Future plans
 
@@ -95,14 +95,14 @@ We are tracking the 3.10, 3.12, 3.14, 3.18 and 4.1 [Long Term Stable Linux kerne
 
 # Download Links
 
-* [Sabayon Mirrors Page](/mirrors)
+* [Sabayon Mirrors Page](/download/mirrors/)
 * [<i class="fa fa-cloud"></i> Sabayon Docker Hub](https://hub.docker.com/r/sabayon)
 * <i class="fa fa-cloud"></i> Sabayon on Atlas (VagrantCloud) <ins datetime="2018-02-16">(Removed broken link)</ins>
 * [Sabayon Monthly Images Download Page](http://dl.sabayon.org/iso/monthly/monthly.html)
 * [Sabayon BitTorrent Tracker](http://torrents.sabayon.org/)
 * [<i class="fa fa-facebook"></i> Join us on Facebook](https://www.facebook.com/groups/36125411841)
 * [<i class="fa fa-google"></i> Join us on Google+](https://plus.google.com/+sabayon)
-* [Donate to Sabayon!](https://www.sabayon.org/donate)
+* [Donate to Sabayon!](/press/donate/)
 
 Please find the official file names and hashes below.
 
@@ -115,4 +115,4 @@ Please find the official file names and hashes below.
 * [<i class="fa fa-download"></i> Sabayon Minimal (64 bit)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.12_amd64_Minimal.iso)
 * [<i class="fa fa-download"></i> Sabayon Server (64 bit)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_15.12_amd64_Server.iso)
 
-<h4>Have you considered donating yet? Help us! <a class="btn btn-danger btn-xs" href="/donate" role="button"><i class="fa fa-heart"></i> Donate </a> today!</h4>
+<h4>Have you considered donating yet? Help us! <a class="btn btn-danger btn-xs" href="/press/donate/" role="button"><i class="fa fa-heart"></i> Donate </a> today!</h4>

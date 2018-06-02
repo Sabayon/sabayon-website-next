@@ -19,7 +19,7 @@ The Change-log files related to this release are available on [our mirrors](http
 
 The list of packages included in each Sabayon flavor is available inside "*.pkglist" files. Our team is always busy packaging the latest and greatest stuff. If you want to have a look at what's inside our repositories, just go to our [packages website](https://packages.sabayon.org/).
 
-All the release variants can be found on the [download section.](/download).
+All the release variants can be found on the [download section.](/download/).
 
 Please read on to know where to find the images and their torrentfiles on our mirrors
 
@@ -76,14 +76,14 @@ We are tracking the 3.10, 3.12, 3.14, 3.18 and 4.1 [Long Term Stable Linux kerne
 
 # Download Links
 
-* [Sabayon Mirrors Page](/mirrors)
+* [Sabayon Mirrors Page](/download/mirrors/)
 * [<i class="fa fa-cloud"></i> Sabayon Docker Hub](https://hub.docker.com/r/sabayon)
 * <i class="fa fa-cloud"></i> Sabayon on Atlas (VagrantCloud) <ins datetime="2018-02-16">(Removed broken link)</ins>
 * [Sabayon Monthly Images Download Page](http://dl.sabayon.org/iso/monthly/monthly.html)
 * [Sabayon BitTorrent Tracker](http://torrents.sabayon.org/)
 * [<i class="fa fa-facebook"></i> Join us on Facebook](https://www.facebook.com/groups/36125411841)
 * [<i class="fa fa-google"></i> Join us on Google+](https://plus.google.com/+sabayon)
-* [Donate to Sabayon!](https://www.sabayon.org/donate)
+* [Donate to Sabayon!](/press/donate/)
 
 Please find the official file names and hashes below.
 

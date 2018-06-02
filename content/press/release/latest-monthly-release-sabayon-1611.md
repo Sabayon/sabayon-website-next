@@ -25,7 +25,7 @@ Our team is always busy packaging the newest software just for you.
 If you want to have a look at what's available in our repositories, just go to
 our [packages website](https://packages.sabayon.org/).
 
-All the release variants can be found in the [download section](/download).
+All the release variants can be found in the [download section](/download/).
 
 Please read on for links to the images and torrent files on our mirrors.
 
@@ -226,14 +226,14 @@ if you want it to get done faster.
 
 # Download Links
 
-* [Sabayon Mirrors Page](/mirrors)
+* [Sabayon Mirrors Page](/download/mirrors/)
 * [Sabayon Docker Hub](https://hub.docker.com/r/sabayon)
 * Sabayon on Atlas (VagrantCloud) <ins datetime="2018-02-16">(Removed broken link)</ins>
 * [Sabayon Monthly Images Download Page](http://dl.sabayon.org/iso/monthly/monthly.html)
 * [Sabayon BitTorrent Tracker](http://torrents.sabayon.org/)
 * [Join us on Facebook](https://www.facebook.com/groups/36125411841)
 * [Join us on Google+](https://plus.google.com/+sabayon)
-* [Donate to Sabayon!](https://www.sabayon.org/donate)
+* [Donate to Sabayon!](/press/donate/)
 
 Please find the official file names and hashes below.
 
@@ -253,4 +253,4 @@ Please find the official file names and hashes below.
 * [Sabayon BananaPi (armhfp)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_armv7l_BananaPi_8GB.img.xz)
 
 
-#### Have you considered donating yet? Help us! [Donate](/donate) today!
+#### Have you considered donating yet? Help us! [Donate](/press/donate/) today!

@@ -307,15 +307,6 @@
         "country": "Portugal",
         "flag": "https://static.sabayon.org/site/img/flags/Portugal.png",
         "mirrors": [{
-            "name": "University of Aveiro",
-            "speed": {
-                "value": 100,
-                "formatted": "100Mb/s"
-            },
-            "ftp": [
-                "ftp://glua.ua.pt/sabayon/"
-            ]
-        }, {
             "name": "Rede das Novas Licenciaturas - Técnico Lisboa",
             "speed": {
                 "value": 1000,
@@ -325,7 +316,7 @@
                 "ftp://ftp.rnl.tecnico.ulisboar.pt/pub/sabayon"
             ],
             "http": [
-                "http://ftp.rnl.tecnico.ulisboar.pt/pub/sabayon"
+                "https://ftp.rnl.tecnico.ulisboar.pt/pub/sabayon"
             ],
             "rsync": [
                 "rsnyc://ftp.rnl.tecnico.ulisboa.pt/pub/sabayon"
@@ -348,21 +339,6 @@
             ],
             "rsync": [
                 "rsync://mirror.yandex.ru/sabayon/"
-            ]
-        }, {
-            "name": "Go-Parts.com Russia",
-            "speed": {
-                "value": 1000,
-                "formatted": "1.000Mb/s"
-            },
-            "ftp": [
-                "ftp://mirrors-ru.go-parts.com/sabayonlinux/"
-            ],
-            "http": [
-                "http://mirrors-ru.go-parts.com/sabayonlinux/"
-            ],
-            "rsync": [
-                "rsync://mirrors-ru.go-parts.com/sabayonlinux/"
             ]
         }]
     }, {
@@ -399,24 +375,17 @@
             "http": [
                 "http://ftp.portlane.com/pub/os/linux/sabayon/"
             ]
-        }]
-    }, {
-        "country": "United Kingdom",
-        "flag": "https://static.sabayon.org/site/img/flags/United-Kingdom.png",
-        "mirrors": [{
-            "name": "Go-Parts.com UK",
+        }, {
+            "name": "Ctrl-C Mirror",
             "speed": {
                 "value": 1000,
                 "formatted": "1.000Mb/s"
             },
             "ftp": [
-                "ftp://mirrors-uk.go-parts.com/sabayonlinux"
+                "ftp://mirror.ctrl-c.liu.se/sabayon/"
             ],
             "http": [
-                "http://mirrors-uk.go-parts.com/sabayonlinux/"
-            ],
-            "rsync": [
-                "rsync://mirrors-uk.go-parts.com/sabayonlinux/"
+                "http://mirror.ctrl-c.liu.se/sabayon/"
             ]
         }]
     }, {

@@ -27,7 +27,7 @@ Our team is always busy packaging the latest and greatest stuff.
 If you want to have a look at what's inside our repositories,
 just go to our [packages website](https://packages.sabayon.org/).
 
-All the release variants can be found on the [download section](/download).
+All the release variants can be found on the [download section](/download/).
 
 Please read on to know where to find the images and
 their torrentfiles on our mirrors
@@ -68,7 +68,7 @@ since we are going to fully support the ARM hfp architecture in that way
 you can use Sabayon on your favorite boards!
 
 If you want help us,
-please take in consideration also [donating](/donate).
+please take in consideration also [donating](/press/donate/).
 
 ## Future plans
 
@@ -170,14 +170,14 @@ updating external modules in a reliable and safe way on your behalf.
 
 # Download Links
 
-* [Sabayon Mirrors Page](/mirrors)
+* [Sabayon Mirrors Page](/download/mirrors/)
 * [Sabayon Docker Hub](https://hub.docker.com/r/sabayon)
 * Sabayon on Atlas (VagrantCloud) <ins datetime="2018-02-16">(Removed broken link)</ins>
 * [Sabayon Monthly Images Download Page](http://dl.sabayon.org/iso/monthly/monthly.html)
 * [Sabayon BitTorrent Tracker](http://torrents.sabayon.org/)
 * [Join us on Facebook](https://www.facebook.com/groups/36125411841)
 * [Join us on Google+](https://plus.google.com/+sabayon)
-* [Donate to Sabayon!](https://www.sabayon.org/donate)
+* [Donate to Sabayon!](/press/donate/)
 
 Please find the official file names and hashes below.
 
@@ -191,4 +191,4 @@ Please find the official file names and hashes below.
 * [Sabayon Server (64 bit)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.03_amd64_Server.iso)
 * [Sabayon RPi2 Tech Preview  (armhfp)](http://dl.sabayon.org/http://mirror2.mirror.garr.it/mirrors/sabayonlinux/testing/Sabayon_Linux_16_armv7l_Raspberry_Pi2_Base_8GB.img.xz)
 
-#### Have you considered donating yet? Help us! [Donate](/donate) today!
+#### Have you considered donating yet? Help us! [Donate](/press/donate/) today!

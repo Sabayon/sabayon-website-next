@@ -58,7 +58,7 @@ We are already planning what to do for the next stable release (which hopefully 
 For example, we would like to stick to one display manager greeter across all our flavours.
 Other plans include: replacing the Anaconda installer with Calamares, releasing several improvements to Entropy, the package manager...
 
-If you are interested or want to contribute, [talk to us](/chat/)!
+If you are interested or want to contribute, [talk to us](/community/chat/)!
 
 # New developer announcement
 
@@ -78,7 +78,7 @@ All ISOs are 64bit only.
 
 ### Further download options
 
-* [Sabayon Mirrors Page](/mirrors/)
+* [Sabayon Mirrors Page](/download/mirrors/)
 * [Sabayon Docker Hub](https://hub.docker.com/r/sabayon)
 * [Sabayon Monthly Images Download Page](http://dl.sabayon.org/iso/monthly/monthly.html)
 * [Sabayon BitTorrent Tracker](http://torrents.sabayon.org/)
@@ -88,8 +88,8 @@ All ISOs are 64bit only.
 * [Join our Facebook group](https://www.facebook.com/groups/36125411841)
 * [Like our Facebook profile](https://www.facebook.com/sabayon.linux)
 * [Join us on Google+](https://plus.google.com/+sabayon)
-* [Donate to Sabayon!](/donate/)
+* [Donate to Sabayon!](/press/donate/)
 * [Code repositories](https://github.com/Sabayon/)
 
 Thank you for your trust in us. If you would like to support our work,
-[talk to us](/chat/) or consider making a [donation](/donate/).
+[talk to us](/community/chat/) or consider making a [donation](/press/donate/).

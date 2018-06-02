@@ -11,4 +11,4 @@ If you want to contribute
 [out code is hosted on GitHub](https://github.com/Sabayon/).
 If you want to support us,
 but you don't have time or any coding/computer skills, you can
-[donate](/donate).
+[donate](/press/donate/).

@@ -26,7 +26,7 @@ the latest and greatest stuff.
 If you want to have a look at what's inside our repositories,
 just go to our [packages website](https://packages.sabayon.org/).
 
-All the release variants can be found on the [download section](/download).
+All the release variants can be found on the [download section](/download/).
 
 Please read on to know where to find the images and
 their torrentfiles on our mirrors
@@ -70,7 +70,7 @@ this will help us to keep track with Calamares new features and improvements!
 ## New donation campaign
 
 We just renewed our donation campaign!
-You can see it [here](https://pledgie.com/campaigns/31652)
+You can see it here. <ins datetime="2018-06-02">(Removed dead link)</ins>
 Please, consider donating us, this project is entirely run by volunteers,
 and we need money to keep our infrastructure up and running!
 
@@ -207,14 +207,14 @@ if you want it to get done faster.
 
 # Download Links
 
-* [Sabayon Mirrors Page](/mirrors)
+* [Sabayon Mirrors Page](/download/mirrors/)
 * [Sabayon Docker Hub](https://hub.docker.com/r/sabayon)
 * Sabayon on Atlas (VagrantCloud) <ins datetime="2018-02-16">(Removed broken link)</ins>
 * [Sabayon Monthly Images Download Page](http://dl.sabayon.org/iso/monthly/monthly.html)
 * [Sabayon BitTorrent Tracker](http://torrents.sabayon.org/)
 * [Join us on Facebook](https://www.facebook.com/groups/36125411841)
 * [Join us on Google+](https://plus.google.com/+sabayon)
-* [Donate to Sabayon!](https://www.sabayon.org/donate)
+* [Donate to Sabayon!](/press/donate/)
 
 Please find the official file names and hashes below.
 
@@ -229,4 +229,4 @@ Please find the official file names and hashes below.
 * [Sabayon RPi2/3 Base (console) (armhfp)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.06_armv7l_RPi_Base_8GB.img.xz)
 * [Sabayon RPi2/3 Kodi (Media Center mode + auto-upgrades) (armhfp)](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.06_armv7l_RPi_MediaCenter_8GB.img.xz)
 
-#### Have you considered donating yet? Help us! [Donate](/donate) today!
+#### Have you considered donating yet? Help us! [Donate](/press/donate/) today!
