@@ -2,21 +2,26 @@
 <html lang="en">
     <head>
         {{ partial "meta.html" . }}
+        <link rel="stylesheet" href="/css/normalize.css" />
+        <link rel="stylesheet" href="/css/grid.css" />
+        <link rel="stylesheet" href="/css/theme.css" />
+        <link rel="stylesheet" href="/css/artwork.css" />
+        <!--
         {{ partial "header.includes.html" . }}
-        {{ partial "index-styles.html" . }}
-        {{ partial "homepage-feature-styles.html" . }}
+        -->
     </head>
     <body>
-        {{ partial "navbar.html" . }}
-        {{ partial "headline.html" . }}
-        {{ partial "services.html" . }}
-        {{ partial "cta.html" . }}
-        {{ partial "flavours.html" . }}
-        {{ partial "community.html" . }}
-        {{ partial "documentation.html" . }}
-        {{ partial "sponsors.html" . }}
-
-        {{ partial "footer.copyright.html" . }}
-        {{ partial "footer.includes.html" . }}
+        <header>
+            {{ partial "mainnav.html" . }}
+        </header>
+        <main>
+            {{ partial "home.html" . }}
+            {{ partial "sponsors.html" . }}
+        </main>
+        <footer>
+            {{ partial "footer.links.html" . }}
+            {{ partial "footer.copyright.html" . }}
+            {{ partial "footer.includes.html" . }}
+        </footer>
     </body>
 </html>

@@ -1,3 +1,0 @@
-+++
-+++
-![Laptop](img/laptop.jpg)

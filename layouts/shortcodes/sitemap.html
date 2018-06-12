@@ -1,0 +1,31 @@
+<ul>
+  {{ range where .Site.Pages.ByPublishDate "Section" "community" }}
+    {{ template "subnav" (dict "page1" .Parent "page2" .) }}
+  {{ end }}
+
+  {{ range where .Site.Pages.ByPublishDate "Section" "contribution" }}
+    {{ template "subnav" (dict "page1" .Parent "page2" .) }}
+  {{ end }}
+
+  {{ range where .Site.Pages.ByPublishDate "Section" "download" }}
+    {{ template "subnav" (dict "page1" .Parent "page2" .) }}
+  {{ end }}
+
+  {{ range where .Site.Pages.ByPublishDate "Section" "press" }}
+    {{ template "subnav" (dict "page1" .Parent "page2" .) }}
+  {{ end }}
+</ul>
+
+{{ define "subnav" }}
+  {{ if .page1.Parent }}
+    <ul>
+      <li>
+        <a href="{{ .page2.Permalink }}">{{ .page2.Title }}</a>
+      </li>
+    </ul>
+  {{ else }}
+    <li>
+      <a href="{{ .page2.Permalink }}">{{ .page2.Title }}</a>
+    </li>
+  {{ end }}
+{{ end }}

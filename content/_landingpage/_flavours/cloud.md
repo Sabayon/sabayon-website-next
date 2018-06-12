@@ -4,6 +4,7 @@ icon: fa-cloud
 label: Cloud
 target: /cloud
 ---
-## [Cloud](/cloud)
+
+### [Cloud](/cloud)
 
 Virtual Machines to Containers

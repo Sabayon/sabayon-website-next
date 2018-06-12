@@ -1,41 +1,16 @@
-{{ $site := .Site }}
-<section class="services" id="getit">
-    <div class="container">
-        <div class="row">
-            <h1 class="text-center" style="margin-top:42.3333px;">
-                You are free to use, modify and redistribute it! Spread the word!
-            </h1>
-        </div><!-- .row -->
-        <div class="row">
-            <h2 class="text-center" style="margin-bottom:21.4333px;">Our sponsors:</h2>
-        </div><!-- .row -->
-        <div class="row">
-            <ul class="sponsors">
-                <li class="sponsor">
-                    {{ $file := "_landingpage/_sponsors/university-of-trento.md" }}
-                    {{ partial "sponsor.html" (dict "Site" $site "file" $file) }}
-                </li>
-                <li class="sponsor">
-                    {{ $file := "_landingpage/_sponsors/university-of-milano-bicocca.md" }}
-                    {{ partial "sponsor.html" (dict "Site" $site "file" $file) }}
-                </li>
-                <li class="sponsor">
-                    {{ $file := "_landingpage/_sponsors/university-of-brescia.md" }}
-                    {{ partial "sponsor.html" (dict "Site" $site "file" $file) }}
-                </li>
-                <li class="sponsor">
-                    {{ $file := "_landingpage/_sponsors/top-ix.md" }}
-                    {{ partial "sponsor.html" (dict "Site" $site "file" $file) }}
-                </li>
-                <li class="sponsor">
-                    {{ $file := "_landingpage/_sponsors/nlnet-foundation.md" }}
-                    {{ partial "sponsor.html" (dict "Site" $site "file" $file) }}
-                </li>
-                <li class="sponsor">
-                    {{ $file := "_landingpage/_sponsors/trustica.md" }}
-                    {{ partial "sponsor.html" (dict "Site" $site "file" $file) }}
-                </li>
-            </ul>
-        </div><!-- .row -->
-    </div><!-- .container -->
-<section><!-- #getit.services -->
+{{ $Site := .Site }}
+<section class="sponsors">
+    {{ with $Site.GetPage "page" "_landingpage/sponsors.md" }}
+        {{ .Content }}
+    {{ end }}
+
+    {{- $sponsors := readDir "/content/_landingpage/_sponsors/" -}}
+    <ul>
+        {{- range $sponsors }}
+            <li>
+                {{ $file := (printf "%s/%s" "_landingpage/_sponsors" .Name) }}
+                {{ partial "details/sponsor.html" (dict "Site" $Site "file" $file) }}
+            </li>
+        {{- end }}
+    </ul>
+</section>

@@ -1,0 +1,5 @@
+{{ with .Site.GetPage "page" "_landingpage/home.md" }}
+    <section{{- if .Params.classes }} class="{{ .Params.classes }}"{{ end }}>
+        {{ .Content }}
+    </section>
+{{ end }}

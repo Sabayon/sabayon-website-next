@@ -1,6 +1,7 @@
 ---
 icon: fa-refresh
 ---
+
 ### Rolling Release
 
 Install just once, you can upgrade everytime

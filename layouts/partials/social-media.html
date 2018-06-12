@@ -1,0 +1,13 @@
+<p>
+  You can find us on
+</p>
+<ul>
+    {{ range .data.accounts }}
+        <li>
+            {{ .name }}:
+            {{ range .links }}
+                <a href="{{ . }}">{{ . }}</a>
+            {{ end }}
+        </li>
+    {{ end }}
+</ul>

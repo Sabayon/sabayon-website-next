@@ -1,0 +1,23 @@
+<nav>
+    <p class="pagenav-label">You are here:</p>
+    <ol class="pagenav">
+        {{ template "pagenav" (dict "p1" . "p2" .) }}
+    </ol>
+    {{ define "pagenav" }}
+        {{ if .p1.Parent }}
+            {{ template "pagenav" (dict "p1" .p1.Parent "p2" .p2 )  }}
+        {{ else if not .p1.IsHome }}
+            {{ template "pagenav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
+        {{ end }}
+        <li>
+            <a href="{{ .p1.Permalink }}"
+               {{ if eq .p1 .p2 }} class="active"{{ end }}>
+                {{ if eq .p1.Title "" }}
+                    Home
+                {{ else }}
+                    {{ .p1.Title }}
+                {{ end }}
+            </a>
+        </li>
+    {{ end }}
+</nav>

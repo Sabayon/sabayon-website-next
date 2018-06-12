@@ -4,6 +4,7 @@ icon: fa-server
 label: Server
 target: /server
 ---
-## [Server](/server)
+
+### [Server](/server)
 
 Minimalism to build to your Needs

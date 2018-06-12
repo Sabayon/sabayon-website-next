@@ -1,0 +1,465 @@
+{
+    "mirrors": [{
+        "country": "Argentina",
+        "flag": "https://static.sabayon.org/site/img/flags/Argentina.png",
+        "mirrors": [{
+            "name": "Cooperativa Telefónica de Villa Gobernador Gálvez Ltda",
+            "speed": {
+                "value": 1000,
+                "formatted": "1.000Mb/s"
+            },
+            "ftp": [
+              "ftp://mirrors.coopvgg.com.ar/sabayon/"
+            ],
+            "http": [
+                "http://mirrors.coopvg.com.ar/sabayon/"
+            ],
+            "rsync": [
+                "rsync://mirrors.coopvgg.com.ar/sabayon/"
+            ]
+        }]
+    }, {
+        "country": "Australia",
+        "flag": "https://static.sabayon.org/site/img/flags/Australia.png",
+        "mirrors": [{
+            "name": "Yes Optus Mirror",
+            "speed": {
+                "value": 2000,
+                "formatted": "2.000Mb/s"
+            },
+            "ftp": [
+                "ftp://mirror.optusnet.com.au/sabayon/"
+            ],
+            "http": [
+                "http://mirror.optusnet.com.au/sabayon/"
+            ]
+        }, {
+            "name": "Internode",
+            "speed": {
+                "value": 1000,
+                "formatted": "1.000Mb/s"
+            },
+            "ftp": [
+                "ftp://mirror.internode.on.net/pub/sabayon/"
+            ],
+            "http": [
+                "http://mirror.internode.on.net/pub/sabayon/"
+            ]
+        }]
+    }, {
+        "country": "Austria",
+        "flag": "https://static.sabayon.org/site/img/flags/Austria.png",
+        "mirrors": [{
+            "name": "Vienna University of Technology (http://www.gdsw.at)",
+            "speed": {
+                "value": 100,
+                "formatted": "100Mb/s"
+            },
+            "ftp": [
+                "ftp://gd.tuwien.ac.at/linux/sabayonlinux/"
+            ],
+            "http": [
+                "http://gd.tuwien.ac.at/linux/sabayonlinux/"
+            ],
+            "rsync": [
+                "rsync://gd.tuwien.ac.at/linux/sabayonlinux/"
+            ]
+        }]
+    }, {
+        "country": "Belgium",
+        "flag": "https://static.sabayon.org/site/img/flags/Belgium.png",
+        "mirrors": [{
+            "name": "Belnet",
+            "speed": {
+                "value": 10000,
+                "formatted": "10.000Mb/s"
+            },
+            "ftp": [
+                "ftp://ftp.belnet.be/mirror/sabayonlinux"
+            ],
+            "rsync": [
+                "rsync://rsync.belnet.be/sabayon"
+            ]
+        }]
+    }, {
+        "country": "Brazil",
+        "flag": "https://static.sabayon.org/site/img/flags/Brazil.png",
+        "mirrors": [{
+            "name": "Universidade Federal Do Paranà",
+            "speed": {
+                "value": 10000,
+                "formatted": "10.000Mb/s"
+            },
+            "ftp": [
+                "ftp://sabayon.c3sl.ufpr.br/sabayon"
+            ],
+            "http": [
+                "http://sabayon.c3sl.ufpr.br/"
+            ],
+            "rsync": [
+                "rsync://sabayon.c3sl.ufpr.br/sabayon"
+            ]
+        }]
+    }, {
+        "country": "Czech Republic",
+        "flag": "https://static.sabayon.org/site/img/flags/Czech-Republic.png",
+        "mirrors": [{
+          "name": "UPC Česká republika, a.s.",
+          "speed": {
+              "value": 2000,
+              "formatted": "2.000Mb/s"
+          },
+          "ftp": [
+              "ftp://mirror.dkm.cz/pub/sabayon/"
+          ],
+          "http": [
+              "http://mirror.dkm.cz/pub/sabayon/"
+          ]
+        }]
+    }, {
+        "country": "Denmark",
+        "flag": "https://static.sabayon.org/site/img/flags/Denmark.png",
+        "mirrors": [{
+            "name": "KLID",
+            "speed": {
+                "value": 1000,
+                "formatted": "1.000Mb/s"
+            },
+            "ftp": [
+                "ftp://ftp.klid.dk/sabayonlinux/"
+            ],
+            "http": [
+                "http://ftp.klid.dk/sabayonlinux/"
+            ]
+        }]
+    }, {
+        "country": "Ecuador",
+        "flag": "https://static.sabayon.org/site/img/flags/Ecuador.png",
+        "mirrors": [{
+            "name": "CEDIA Ecuador Mirror",
+            "speed": {
+                "value": 300,
+                "formatted": "300Mb/s"
+            },
+            "ftp": [
+                "ftp://mirror.uta.edu.ec/sabayon"
+            ],
+            "http": [
+                "http://mirror.uta.edu.ec/sabayon"
+            ],
+            "rsync": [
+                "rsync://mirror.uta.edu.ec/sabayon"
+            ]
+        }]
+    }, {
+        "country": "Germany",
+        "flag": "https://static.sabayon.org/site/img/flags/Germany.png",
+        "mirrors": [{
+            "name": "Official Sabayon EU Mirror",
+            "speed": {
+                "value": 100,
+                "formatted": "100Mb/s"
+            },
+            "http": [
+                "http:/mirror.de.sabayon.org"
+            ]
+        }]
+    }, {
+        "country": "Greece",
+        "flag": "https://static.sabayon.org/site/img/flags/Greece.png",
+        "mirrors": [{
+            "name": "University of Crete",
+            "speed": {
+                "value": 1000,
+                "formatted": "1.000Mb/s"
+            },
+            "ftp": [
+                "ftp://ftp.cc.uoc.gr/mirrors/linux/SabayonLinux/"
+            ],
+            "http": [
+                "http://ftp.cc.uoc.gr/mirrors/linux/SabayonLinux/"
+            ]
+        }]
+    }, {
+        "country": "Hungary",
+        "flag": "https://static.sabayon.org/site/img/flags/Hungary.png",
+        "mirrors": [{
+            "name": "Free Software Network Hungary",
+            "speed": {
+                "value": 1000,
+                "formatted": "1.000Mb/s"
+            },
+            "ftp": [
+                "ftp://ftp.fsn.hu/pub/linux/distributions/sabayon/"
+            ],
+            "http": [
+                "http://ftp.fsn.hu/pub/linux/distributions/sabayon/"
+            ],
+            "rsync": [
+                "rsnyc://ftp.fsn.hu/linux/sabayon/"
+            ]
+        }]
+    }, {
+        "country": "Italy",
+        "flag": "https://static.sabayon.org/site/img/flags/Italy.png",
+        "mirrors": [{
+            "name": "TOP-IX Official Sabayon Mirror",
+            "speed": {
+                "value": 1000,
+                "formatted": "1.000Mb/s"
+            },
+            "http": [
+                "http://mirror.it.sabayon.org/"
+            ]
+        }, {
+            "name": "Garr Consortium",
+            "speed": {
+                "value": 1000,
+                "formatted": "1.000Mb/s"
+            },
+            "ftp": [
+                "ftp://na.mirror.garr.it/mirrors/sabayonlinux/"
+            ],
+            "http": [
+                "http://na.mirror.garr.it/mirrors/sabayonlinux/"
+            ],
+            "rsync": [
+                "rsync://na.mirror.garr.it/sabayonlinux"
+            ]
+        }]
+    }, {
+        "country": "Japan",
+        "flag": "https://static.sabayon.org/site/img/flags/Japan.png",
+        "mirrors": [{
+            "name": "KDDI R&D Laboratories Inc.",
+            "speed": {
+                "value": 200,
+                "formatted": "200Mb/s"
+            },
+            "ftp": [
+                "ftp://ftp.kddilabs.jp/Linux/packages/sabayonlinux/"
+            ],
+            "http": [
+                "http://ftp.kddilabs.jp/Linux/packages/sabayonlinux/"
+            ],
+            "rsync": [
+                "rsync://ftp.kddilabs.jp/sabayonlinux"
+            ]
+        }, {
+            "name": "Tsukuba WIDE",
+            "speed": {
+                "speed": 1000,
+                "formatted": "1.000Mb/s"
+            },
+            "http": [
+                "http://ftp.tsukuba.wide.ad.jp/Linux/sabayon/"
+            ],
+            "rsync": [
+                "rsync://ftp.tsukuba.wide.ad.jp/sabayon/"
+            ]
+        }, {
+            "name": "RIKEN Nishina Center for research support",
+            "speed": {
+                "value": 10000,
+                "formatted": "10.000Mb/s"
+            },
+            "ftp": [
+                "ftp://ftp.riken.jp/Linux/sabayon/"
+            ],
+            "http": [
+                "http://ftp.riken.jp/Linux/sabayon/"
+            ]
+        }]
+    }, {
+        "country": "Netherlands",
+        "flag": "https://static.sabayon.org/site/img/flags/Netherlands.png",
+        "mirrors": [{
+            "speed": {
+                "value": 100,
+                "formatted": "100Mb/s"
+            },
+            "ftp": [
+                "ftp://ftp.nluug.nl/pub/os/Linux/distr/sabayonlinux",
+                "ftp://ftp.surfnet.nl/pub/os/Linux/dirst/sabayonlinux"
+            ],
+            "http": [
+                "http://ftp.nluug.nl/os/Linux/distr/sabayonlinux"
+            ],
+            "rsync": [
+                "rsnyc://ftp.nluug.nl/sabayonlinux",
+                "rsync://ftp.SURFnet.nl/sabayonlinux"
+            ]
+        }]
+    }, {
+        "country": "New Zealand",
+        "flag": "https://static.sabayon.org/site/img/flags/New-Zealand.png",
+        "mirrors": [{
+            "name": "University of Auckland",
+            "speed": {
+                "value": 1250,
+                "formatted": "1.250Mb/s"
+            },
+            "http": [
+                "http://mirror.auckland.ac.nz/sabayon/"
+            ]
+        }]
+    }, {
+        "country": "Portugal",
+        "flag": "https://static.sabayon.org/site/img/flags/Portugal.png",
+        "mirrors": [{
+            "name": "Rede das Novas Licenciaturas - Técnico Lisboa",
+            "speed": {
+                "value": 1000,
+                "formatted": "1.000Mb/s"
+            },
+            "ftp": [
+                "ftp://ftp.rnl.tecnico.ulisboar.pt/pub/sabayon"
+            ],
+            "http": [
+                "https://ftp.rnl.tecnico.ulisboar.pt/pub/sabayon"
+            ],
+            "rsync": [
+                "rsnyc://ftp.rnl.tecnico.ulisboa.pt/pub/sabayon"
+            ]
+        }]
+    }, {
+        "country": "Russian Federation",
+        "flag": "https://static.sabayon.org/site/img/flags/Russian-Federation.png",
+        "mirrors": [{
+            "name": "Yandex Linux mirror",
+            "speed": {
+                "value": 1000,
+                "formatted": "1.000Mb/s"
+            },
+            "ftp": [
+                "ftp://mirror.yandex.ru/sabayon/"
+            ],
+            "http": [
+                "http://mirror.yandex.ru/sabayon/"
+            ],
+            "rsync": [
+                "rsync://mirror.yandex.ru/sabayon/"
+            ]
+        }]
+    }, {
+        "country": "South Africa",
+        "flag": "https://static.sabayon.org/site/img/flags/South-Africa.png",
+        "mirrors": [{
+            "name": "TENET Mirror",
+            "speed": {
+                "value": 10000,
+                "formatted": "10.000Mb/s"
+            },
+            "ftp": [
+                "ftp://sabayon.mirror.ac.za"
+            ],
+            "http": [
+                "http://sabayon.mirror.ac.za"
+            ],
+            "rsync": [
+                "rsync://sabayon.mirror.ac.za"
+            ]
+        }]
+    }, {
+        "country": "Sweden",
+        "flag": "https://static.sabayon.org/site/img/flags/Sweden.png",
+        "mirrors": [{
+            "name": "Portlane Mirror",
+            "speed": {
+                "value": 10000,
+                "formatted": "10.000Mb/s"
+            },
+            "ftp": [
+                "ftp://ftp.portlane.com/pub/os/linux/sabayon/"
+            ],
+            "http": [
+                "http://ftp.portlane.com/pub/os/linux/sabayon/"
+            ]
+        }, {
+            "name": "Ctrl-C Mirror",
+            "speed": {
+                "value": 1000,
+                "formatted": "1.000Mb/s"
+            },
+            "ftp": [
+                "ftp://mirror.ctrl-c.liu.se/sabayon/"
+            ],
+            "http": [
+                "http://mirror.ctrl-c.liu.se/sabayon/"
+            ]
+        }]
+    }, {
+        "country": "United States of America",
+        "flag": "https://static.sabayon.org/site/img/flags/United-States.png",
+        "mirrors": [{
+            "name": "Go-Parts.com USA",
+            "speed": {
+                "value": 1000,
+                "formatted": "1.000Mb/s"
+            },
+            "ftp": [
+                "ftp://mirrors-usa.go-parts.com/sabayon/"
+            ],
+            "http": [
+                "http://mirrors-usa.go-parts.com/sabayon/"
+            ],
+            "rsync": [
+                "rsync://mirrors-usa.go-parts.com/mirrors/sabayon/"
+            ]
+        }, {
+            "name": "Virginia Tech University",
+            "speed": {
+                "value": 100,
+                "formatted": "100Mb/s"
+            },
+            "ftp": [
+                "ftp://mirror.cs.vt.edu/pub/SabayonLinux/"
+            ],
+            "http": [
+                "http://mirror.cs.vt.edu/pub/SabayonLinux/"
+            ]
+        }, {
+            "name": "Cross-Lfs.org Mirror",
+            "speed": {
+                "value": 200,
+                "formatted": "200Mb/s"
+            },
+            "http": [
+                "http://cross-lfs.sabayonlinux.org/"
+            ]
+        }, {
+            "name": "Clarkson Open Source Institute",
+            "speed": {
+                "value": 300,
+                "formatted": "300Mb/s"
+            },
+            "http": [
+                "http://mirror.clarkson.edu/sabayon/"
+            ],
+            "rsync": [
+                "rsync://mirror.clarkson.edu/sabayonlinux"
+            ]
+        }, {
+            "name": "University of Maryland LUG",
+            "speed": {
+                "value": 1000,
+                "formatted": "1.000Mb/s"
+            },
+            "http": [
+                "http://mirror.umd.edu/sabayonlinux/"
+            ],
+            "rsync": [
+                "rsync://mirror.umd.edu/sabayonlinux/"
+            ]
+        }, {
+            "name": "Ibiblio Official Mirror",
+            "speed": {
+                "value": 100,
+                "formatted": "100Mb/s"
+            },
+            "http": [
+                "http://distro.ibiblio.org/sabayonlinux/"
+            ]
+        }]
+    }]
+}

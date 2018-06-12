@@ -1,0 +1,16 @@
+{{ $Site := .Site }}
+<section>
+    {{ with $Site.GetPage "page" "_landingpage/features.md" }}
+        {{ .Content }}
+    {{ end }}
+
+    {{- $features := readDir "/content/_landingpage/_features/" -}}
+    <ul>
+        {{- range $features }}
+            <li>
+                {{- $file := (printf "%s/%s" "_landingpage/_features" .Name) -}}
+                {{ partial "details/feature.html" (dict "Site" $Site "file" $file) }}
+            </li>
+        {{- end }}
+    </ul>
+</section>

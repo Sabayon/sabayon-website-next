@@ -1,5 +1,6 @@
 ---
 ---
+
 ![Logo of University of Milano-Bicocca](/img/sponsor/bicocca.png)
 
 **University of Milano-Bicocca**
