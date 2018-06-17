@@ -1,5 +1,6 @@
 +++
 title = "Latest release"
-type = "custom"
-layout = "latest"
+type = "single"
 +++
+
+{{<latest-release>}}
