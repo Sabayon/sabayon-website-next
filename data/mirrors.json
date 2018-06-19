@@ -27,9 +27,6 @@
                 "value": 2000,
                 "formatted": "2.000Mb/s"
             },
-            "ftp": [
-                "ftp://mirror.optusnet.com.au/sabayon/"
-            ],
             "http": [
                 "http://mirror.optusnet.com.au/sabayon/"
             ]
@@ -55,9 +52,6 @@
                 "value": 100,
                 "formatted": "100Mb/s"
             },
-            "ftp": [
-                "ftp://gd.tuwien.ac.at/linux/sabayonlinux/"
-            ],
             "http": [
                 "http://gd.tuwien.ac.at/linux/sabayonlinux/"
             ],
@@ -90,9 +84,6 @@
                 "value": 10000,
                 "formatted": "10.000Mb/s"
             },
-            "ftp": [
-                "ftp://sabayon.c3sl.ufpr.br/sabayon"
-            ],
             "http": [
                 "http://sabayon.c3sl.ufpr.br/"
             ],
@@ -279,8 +270,7 @@
                 "formatted": "100Mb/s"
             },
             "ftp": [
-                "ftp://ftp.nluug.nl/pub/os/Linux/distr/sabayonlinux",
-                "ftp://ftp.surfnet.nl/pub/os/Linux/dirst/sabayonlinux"
+                "ftp://ftp.nluug.nl/pub/os/Linux/distr/sabayonlinux"
             ],
             "http": [
                 "http://ftp.nluug.nl/os/Linux/distr/sabayonlinux"
@@ -312,9 +302,6 @@
                 "value": 1000,
                 "formatted": "1.000Mb/s"
             },
-            "ftp": [
-                "ftp://ftp.rnl.tecnico.ulisboar.pt/pub/sabayon"
-            ],
             "http": [
                 "https://ftp.rnl.tecnico.ulisboar.pt/pub/sabayon"
             ],
@@ -369,9 +356,6 @@
                 "value": 10000,
                 "formatted": "10.000Mb/s"
             },
-            "ftp": [
-                "ftp://ftp.portlane.com/pub/os/linux/sabayon/"
-            ],
             "http": [
                 "http://ftp.portlane.com/pub/os/linux/sabayon/"
             ]

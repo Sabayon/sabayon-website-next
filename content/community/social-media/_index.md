@@ -1,8 +1,8 @@
 +++
 title = "Social Media"
-layout = "data-driven"
-json = "data/social-media.json"
-partial = "social-media.html"
+layout = "single"
 +++
 
 Sabayon is present on Social Media.
+
+{{< data-driven partial="social-media.html" json="https://raw.githubusercontent.com/sabayon-website-next/master/data/social-media.json" >}}
