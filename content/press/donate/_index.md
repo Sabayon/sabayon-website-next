@@ -16,6 +16,14 @@ This is what we need to cover our daily duties:
 
 **We would like to thank everybody who has donated in the past. We all hope to see you back supporting us next year.**
 
+**Money donations via Patreon**
+
+{{<patreon>}}
+
+**Money donations via LiberaPay**
+
+{{<liberapay>}}
+
 **Money donations via Cryptocurrency**
 
 * BTC 1FLyFTtyKtGpGytqsqh53TbcDf1tZb9oKZ
@@ -26,4 +34,5 @@ This is what we need to cover our daily duties:
 * NEO AR1zu4fWX6bzfQ8nRi677REgs4TxaYuHLr
 
 **Money donations via PayPal**
+
 {{<paypal>}}
