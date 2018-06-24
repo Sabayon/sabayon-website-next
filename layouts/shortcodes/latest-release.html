@@ -1,5 +1,4 @@
-{{ range first 1 (where .Site.Pages "Section" "press") }}
-    {{ range first 1 .Pages }}
-        {{ .Render "summary" }}
-    {{ end }}
+{{- $releaseTags := (slice "releases") -}}
+{{ range first 1 (where .Site.Pages ".Params.tags" "intersect" $releaseTags) }}
+    {{ .Render "summary" }}
 {{ end }}
