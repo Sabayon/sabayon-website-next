@@ -26,12 +26,7 @@ This is what we need to cover our daily duties:
 
 **Money donations via Cryptocurrency**
 
-* BTC 1FLyFTtyKtGpGytqsqh53TbcDf1tZb9oKZ
-* BCH 1FczSuSntg2jPztcreqWv2FywnzUpRxSuB
-* ETH 0xbe15335b19F854802554C974Dd637650f1201525
-* LTC LRuC2yrEhJzvphByCHJdvejRHhFWVcetg4
-* XMR 49oFnBbQbwXEJ8eTcWxVDb12Sbktn9XHQ6ysezutij4xGbXLYaygeDNTWEKoae9E4fMedQJy5g9QMQk1Hy7YuB7HHaJSGdg
-* NEO AR1zu4fWX6bzfQ8nRi677REgs4TxaYuHLr
+{{< data-driven partial="cryptocurrencies.html" json="https://raw.githubusercontent.com/Sabayon/sabayon-website-next/master/data/mirrors.json" >}}
 
 **Money donations via PayPal**
 

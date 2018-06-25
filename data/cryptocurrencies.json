@@ -1,0 +1,21 @@
+{
+    "wallets": [{
+        "abbreviation": "BTC",
+        "address": "1FLyFTtyKtGpGytqsqh53TbcDf1tZb9oKZ"
+    }, {
+        "abbreviation": "BCH",
+        "address": "1FczSuSntg2jPztcreqWv2FywnzUpRxSuB"
+    }, {
+        "abbreviation": "ETH",
+        "address": "0xbe15335b19F854802554C974Dd637650f1201525"
+    }, {
+        "abbreviation": "LTC",
+        "address": "LRuC2yrEhJzvphByCHJdvejRHhFWVcetg4"
+    }, {
+        "abbreviation": "XMR",
+        "address": "49oFnBbQbwXEJ8eTcWxVDb12Sbktn9XHQ6ysezutij4xGbXLYaygeDNTWEKoae9E4fMedQJy5g9QMQk1Hy7YuB7HHaJSGdg"
+    }, {
+        "abbreviation": "NEO",
+        "address": "AR1zu4fWX6bzfQ8nRi677REgs4TxaYuHLr"
+    }]
+}
