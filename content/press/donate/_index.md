@@ -26,7 +26,7 @@ This is what we need to cover our daily duties:
 
 **Money donations via Cryptocurrency**
 
-{{< data-driven partial="cryptocurrencies.html" json="https://raw.githubusercontent.com/Sabayon/sabayon-website-next/master/data/mirrors.json" >}}
+{{< data-driven partial="cryptocurrencies.html" json="https://raw.githubusercontent.com/Sabayon/sabayon-website-next/master/data/cryptocurrencies.json" >}}
 
 **Money donations via PayPal**
 
