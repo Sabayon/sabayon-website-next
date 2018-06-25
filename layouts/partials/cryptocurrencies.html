@@ -1,0 +1,9 @@
+<div style="overflow-x: auto;">
+    <ul>
+        {{ range .data.wallets }}
+            <li>
+                {{ .abbreviation }} {{ .address }}
+            </li>
+        {{ end }}
+    </ul>
+</div>

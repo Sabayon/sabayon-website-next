@@ -13,6 +13,7 @@ Version June 2018
 
 This privacy notice tells you about the information we collect from you
 when you sign up to our forums.
+
 In collecting this information, we are acting as a data controller and, by law,
 we are required to provide you with information about us, about why and
 how we use your data, and about the rights you have over your data.
@@ -36,6 +37,11 @@ When you sign up to our forums, we ask you for your email address.
 We will use this information to send you notifications about private messages
 you received on the forums. You can subscribe to certain topics and will
 receive an email for updates on that topic.
+
+Our service provider (CloudFlare) offers protection against certain types of
+malware and sets a cookie for identification purposes on your machine.
+A cookie is a small text file, which helps their server to identify your browser
+among other machines on the same network.
 
 ## What do we do with your information?
 
