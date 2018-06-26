@@ -1,0 +1,86 @@
+version: 2
+
+jobs:
+  build:
+    environment:
+      HUGO_VERSION: 0.31.1
+      HUGO_THEME: https://github.com/Sabayon/sabayon-website-next-theme
+
+    docker:
+      # Since there are no official Hugo docker builds, pick one from the
+      # community.
+      # See https://discourse.gohugo.io/t/docker-official-repo-for-hugo/144/6
+      - image: jojomi/hugo:0.31.1
+
+    working_directory: ~/Sabayon/sabayon-website-next
+    parallelism: 1  # For now sequential
+
+    steps:
+      # Machine setup
+      - checkout
+
+      # Ensure that directory for deployment exists
+      - run:
+          name: Create output file
+          command: mkdir -p public
+
+      # Dependencies
+      - run:
+          name: Install dependencies
+          command: make dependencies
+
+      # Test and Build
+      - run:
+          name: Create build artifact
+          command: make build
+
+      # Note: Could be that we don't need this step
+      # See https://github.com/CircleCI-Public/circleci-demo-workflows/blob/sequential-branch-filter/.circleci/config.yml
+      # Persist for deployment
+      - persist_to_workspace:
+          # Must be an absolute path or relative to current working directory
+          root: public
+
+          # Must be relative to root directory from above
+          paths:
+
+  deployment:
+    machine:
+      enabled: true
+
+    environment:
+      HUGO_VERSION: 0.31.1
+      HUGO_THEME: https://github.com/Sabayon/sabayon-website-next-theme
+
+    docker:
+      # Since there are no official Hugo docker builds, pick one from the
+      # community.
+      # See https://discourse.gohugo.io/t/docker-official-repo-for-hugo/144/6
+      - image: jojomi/hugo:0.31.1
+
+    working_directory: ~/Sabayon/sabayon-website-next
+    parallelism: 1  # For now sequential
+
+    steps:
+      # Read files from build job
+      - attach_workspace:
+          # Must be an absolute path or relative to current working directory
+          # Must match root path from build job
+          at: public
+
+      # Deployment
+      - run:
+          name: Push build artifact
+          command: make publish
+
+workflows:
+  version: 2
+  build_and_deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
