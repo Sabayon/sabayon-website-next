@@ -109,7 +109,7 @@ in Gentoo without affecting the daily running of Sabayon operations.
 We provide Sabayon to you free of charge,
 but sadly the infrastructure we need to build it does cost us money.
 We've recently restructured to cut costs and continue the project.
-Any [donations](/press/donate/) would be greatly appreciated.
+Any [donations](/participate/donate/) would be greatly appreciated.
 
 We accept the following cryptocurrencies:
 
