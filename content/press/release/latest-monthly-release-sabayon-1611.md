@@ -233,7 +233,7 @@ if you want it to get done faster.
 * [Sabayon BitTorrent Tracker](http://torrents.sabayon.org/)
 * [Join us on Facebook](https://www.facebook.com/groups/36125411841)
 * [Join us on Google+](https://plus.google.com/+sabayon)
-* [Donate to Sabayon!](/press/donate/)
+* [Donate to Sabayon!](/participate/donate/)
 
 Please find the official file names and hashes below.
 
@@ -253,4 +253,4 @@ Please find the official file names and hashes below.
 * [Sabayon BananaPi (armhfp)](http://dl.sabayon.org/stable/Sabayon_Linux_16.11_armv7l_BananaPi_8GB.img.xz)
 
 
-#### Have you considered donating yet? Help us! [Donate](/press/donate/) today!
+#### Have you considered donating yet? Help us! [Donate](/participate/donate/) today!

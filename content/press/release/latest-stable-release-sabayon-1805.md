@@ -88,8 +88,8 @@ All ISOs are 64bit only.
 * [Join our Facebook group](https://www.facebook.com/groups/36125411841)
 * [Like our Facebook profile](https://www.facebook.com/sabayon.linux)
 * [Join us on Google+](https://plus.google.com/+sabayon)
-* [Donate to Sabayon!](/press/donate/)
+* [Donate to Sabayon!](/participate/donate/)
 * [Code repositories](https://github.com/Sabayon/)
 
 Thank you for your trust in us. If you would like to support our work,
-[talk to us](/community/chat/) or consider making a [donation](/press/donate/).
+[talk to us](/community/chat/) or consider making a [donation](/participate/donate/).

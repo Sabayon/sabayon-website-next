@@ -77,7 +77,7 @@ Many thanks to Joost (joost_op), Ben (optiz0r) and of course Fabio (lxnay) for t
 We have already ~2000 packages in the ARMhfp repository, including Docker already cutted for ARM boards (yay!), GNOME, XFCE, LXDE and bunch of packages you might find interesting.
 ROS framework - The robotics framework, Cacti, Kodi, LAMP stack, just to name a few that are already available on the main repository!
 For package requests, head over our [bugzilla](https://bugs.sabayon.org/).
-If you appreciate our efforts towards the ARM architecture, please consider to [donate us](/press/donate/) either hardware or money to buy it!
+If you appreciate our efforts towards the ARM architecture, please consider to [donate us](/participate/donate/) either hardware or money to buy it!
 
 
 Enjoy,

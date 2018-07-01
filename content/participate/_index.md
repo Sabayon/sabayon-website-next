@@ -1,5 +1,5 @@
 +++
-title = "Contribution"
+title = "Participate"
 type = "list"
 menu = "main"
 +++
