@@ -1,13 +1,13 @@
 +++
-title = "Press artworks"
+title = "Press artwork"
 description = "Press artworks files"
 type = "single"
 date = "2015-09-29"
 +++
 
-### Press artworks
+### Press artwork
 
-Press artworks files.
+Press artwork files.
 
 This is the Press/Artwork page. Here you will find Sabayon Linux logos,
 wallpapers, themes, skins and graphical presentations. **Please notice** that
