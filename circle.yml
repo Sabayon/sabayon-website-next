@@ -1,7 +1,7 @@
 machine:
   environment:
     HUGO_VERSION: 0.31.1
-    HUGO_THEME: https://github.com/Sabayon/sabayon-website-next-theme
+    HUGO_THEME: https://github.com/Sabayon/website-future-theme
 
 dependencies:
   override:
