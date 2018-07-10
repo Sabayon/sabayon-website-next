@@ -9,7 +9,6 @@ The Sabayon foundation is always looking for funds. Please read below for a list
 This is what we need to cover our daily duties:
 
 * **Keep our infrastructure online:** our servers and mirroring infrastructure require some little cash to keep going
-* **Keep our servers updated:** this year we are planning a complete build server upgrade, to make possible to push updates and fixes even faster
 * **Non-profit foundation funding:** make the project team able to take part in public events, like FOSDEM (travel expenses, DVD making to give awayetc)
 * **Development funding:** help us buying new hardware and feel happy geeks
 
