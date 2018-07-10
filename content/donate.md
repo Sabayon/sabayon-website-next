@@ -12,7 +12,7 @@ This is what we need to cover our daily duties:
 * **Non-profit foundation funding:** make the project team able to take part in public events, like FOSDEM (travel expenses, DVD making to give awayetc)
 * **Development funding:** help us buying new hardware and feel happy geeks
 
-**We would like to thank everybody who has donated in the past. We all hope to see you back supporting us next year.**
+**This project is fully funded by it’s community. We would like to thank everybody who has donated.**
 
 **Money donations via Cryptocurrency**
 
