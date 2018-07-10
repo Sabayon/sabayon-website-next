@@ -14,6 +14,15 @@ This is what we need to cover our daily duties:
 
 **This project is fully funded by it’s community. We would like to thank everybody who has donated.**
 
+**Money donations via Patreon**
+
+<a href="https://www.patreon.com/bePatron?u=11620572" target="_blank">Become a Patron</a>
+
+**Money donations via LiberaPay**
+
+<script src="https://liberapay.com/SabayonLinux/widgets/button.js"></script>
+<noscript><a href="https://liberapay.com/SabayonLinux/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
+
 **Money donations via Cryptocurrency**
 
 * BTC 1FLyFTtyKtGpGytqsqh53TbcDf1tZb9oKZ
