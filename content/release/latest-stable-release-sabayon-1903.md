@@ -1,7 +1,6 @@
-+++
 title = "Sabayon 19.03 - New stable release"
 description = "19.03 Press release"
-date = "2019-03-24"
+date = "2019-03-31"
 categories = ["releases", "sabayon"]
 tags = ["releases", "sabayon"]
 +++
@@ -24,8 +23,13 @@ Please read on or [download](/download/) your flavour :-)
 - Latest kernel 4.20
 - Python 3 as default
 - New Entropy features && general bugfixes
+- AMDGPU Enhancements such as extended Vega Support including Radeon VII
+- AMD Freesync Ready - MESA19, xf86-video-amdgpu-19, Pending Solid 5.X Kernel
+- Nvidia Freesync Ready - "Gsync Supported Monitors" can be enabled in nvidia-drivers-418.43 via the nvidia-settings tool
+- Legacy Driver Deprecation - nvidia-304.XX drivers are now deprecated. Cards older than Geforce 8000 non-GTX series use nouveau.
 - Work in progress for the new wiki
-- We are on Patreon now! [Support the project]()
+- We are on Patreon now! [Support the project](https://www.patreon.com/sabayon)
+
 
 ## New Build Infrastructure
 
@@ -42,10 +46,12 @@ The impact is noticeable for us, e.g. now to build all ISOs flavors, takes appro
 This enables us to care less about repetitive tasks and ease the development process, as we can release bugfixes and do proper QA in 
 1/10 of the time before!
 
+
 ## Switch to Dracut as Initramfs
 
 Yes! You heard it well! We moved away from genkernel-next for initramfs generation, now it's all happening on user side. 
 Docs for regenerating your initramfs can be found here #TODO: add link
+
 
 ## New Wiki
 
@@ -55,11 +61,26 @@ to snoop over the new wiki which is in the works, as we are adding new articles 
 
 
 ## What to expect next() ?!
+We're looking into possible deprecation of the nvidia-drivers-340.XX series drivers. We're curious to hear your thoughts.
+Do you own an nvidia graphics card older than the GTX400 Series? Removing these from our repo doesn't prevent installation
+as using portage is still an option. What it does help with is, we have to patch each driver to make sure it supports the
+latest kernel. Between ZFS, wireguard, nvidia-drivers, and other drivers this can delay the release of newer kernels.
+Let us know your thoughts here[]() 
+
+We're working on getting a 5.X kernel out into the repository to fully unlock Freesync for our users. Linux Gaming FTW!
+
+LLVM and Clang 8 are in the works. Better support for OpenCL, OpenMP, AMDGPU Backends, and adds support for newer CUDA devices.
+
+ARM support? Absolutely! Pi3 support is still baking in the oven.
+
+Various package bumps. Get Ready for a refresh! FFMPEG? Check! Ruby? Check! libvdpau? Check! and Many More!
+
 
 ## Thanks to our Patreons
 
 Thanks you all very much for our support! Without your help this release couldn't have been possible. 
 We've finally had enough finance to rent machines to use in our new build infrastructure!
+
 
 ### Some picks
 
@@ -71,6 +92,7 @@ Development is open, so if you want to have a look at what has been done in
 detail, it's right there; you can find the link in the Download section below.
 
 If you are interested or want to contribute, [talk to us](/chat/)!
+
 
 ## Download
 
