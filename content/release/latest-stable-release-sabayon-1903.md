@@ -63,17 +63,15 @@ to snoop over the new wiki which is in the works, as we are adding new articles 
 
 
 ## What to expect next()?!
-We're looking into possible deprecation of the nvidia-drivers-340.XX series. We're eager to hear your thoughts.
-Do you own an nvidia graphics card older than the GTX400 Series? Removing these from our repo doesn't prevent installation
-as using portage is still an option. What it does help with is, we have to patch each driver to make sure it supports the
-latest kernel. Between ZFS, wireguard, nvidia-drivers, and other drivers this can delay the release of newer kernels.
-Let us know your thoughts here[]()  # TODO: add link or something
+Our artwork needs attention, next release might feature a new look and will have more polishing.
+
+We're looking into the possible deprecation of the nvidia-drivers-340.XX series. We're eager to hear your thoughts.
 
 We're working on getting a 5.X kernel out into the repository to fully unlock Freesync for our users. Linux Gaming FTW!
 
 LLVM and Clang 8 are in the works. Better support for OpenCL, OpenMP, AMDGPU Backends, and support for newer CUDA devices.
 
-ARM support? Absolutely! Support for Pi3 is still baking in the oven.
+ARM support? Absolutely! New layered ARMv7 repositories are being developed. We expect them ready soon.
 
 Various package bumps. Get Ready for a refresh! FFMPEG? Check! Ruby? Check! libvdpau? Check! and many more!
 
