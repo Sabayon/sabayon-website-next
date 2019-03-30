@@ -22,9 +22,7 @@ Please read on or [download](/download/) your flavour :-)
 - Support for 32 bit UEFI! (Intel Sticks, and so on...)
 - Latest kernel is 4.20
 - Python 3 is default
-- New Entropy features and general bugfixes, including:
-- Better tracking of "automatic" dependencies...
-- ...and new command, equo mark
+- Entropy improvements, including better tracking of "automatic" dependencies and a new command, equo mark
 - AMDGPU Enhancements such as extended Vega support including Radeon VII
 - AMD Freesync ready - MESA19, xf86-video-amdgpu-19, solid 5.X kernel available soon
 - Nvidia Freesync ready - "Gsync Supported Monitors" can be enabled in nvidia-drivers-418.43 via the nvidia-settings tool
@@ -53,25 +51,27 @@ This enables us to care less about repetitive tasks and ease the development pro
 
 Yes! You heard it well! We moved away from genkernel-next for initramfs generation, and now initramfs is generated on user side.
 
-Additional information are available [here](https://sabayon.github.io/wiki-next/articles/initramfs/).
+Additional information is available [here](https://sabayon.github.io/wiki-next/articles/initramfs/).
 
 ## New Wiki
 
 We heard you, the current wiki is (sadly) in an embarassing state - but we are working on a completely new restyle of it.
 As time passed, a lot changed in the Sabayon defaults that aren't reflected anymore in the current wiki. We encourage for the moment
-to snoop over the new wiki which is in the works, as we are adding new articles and documentation [there](https://sabayon.github.io/wiki-next/).
+to snoop over the new wiki which is in the works, as we are adding new articles and documentation [here](https://sabayon.github.io/wiki-next/).
 
 
 ## What to expect next()?!
 Our artwork needs attention, next release might feature a new look and will have more polishing.
 
-We're looking into the possible deprecation of the nvidia-drivers-340.XX series. We're eager to hear your thoughts.
+We're looking into possible deprecation of the nvidia-drivers-340.XX series to reduce effort needed for keeping new kernels in shape. We're eager to hear your thoughts.
 
 We're working on getting a 5.X kernel out into the repository to fully unlock Freesync for our users. Linux Gaming FTW!
 
 LLVM and Clang 8 are in the works. Better support for OpenCL, OpenMP, AMDGPU Backends, and support for newer CUDA devices.
 
-ARM support? Absolutely! New layered ARMv7 repositories are being developed. We expect them ready soon.
+ARM support? Absolutely! New layered ARMv7 repositories are being developed. We expect them to be ready soon.
+
+We are also working on unattended installer and updates to our server flavor which is more oriented for Cloud/VMs.
 
 Various package bumps. Get Ready for a refresh! FFMPEG? Check! Ruby? Check! libvdpau? Check! and many more!
 
