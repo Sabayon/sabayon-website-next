@@ -52,14 +52,14 @@ This enables us to care less about repetitive tasks and ease the development pro
 ## Switch to Dracut as Initramfs
 
 Yes! You heard it well! We moved away from genkernel-next for initramfs generation, and now initramfs is generated on user side.
-#TODO: consider a link
 
+Additional information are available [here](https://sabayon.github.io/wiki-next/articles/initramfs/).
 
 ## New Wiki
 
 We heard you, the current wiki is (sadly) in an embarassing state - but we are working on a completely new restyle of it.
 As time passed, a lot changed in the Sabayon defaults that aren't reflected anymore in the current wiki. We encourage for the moment
-to snoop over the new wiki which is in the works, as we are adding new articles and documentation there. #TODO: add link
+to snoop over the new wiki which is in the works, as we are adding new articles and documentation [there](https://sabayon.github.io/wiki-next/).
 
 
 ## What to expect next()?!
