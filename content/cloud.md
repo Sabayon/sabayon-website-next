@@ -1,6 +1,6 @@
 +++
 title = "Cloud edition"
-description = "Sabayon on Docker, Vagrant, VirtualBox"
+description = "Sabayon on Docker, Vagrant, LXD/LXC"
 type = "custom"
 layout = "cloud"
 date = "2015-11-04"
@@ -14,34 +14,16 @@ date = "2015-11-04"
     * [For developers](https://hub.docker.com/r/sabayon/builer-amd64/)
 
 
-* #### [VagrantCloud](https://atlas.hashicorp.com/Sabayon/boxes/spinbase-amd64)
+* #### [VagrantImage](http://dl.sabayon.org/sbi/vagrant/Sabayon_Linux_DAILY_amd64_SpinBase.box)
 
-    `vagrant init Sabayon/spinbase-amd64 && vagrant up`
+    daily Vagrant spinbase image...
 
-<!---
+* #### [LXD/LXC](https://images.linuxcontainers.org/)
 
-* #### [Vagrant](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_16.04_amd64_SpinBase.box")
-
-    You can use that box locally with vagrant
-    * [Download](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_18.05_amd64_SpinBase.box)
-    * [MD5](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_18.05_amd64_SpinBase.box.md5)
-    * [Package list](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_18.05_amd64_SpinBase.iso.pkglist)
-
-* #### [VirtualBox](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_18.05_amd64_SpinBase-ovz.tar.gz)
-
-    OVZ image
-    * [Download](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_18.05_amd64_SpinBase-ovz.tar.gz)
-    * [MD5](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_18.05_amd64_SpinBase-ovz.tar.gz.md5)
-    * [Package list](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_18.05_amd64_SpinBase.iso.pkglist)
-
-* #### [QEMU](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_18.05_amd64_SpinBase-qemu.tar.gz)
-
-    Qcow2 images
-    * [Download](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_18.05_amd64_SpinBase-qemu.tar.gz)
-    * [MD5](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_18.05_amd64_SpinBase-qemu.tar.gz-md5)
-    * [Package list](http://dl.sabayon.org/iso/monthly/Sabayon_Linux_18.05_amd64_SpinBase-iso.pkglist)
-
--->
+    lxd images to pull and lxc images to build/download...
+    * `lxd launch sabayon sab01`
+    * `lxc-create --name=sab-lxc  -t sabayon`
+    * `lxc-create -t download --name=sab-lxc`
 
 <hr>
 
