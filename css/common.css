@@ -1,0 +1,368 @@
+body {
+    background: #000;
+    color: #fff;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+#getit {
+    background: #000;
+    color: #fff;
+}
+
+.navbar-nav li {
+    margin-top: 10px;
+}
+
+div.mirrors-list img.flag {
+    float: right;
+    margin-top: 1.3em;
+}
+
+.mirror_link {
+    word-wrap: break-word;
+}
+
+.btn-primary {
+    background: #000;
+}
+
+.jumbotron {
+    background: url(../img/intro-bg.jpg);
+    color: #fff;
+    background-attachment: fixed;
+    margin-bottom: 0px;
+}
+
+.community {
+    background: url(../img/community.jpg);
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.documentation {
+    background: url(../img/documentation.jpg);
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.navbar a {
+    color: #000;
+}
+
+.jumbotron .media {
+    margin: 50px 0;
+    margin-bottom: 0px;
+}
+
+.jumbotron .media-body h1 {
+    margin-top: 40px;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+
+.btn-circle.btn-lg {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px;
+}
+
+.btn-circle.btn-xl {
+    width: 110px;
+    height: 110px;
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 35px;
+}
+
+div.feature-box {
+    clear: both;
+}
+
+div.feature-box div.feature-box-icon {
+    -moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+    background: #fff;
+    border-radius: 35px;
+    color: #52ad81;
+    display: inline-block;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 10px;
+    position: relative;
+    text-align: center;
+    top: 5px;
+    width: 35px;
+}
+
+div.feature-box div.feature-box-info {
+    padding-left: 50px;
+}
+
+div.feature-box div.feature-box-icon i.image-icon {
+    position: relative;
+    top: 5px;
+}
+
+div.feature-box div.feature-box-icon i.image-icon.small {
+    top: 2px;
+}
+
+.features {
+    padding-top: 30px;
+}
+
+.features p {
+    margin: 30px 0;
+}
+
+.features .col-lg-4:first-child .icon-stack-base {
+    color: #52ad81;
+}
+
+.features .col-lg-4:nth-child(2) .icon-stack-base {
+    color: #cd5a48;
+}
+
+.features .col-lg-4:last-child .icon-stack-base {
+    color: #51a9d6;
+}
+
+.navbar {
+    background: none;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.screens {
+    background: rgba(222,217,200, .85);
+    padding: 30px;
+    color: #000;
+}
+
+.services {
+    background: #fff;
+    padding: 30px;
+    color: #000;
+}
+
+.info {
+    background: #000;
+    color: #fff;
+}
+
+.copyright {
+    background: #000;
+    font-size: small;
+    color: #eeedec;
+}
+
+.fun_facts{
+    background: #fff;
+    color: #000
+}
+
+.flavour-cloud {
+    background: #ebf2f2;
+    color: #ade0db;
+}
+
+.flavour-server {
+    background: #c0d5c2;
+    color: #000;
+}
+
+.flavour-desktop {
+    background: #9bc1c5;
+    color: #000;
+}
+
+.flavour-testing {
+    background: #0cab82;
+    color: #000;
+}
+
+.fun_facts .section_overlay {
+    padding-bottom: 30px;
+}
+
+.footer_override {
+    color: #fff !important;
+}
+
+.well {
+    background: #fff;
+    color :#000;
+}
+
+.well-summary a{
+    color: #000;
+}
+
+.panel .panel-heading {
+    background: rgba(222,217,200, 1);
+    color: #000;
+    border-color: rgba(187, 184, 180, 0.7);
+}
+
+.panel-default {
+    background: #fff;
+    color: #000;
+    border: solid rgba(187, 184, 180, 0.7);
+}
+
+h3 a[href='http://dl.sabayon.org/iso/daily/daily.html']::before,
+li a[href$='.iso']::before,
+li a[href$='.img.xz']::before,
+li a[href='https://hub.docker.com/r/sabayon']::before,
+li a[href='https://atlas.hashicorp.com/Sabayon/boxes/spinbase-amd64']::before,
+li a[href='https://www.facebook.com/groups/36125411841']::before,
+li a[href='https://plus.google.com/+sabayon']::before {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    margin-right: 0.2em;
+}
+
+h3 a[href='http://dl.sabayon.org/iso/daily/daily.html']::before {
+    color: inherit;
+    content: "\f0c3";
+    font-size: inherit;
+    height: auto;
+    margin-right: 0;
+    padding: 0;
+    width: auto;
+}
+
+li a[href$='.iso']::before,
+li a[href$='.img.xz']::before {
+    content: "\f019";
+}
+
+.desktop li a[href$='.iso']::before,
+.desktop li a[href$='.img.xz']::before,
+.server li a[href$='.iso']::before,
+.server li a[href$='.img.xz']::before {
+    content: "";
+}
+
+li a[href='https://hub.docker.com/r/sabayon']::before,
+li a[href='https://atlas.hashicorp.com/Sabayon/boxes/spinbase-amd64']::before {
+    content: "\f0c2";
+}
+
+li a[href='https://www.facebook.com/groups/36125411841']::before {
+    content: "\f09a";
+}
+
+li a[href='https://plus.google.com/+sabayon']::before {
+    content: "\f1a0";
+}
+
+a[href='http://dl.sabayon.org/sabayon/sbi/vagrant/Sabayon_Linux_DAILY_amd64_SpinBase.box']::before {
+    background-image: url('../img/vagrantcloud-logo.png');
+}
+
+a[href$='/donate'] {
+    display: inline-block;
+    font-size: inherit;
+    line-height: 1.5;
+}
+
+h4 a[href$='/donate'] {
+    color: #fff;
+    background: #e74c3c;
+    border: 2px solid #e74c3c;
+    border-radius: 3px;
+    padding: 1px 5px;
+}
+
+h4 a[href$='/donate']:active,
+h4 a[href$='/donate']:focus,
+h4 a[href$='/donate']:hover {
+    color: #fff;
+    background: #d62c1a;
+    border-color: #cd2a19;
+    text-decoration: none;
+}
+
+h4 a[href$='/donate']::before,
+a[href$='/donate']::after {
+    content: "\f004";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    line-height: inherit;
+    background: inherit;
+    border-color: inherit;
+    height: auto;
+    width: auto;
+    margin-left: 0.2em;
+    padding: 0;
+    border-radius: 0;
+    vertical-align: middle;
+}
+
+h4 a[href$='/donate']::before {
+    color: #fff;
+    margin-right: 0.2em;
+}
+
+h4 a[href$='/donate']::after,
+li a[href$='/donate']::after {
+    content: "";
+    margin-right: 0;
+}
+
+img[src$="press-header-roll_0.png"],
+img[src="https://joostruis.files.wordpress.com/2015/09/plasma_sab.png?w=582&h=217"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headroom {
+    will-change: transform;
+    transition: transform 200ms linear;
+}
+
+.headroom--pinned {
+    background: #000;
+    border-radius: 0;
+    position: fixed;
+    top: 0;
+    transform: translateY(0%);
+    width: 100%;
+    z-index: 1000;
+}
+
+.headroom--unpinned {
+    transform: translateY(-100%);
+}
+
+.headroom--pinned + .container {
+    padding-top: 70px;  /* min-height of .navbar + a bit spacing */
+}

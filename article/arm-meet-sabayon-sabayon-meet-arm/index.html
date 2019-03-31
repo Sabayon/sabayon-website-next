@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>ARM meet Sabayon, Sabayon meet ARM. - https://next.sabayon.org</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="" />
+        <meta name="author" content="Sabayonlinux crew" />
+        <link rel="canonical" href="https://next.sabayon.org/article/arm-meet-sabayon-sabayon-meet-arm/">
+        <link rel="shortcut icon" href="https://www.sabayon.org/sites/all/themes/sabayon/favicon.ico" type="image/vnd.microsoft.icon" />
+        
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic" />
+<link rel="stylesheet" type="text/css" href="https://next.sabayon.org/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="https://next.sabayon.org/css/theme.css" />
+<link rel="stylesheet" type="text/css" href="https://next.sabayon.org/css/font-awesome.css" />
+<link rel="stylesheet" type="text/css" href="https://next.sabayon.org/css/common.css" />
+<link rel="stylesheet" type="text/css" href="https://next.sabayon.org/css/custom.css" />
+
+    </head>
+    <body>
+        <nav id="top-nav" class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://next.sabayon.org">
+                <img src="https://next.sabayon.org/img/navbar_sabayon_logo_trans.png"
+                     alt="Sabayon Logo" width="135" height="35"
+                     class="img-responsive" />
+                <span class="sr-only">Sabayon Linux</span>
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav pull-right">
+                <li><a href="https://next.sabayon.org/donate/">DONATE</a></li>
+                <li><a href="https://forum.sabayon.org/">Forum</a></li>
+                <li><a href="https://next.sabayon.org/chat/">Support</a></li>
+                <li><a href="https://wiki.sabayon.org/">Wiki</a></li>
+                <li><a href="https://next.sabayon.org/download"> Download</a></li>
+                <li><a href="https://bugs.sabayon.org/"> Bugs</a></li>
+                <li><a href="https://packages.sabayon.org/">Packages</a></li>
+                <li><a href="https://sabayon.github.io/community-website/">SCR</a></li>
+                <li><a href="https://next.sabayon.org/blog/"> Blog</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="well well-sm">
+                        <h3>ARM meet Sabayon, Sabayon meet ARM.<br> <small></small></h3>
+                        <hr>
+                        <p>We are  glad to announce the immediate availability of Sabayon ARM (hfp) for Raspberry Pi 2 and 3.</p>
+
+<p>This is our first step towards ARM support, the package release scheduling will be different from our amd64 variant. Updates will be on a period of 6 months, except for security or special updates.</p>
+
+<p>The image comes out of the box with the latest 4.4.y kernel and with the rpi-update tool that can be used to update kernel and firmware.</p>
+
+<p>The Username/Password is sabayon:sabayon, and sudo is already set-up.  Just flash the image with dd, and attach it to a network (it will gets an ip automatically from your network).</p>
+
+<p>The OS is set to automatically boot and start eth0 and sshd (so you can connect to it via ssh).</p>
+
+<p>The images will be soon available on all the Sabayon mirrors. For now you can download it from the official TOP-IX italian mirror:</p>
+
+<p><ins datetime="2018-02-16">(Removed broken links)</ins></p>
+
+<p>you can however browse our mirror list the image could be found under the iso/monthly/ directory.</p>
+
+<p>To write the image to the sdcard, you can just use xzcat:</p>
+
+<pre><code>xzcat Sabayon_Linux_16_armv7l_RPi_Base_8GB.img.xz &gt; /dev/mmcblk0
+</code></pre>
+
+<p>or you can uncompress and use dd:</p>
+
+<pre><code>unxz Sabayon_Linux_16_armv7l_RPi_Base_8GB.img.xz
+dd if=Sabayon_Linux_16_armv7l_RPi_Base_8GB.img of=/dev/mmcblk0
+</code></pre>
+
+<p>We have already ~2000 packages in the ARMhfp repository, including Docker already cutted for ARM boards (yay!), GNOME, XFCE, LXDE and bunch of packages you might find interesting.</p>
+
+<p>ROS framework - The robotics framework, Cacti, Kodi, LAMP stack, just to name a few that are already available on the main repository!</p>
+
+<p>For package requests, head over our bugzilla.</p>
+
+<p>If you appreciate our efforts towards the ARM architecture, please consider to donate us either hardware or money to buy it!</p>
+
+<p>Enjoy!</p>
+
+                    </div>
+                </div>
+
+                
+                <div class="col-md-3">
+                    <div class="well well-sm"> 
+                        <h4>April 30, 2016<br>
+                            <small>278 words</small></h4>
+                        <hr>
+                        <strong>Categories</strong>
+                        <ul class="list-unstyled">
+                            
+                            <li><a href="https://next.sabayon.org/categories/sabayon">sabayon</a></li>
+                            
+                        </ul>
+                        <hr>
+                        <strong>Tags</strong><br>
+                        <a class="label label-default" href="https://next.sabayon.org/tags/development">development</a> <a class="label label-default" href="https://next.sabayon.org/tags/sabayon">sabayon</a> <a class="label label-default" href="https://next.sabayon.org/tags/arm">arm</a> <a class="label label-default" href="https://next.sabayon.org/tags/raspberry">raspberry</a> 
+                    </div>
+                    <div class="panel panel-default">
+    <div class="panel-heading" style="padding: 2px 15px;">
+        <h4><i class="fa fa-comments-o"></i>  Our Community</h4>
+    </div>
+    <div class="panel-body">
+        You don't have to be able to code to help the <a href="https://forum.sabayon.org/">Sabayon Community</a>. There are many ways to contribute, be it your passion, your skills, your time or a monetary donation.<br>
+        Sabayon is user powered, created solely on freely given user contributions, so why not help out and give back to the community?
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading" style="padding: 2px 15px;">
+        <h4><i class="fa fa-bullhorn"></i>  Join us on Facebook, Google+</h4>
+    </div>
+    <div class="panel-body">
+        Meet our crazy community on <a href="http://www.facebook.com/group.php?gid=36125411841" target="_blank">Facebook</a>. Alternatively, have fun with the guys and gals on <a href="https://plus.google.com/u/1/communities/111215969224831918857" target="_blank">Google+</a>, or simply +1 us our <a href="https://plus.google.com/+sabayon" target="_blank">Google+</a> page.<br>
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading" style="padding: 2px 15px;">
+        <h4><i class="fa fa-download"></i>  Get Sabayon </h4>
+    </div>
+    <div class="panel-body">
+        <a href="https://next.sabayon.org/download">
+        There are many different Sabayon variants</a>. <br>Each one is designed for a specific purpose and designed to bring out the best in your hardware<br>
+        We provide Live versions of most of our variants, so you can try out Sabayon without touching your Computer's Hard drive.
+    </div>
+</div>
+
+                </div>
+            </div>
+            <section class="info" id="INFO">
+    <div class="container">
+        <div class="row">
+            <div class="text-center">
+                <div class="col-lg-3  col-sm-2">
+                    <br />
+                    <div class="footer_override">
+                        <ul class="list-unstyled">
+                            <li>
+                                <i class="fa fa-github-square"></i>
+                                Development
+                            </li>
+                            <li>
+                                <a href="https://github.com/Sabayon/">
+                                    About us
+                                </a>
+                            </li>
+                            <li><a href="https://next.sabayon.org/blog">Blog</a></li>
+                            <li>
+                                <a href="https://gitter.im/Sabayon">Gitter</a>
+                            </li>
+                            <li class="first leaf">
+                                <a href="https://github.com/Sabayon/" title="Sabayon Github">
+                                    Github
+                                </a>
+                            </li>
+                            <li class="last leaf">
+                                <a href="https://github.com/Sabayon/sabayon-distro" title="Gitweb for overlay.git">
+                                    Portage Overlay
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-2">
+                    <br />
+                    <div class="footer_override">
+                        <ul class="list-unstyled">
+                            <li>
+                                <i class="fa fa-share-alt-square"></i>
+                                Social
+                            </li>
+                            <li>
+                                <a href="https://forum.sabayon.org/">Forum</a>
+                            </li>
+                            <li><a href="https://next.sabayon.org/chat/">Chat</a></li>
+                            <li>
+                                <a href="http://www.facebook.com/group.php?gid=36125411841">
+                                    Facebook
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/u/1/communities/111215969224831918857">
+                                    Google+
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-2">
+                    <br />
+                    <div class="footer_override">
+                        <ul class="list-unstyled">
+                            <li>
+                                <i class="fa fa-wrench"></i>
+                                Services
+                            </li>
+                            <li class="leaf">
+                                <a href="https://next.sabayon.org/donate">Donate</a>&nbsp; - &nbsp;
+                                <a href="mailto:webmaster@sabayonlinux.org">
+                                    Contact Us
+                                </a>
+                            </li>
+                            <li class="leaf">
+                                <a href="https://pastebin.sabayon.org/">
+                                    Pastebin
+                                </a>&nbsp; - &nbsp;
+                                <a href="https://lists.sabayon.org/">
+                                    Lists
+                                </a>
+                            </li>
+                            <li class="leaf">
+                                &nbsp;
+                                <a href="https://next.sabayon.org/releases/">Releases Archive</a>
+                            </li>
+                            <li class="leaf">
+                                <a href="https://wiki.sabayon.org/">
+                                    Wiki
+                                </a>&nbsp; - &nbsp;
+                                <a href="https://next.sabayon.org/mirrors">Mirrors</a>
+                            </li>
+                            <li class="leaf">
+                                <a href="https://bugs.sabayon.org/">
+                                    Bugs
+                                </a>&nbsp; - &nbsp;
+                                <a href="https://next.sabayon.org/press">Press Documentation</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-2">
+                    <br />
+                    <div class="footer_override">
+                        <ul class="list-unstyled">
+                            <li>
+                                <i class="fa fa-file-text"></i>
+                                Documentation
+                            </li>
+                            <li class="leaf">
+                                <a href="http://wiki.sabayon.org/index.php?title=Converting" title="Helps converts from other Linux distributions">
+                                    Converting to Sabayon
+                                </a>
+                            </li>
+                            <li class="leaf">
+                                <a href="http://wiki.sabayon.org/index.php?title=FAQ" title="Frequently Asked Questions">
+                                    F.A.Q.
+                                </a>&nbsp; - &nbsp;
+                                <a href="http://wiki.sabayon.org/index.php?title=En:Introduction" title="A nice introduction to using Sabayon Linux">
+                                    Introduction
+                                </a>
+                            </li>
+                            <li class="leaf">
+                                <a href="http://wiki.sabayon.org/index.php?title=Entropy#Fresh_Install_-_What_to_do.3F" title="First update and not sure what do do? Look here.">
+                                    Fresh Install Guide
+                                </a>
+                            </li>
+                            <li class="leaf">
+                                <a href="http://wiki.sabayon.org/index.php?title=HOWTOs" title="These, surprisingly, show you how to do stuff.">
+                                    How To Guides
+                                </a>
+                            </li>
+                            <li class="leaf">
+                                <a href="https://wiki.sabayon.org/index.php?title=Entropy#About_Entropy" title="About Entropy">
+                                    About Entropy
+                                </a>
+                            </li>
+                            <li class="leaf">
+                                <a href="http://eapi.sabayon.org/" title="Entropy API">
+                                    Entropy API Docs
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="copyright" id="COPYRIGHT" width="100%">
+    <div class="container">
+        <div class="row">
+            <div class="text-center">
+                <hr width="90%" />
+                &copy; 2004-2017 Sabayon Promotion (CF: 93018620224).<br />
+                Unless otherwise stated, content on this page is licensed under a Creative Commons Attribution-ShareAlike 3.0 License.<br />
+                Linux is a registered trademark of Linus Torvalds.<br />
+                All other trademarks are the property of their respective owners.<br />
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
+</section>
+
+        </div>
+        
+    <script src="https://next.sabayon.org/js/jquery.js"></script>
+    <script src="https://next.sabayon.org/js/bootstrap.js"></script>
+    <script src="https://next.sabayon.org/js/common.js"></script>
+    <script src="https://next.sabayon.org/js/script.js"></script>
+    <script type="text/javascript" src="https://next.sabayon.org/js/headroom.min.js"></script>
+
+    </body>
+</html>

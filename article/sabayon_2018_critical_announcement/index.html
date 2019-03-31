@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Critical Incident - 2018-01-15 - https://next.sabayon.org</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="" />
+        <meta name="author" content="Sabayonlinux crew" />
+        <link rel="canonical" href="https://next.sabayon.org/article/sabayon_2018_critical_announcement/">
+        <link rel="shortcut icon" href="https://www.sabayon.org/sites/all/themes/sabayon/favicon.ico" type="image/vnd.microsoft.icon" />
+        
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic" />
+<link rel="stylesheet" type="text/css" href="https://next.sabayon.org/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="https://next.sabayon.org/css/theme.css" />
+<link rel="stylesheet" type="text/css" href="https://next.sabayon.org/css/font-awesome.css" />
+<link rel="stylesheet" type="text/css" href="https://next.sabayon.org/css/common.css" />
+<link rel="stylesheet" type="text/css" href="https://next.sabayon.org/css/custom.css" />
+
+    </head>
+    <body>
+        <nav id="top-nav" class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://next.sabayon.org">
+                <img src="https://next.sabayon.org/img/navbar_sabayon_logo_trans.png"
+                     alt="Sabayon Logo" width="135" height="35"
+                     class="img-responsive" />
+                <span class="sr-only">Sabayon Linux</span>
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav pull-right">
+                <li><a href="https://next.sabayon.org/donate/">DONATE</a></li>
+                <li><a href="https://forum.sabayon.org/">Forum</a></li>
+                <li><a href="https://next.sabayon.org/chat/">Support</a></li>
+                <li><a href="https://wiki.sabayon.org/">Wiki</a></li>
+                <li><a href="https://next.sabayon.org/download"> Download</a></li>
+                <li><a href="https://bugs.sabayon.org/"> Bugs</a></li>
+                <li><a href="https://packages.sabayon.org/">Packages</a></li>
+                <li><a href="https://sabayon.github.io/community-website/">SCR</a></li>
+                <li><a href="https://next.sabayon.org/blog/"> Blog</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="well well-sm">
+                        <h3>Critical Incident - 2018-01-15<br> <small></small></h3>
+                        <hr>
+                        
+
+<h1 id="critical-incident-2018-01-15">Critical Incident - 2018-01-15</h1>
+
+<h2 id="what-happened">What happened?</h2>
+
+<p>During the weekly update of package repositories yesterday, some scripts
+and binaries that were only meant to be installed on our internal
+infrastructure were incorrectly pushed to all users. The updates that
+contained the offending content were only available for a short window
+(less than 24 hours) and have now been removed from all official mirrors.</p>
+
+<p>The update contained an experimental cryptocurrency miner and its
+configuration files. The intention was to leverage the idle CPU time on Sabayon
+infrastructure hosts to increase funding for the project via a Monero
+wallet. This was setup on one of the internal development repositories for testing
+and accidentally promoted to the main Sabayon package repositories in error by
+another member of staff who was unaware of its existence.</p>
+
+<p>We are very sorry that this has happened and we apologize for any inconvenience
+it may have caused you.</p>
+
+<h2 id="how-can-you-tell-if-you-ve-been-affected">How can you tell if you&rsquo;ve been affected?</h2>
+
+<p>If your systems updated the package repositories (e.g. using &ldquo;equo update&rdquo;,
+or from the rigo background auto updater),
+between 2018-01-14 20:30 UTC and 2018-01-15 18:00 UTC,
+you may find a miner process named &ldquo;sd&rdquo; running on your system. This process
+may have been using up to 100% of one CPU core since then.</p>
+
+<p>You may also see a hidden file at &ldquo;/etc/entropy/.infra_machine&rdquo; was was intended
+to limit the affects to only the infrastructure hosts, but which was inadvertantly
+created on all machines.</p>
+
+<h2 id="how-can-you-clean-up">How can you clean up?</h2>
+
+<p>Either killing the miner &ldquo;sd&rdquo; process if present, or restarting your computer
+will stop this activity. If present on your system the &ldquo;.infra_machine&rdquo; hidden
+file can be safely deleted with &ldquo;sudo rm /etc/entropy/.infra_machine&rdquo;.</p>
+
+<p>No further cleanup is required as the miner scripts were
+not made to be persistent.</p>
+
+<h2 id="what-next">What next?</h2>
+
+<p>As sign of good faith we will be donating the equivalent amount of money
+generated by the miners to charity.
+At time of writing, this is approximately valued at 5 Euro.
+You can independently check the value of the wallet and any transactions
+relating to it by entering the wallet address
+(49oFnBbQbwXEJ8eTcWxVDb12Sbktn9XHQ6ysezutij4xGbXLYaygeDNTWEKoae9E4fMedQJy5g9QMQk1Hy7YuB7HHaJSGdg)
+at <a href="https://moneropool.com">moneropools</a>.
+The chosen charity will be announced on the blog once all mining activity
+has slowed/stopped and the final amount generated is known.</p>
+
+<p>This happened in part because the Sabayon package build process involves
+manual activity by different staff members on the same server. We have already
+been working for some time on further automating these processes to remove the
+manual work on servers, and make the build processes more transparent to users.</p>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<p>Thanks to
+<a href="https://plus.google.com/u/1/112606733744204696895/posts/fVaWrXkHUsn">Joe Cuchac</a>
+for bringing this issue to our attention earlier today, and to nks0ne, iTitou,
+and Mr-Hide from IRC for their assistance in tracking down the source.</p>
+
+                    </div>
+                </div>
+
+                
+                <div class="col-md-3">
+                    <div class="well well-sm"> 
+                        <h4>January 15, 2018<br>
+                            <small>450 words</small></h4>
+                        <hr>
+                        <strong>Categories</strong>
+                        <ul class="list-unstyled">
+                            
+                            <li><a href="https://next.sabayon.org/categories/sabayon">sabayon</a></li>
+                            
+                        </ul>
+                        <hr>
+                        <strong>Tags</strong><br>
+                        <a class="label label-default" href="https://next.sabayon.org/tags/incident">incident</a> <a class="label label-default" href="https://next.sabayon.org/tags/updates">updates</a> <a class="label label-default" href="https://next.sabayon.org/tags/sabayon">sabayon</a> 
+                    </div>
+                    <div class="panel panel-default">
+    <div class="panel-heading" style="padding: 2px 15px;">
+        <h4><i class="fa fa-comments-o"></i>  Our Community</h4>
+    </div>
+    <div class="panel-body">
+        You don't have to be able to code to help the <a href="https://forum.sabayon.org/">Sabayon Community</a>. There are many ways to contribute, be it your passion, your skills, your time or a monetary donation.<br>
+        Sabayon is user powered, created solely on freely given user contributions, so why not help out and give back to the community?
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading" style="padding: 2px 15px;">
+        <h4><i class="fa fa-bullhorn"></i>  Join us on Facebook, Google+</h4>
+    </div>
+    <div class="panel-body">
+        Meet our crazy community on <a href="http://www.facebook.com/group.php?gid=36125411841" target="_blank">Facebook</a>. Alternatively, have fun with the guys and gals on <a href="https://plus.google.com/u/1/communities/111215969224831918857" target="_blank">Google+</a>, or simply +1 us our <a href="https://plus.google.com/+sabayon" target="_blank">Google+</a> page.<br>
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading" style="padding: 2px 15px;">
+        <h4><i class="fa fa-download"></i>  Get Sabayon </h4>
+    </div>
+    <div class="panel-body">
+        <a href="https://next.sabayon.org/download">
+        There are many different Sabayon variants</a>. <br>Each one is designed for a specific purpose and designed to bring out the best in your hardware<br>
+        We provide Live versions of most of our variants, so you can try out Sabayon without touching your Computer's Hard drive.
+    </div>
+</div>
+
+                </div>
+            </div>
+            <section class="info" id="INFO">
+    <div class="container">
+        <div class="row">
+            <div class="text-center">
+                <div class="col-lg-3  col-sm-2">
+                    <br />
+                    <div class="footer_override">
+                        <ul class="list-unstyled">
+                            <li>
+                                <i class="fa fa-github-square"></i>
+                                Development
+                            </li>
+                            <li>
+                                <a href="https://github.com/Sabayon/">
+                                    About us
+                                </a>
+                            </li>
+                            <li><a href="https://next.sabayon.org/blog">Blog</a></li>
+                            <li>
+                                <a href="https://gitter.im/Sabayon">Gitter</a>
+                            </li>
+                            <li class="first leaf">
+                                <a href="https://github.com/Sabayon/" title="Sabayon Github">
+                                    Github
+                                </a>
+                            </li>
+                            <li class="last leaf">
+                                <a href="https://github.com/Sabayon/sabayon-distro" title="Gitweb for overlay.git">
+                                    Portage Overlay
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-2">
+                    <br />
+                    <div class="footer_override">
+                        <ul class="list-unstyled">
+                            <li>
+                                <i class="fa fa-share-alt-square"></i>
+                                Social
+                            </li>
+                            <li>
+                                <a href="https://forum.sabayon.org/">Forum</a>
+                            </li>
+                            <li><a href="https://next.sabayon.org/chat/">Chat</a></li>
+                            <li>
+                                <a href="http://www.facebook.com/group.php?gid=36125411841">
+                                    Facebook
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/u/1/communities/111215969224831918857">
+                                    Google+
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-2">
+                    <br />
+                    <div class="footer_override">
+                        <ul class="list-unstyled">
+                            <li>
+                                <i class="fa fa-wrench"></i>
+                                Services
+                            </li>
+                            <li class="leaf">
+                                <a href="https://next.sabayon.org/donate">Donate</a>&nbsp; - &nbsp;
+                                <a href="mailto:webmaster@sabayonlinux.org">
+                                    Contact Us
+                                </a>
+                            </li>
+                            <li class="leaf">
+                                <a href="https://pastebin.sabayon.org/">
+                                    Pastebin
+                                </a>&nbsp; - &nbsp;
+                                <a href="https://lists.sabayon.org/">
+                                    Lists
+                                </a>
+                            </li>
+                            <li class="leaf">
+                                &nbsp;
+                                <a href="https://next.sabayon.org/releases/">Releases Archive</a>
+                            </li>
+                            <li class="leaf">
+                                <a href="https://wiki.sabayon.org/">
+                                    Wiki
+                                </a>&nbsp; - &nbsp;
+                                <a href="https://next.sabayon.org/mirrors">Mirrors</a>
+                            </li>
+                            <li class="leaf">
+                                <a href="https://bugs.sabayon.org/">
+                                    Bugs
+                                </a>&nbsp; - &nbsp;
+                                <a href="https://next.sabayon.org/press">Press Documentation</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-2">
+                    <br />
+                    <div class="footer_override">
+                        <ul class="list-unstyled">
+                            <li>
+                                <i class="fa fa-file-text"></i>
+                                Documentation
+                            </li>
+                            <li class="leaf">
+                                <a href="http://wiki.sabayon.org/index.php?title=Converting" title="Helps converts from other Linux distributions">
+                                    Converting to Sabayon
+                                </a>
+                            </li>
+                            <li class="leaf">
+                                <a href="http://wiki.sabayon.org/index.php?title=FAQ" title="Frequently Asked Questions">
+                                    F.A.Q.
+                                </a>&nbsp; - &nbsp;
+                                <a href="http://wiki.sabayon.org/index.php?title=En:Introduction" title="A nice introduction to using Sabayon Linux">
+                                    Introduction
+                                </a>
+                            </li>
+                            <li class="leaf">
+                                <a href="http://wiki.sabayon.org/index.php?title=Entropy#Fresh_Install_-_What_to_do.3F" title="First update and not sure what do do? Look here.">
+                                    Fresh Install Guide
+                                </a>
+                            </li>
+                            <li class="leaf">
+                                <a href="http://wiki.sabayon.org/index.php?title=HOWTOs" title="These, surprisingly, show you how to do stuff.">
+                                    How To Guides
+                                </a>
+                            </li>
+                            <li class="leaf">
+                                <a href="https://wiki.sabayon.org/index.php?title=Entropy#About_Entropy" title="About Entropy">
+                                    About Entropy
+                                </a>
+                            </li>
+                            <li class="leaf">
+                                <a href="http://eapi.sabayon.org/" title="Entropy API">
+                                    Entropy API Docs
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="copyright" id="COPYRIGHT" width="100%">
+    <div class="container">
+        <div class="row">
+            <div class="text-center">
+                <hr width="90%" />
+                &copy; 2004-2017 Sabayon Promotion (CF: 93018620224).<br />
+                Unless otherwise stated, content on this page is licensed under a Creative Commons Attribution-ShareAlike 3.0 License.<br />
+                Linux is a registered trademark of Linus Torvalds.<br />
+                All other trademarks are the property of their respective owners.<br />
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
+</section>
+
+        </div>
+        
+    <script src="https://next.sabayon.org/js/jquery.js"></script>
+    <script src="https://next.sabayon.org/js/bootstrap.js"></script>
+    <script src="https://next.sabayon.org/js/common.js"></script>
+    <script src="https://next.sabayon.org/js/script.js"></script>
+    <script type="text/javascript" src="https://next.sabayon.org/js/headroom.min.js"></script>
+
+    </body>
+</html>

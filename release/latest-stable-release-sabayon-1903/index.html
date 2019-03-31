@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Sabayon 19.03 - New stable release - https://next.sabayon.org</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="19.03 Press release" />
+        <meta name="author" content="Sabayonlinux crew" />
+        <link rel="canonical" href="https://next.sabayon.org/release/latest-stable-release-sabayon-1903/">
+        <link rel="shortcut icon" href="https://www.sabayon.org/sites/all/themes/sabayon/favicon.ico" type="image/vnd.microsoft.icon" />
+        
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic" />
+<link rel="stylesheet" type="text/css" href="https://next.sabayon.org/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="https://next.sabayon.org/css/theme.css" />
+<link rel="stylesheet" type="text/css" href="https://next.sabayon.org/css/font-awesome.css" />
+<link rel="stylesheet" type="text/css" href="https://next.sabayon.org/css/common.css" />
+<link rel="stylesheet" type="text/css" href="https://next.sabayon.org/css/custom.css" />
+
+    </head>
+    <body>
+        <nav id="top-nav" class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://next.sabayon.org">
+                <img src="https://next.sabayon.org/img/navbar_sabayon_logo_trans.png"
+                     alt="Sabayon Logo" width="135" height="35"
+                     class="img-responsive" />
+                <span class="sr-only">Sabayon Linux</span>
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav pull-right">
+                <li><a href="https://next.sabayon.org/donate/">DONATE</a></li>
+                <li><a href="https://forum.sabayon.org/">Forum</a></li>
+                <li><a href="https://next.sabayon.org/chat/">Support</a></li>
+                <li><a href="https://wiki.sabayon.org/">Wiki</a></li>
+                <li><a href="https://next.sabayon.org/download"> Download</a></li>
+                <li><a href="https://bugs.sabayon.org/"> Bugs</a></li>
+                <li><a href="https://packages.sabayon.org/">Packages</a></li>
+                <li><a href="https://sabayon.github.io/community-website/">SCR</a></li>
+                <li><a href="https://next.sabayon.org/blog/"> Blog</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="well well-sm">
+                        <h3>Sabayon 19.03 - New stable release<br> <small>19.03 Press release</small></h3>
+                        <hr>
+                        
+
+<p>The team behind Sabayon is excited to present you the latest stable release:
+Sabayon 19.03.</p>
+
+<p>Sabayon is a modern and easy to use distribution based on Gentoo,
+which follows a reliable rolling release model.</p>
+
+<p>Please read on or <a href="https://next.sabayon.org/download/">download</a> your flavour :-)</p>
+
+<p>19.03 is a long awaited release, coming with a lot of new features and enhancements:</p>
+
+<ul>
+<li>New build infrastructure</li>
+<li>Switch to Dracut for initramfs generation</li>
+<li>Full disk encryption support</li>
+<li>Installer switch from Anaconda to Calamares</li>
+<li>Support for 32 bit UEFI! (Intel Sticks, and so on&hellip;)</li>
+<li>Latest kernel is 4.20</li>
+<li>Python 3 is default</li>
+<li>Entropy improvements, including better tracking of &ldquo;automatic&rdquo; dependencies and a new command, equo mark</li>
+<li>AMDGPU Enhancements such as extended Vega support including Radeon VII</li>
+<li>AMD Freesync ready - MESA19, xf86-video-amdgpu-19, solid 5.X kernel available soon</li>
+<li>Nvidia Freesync ready - &ldquo;Gsync Supported Monitors&rdquo; can be enabled in nvidia-drivers-418.43 via the nvidia-settings tool</li>
+<li>Legacy driver deprecation - nvidia-304.XX drivers are now deprecated. Cards older than Geforce 8000 non-GTX series use nouveau.</li>
+<li>Work in progress for the new wiki</li>
+<li>We are on Patreon now! <a href="https://www.patreon.com/sabayon">Support the project</a></li>
+</ul>
+
+<h2 id="new-build-infrastructure">New Build Infrastructure</h2>
+
+<p>Most of the changes that we did sadly aren&rsquo;t noticeable from a user perspective, so we want to share
+our happiness about the codebase state.</p>
+
+<p>We&rsquo;ve invested time in making our internal tooling better, dramatically important for future enhancements to our rolling release model.</p>
+
+<p>We are using <a href="https://mottainaici.github.io/docs/">Mottainai</a> in our build infrastructure to automatize build and release
+of Sabayon, allowing us to scale horizontally the load required to build ISOs, packages and more.</p>
+
+<p>The impact is noticeable for us, e.g. to build all ISOs flavors it now takes less than 2 hours!</p>
+
+<p>This enables us to care less about repetitive tasks and ease the development process, as we can release bugfixes and do proper QA in
+<sup>1</sup>&frasl;<sub>10</sub> of the time before!</p>
+
+<h2 id="switch-to-dracut-as-initramfs">Switch to Dracut as Initramfs</h2>
+
+<p>Yes! You heard it well! We moved away from genkernel-next for initramfs generation, and now initramfs is generated on user side.</p>
+
+<p>Additional information is available <a href="https://sabayon.github.io/wiki-next/articles/initramfs/">here</a>.</p>
+
+<h2 id="new-wiki">New Wiki</h2>
+
+<p>We heard you, the current wiki is (sadly) in an embarassing state - but we are working on a completely new restyle of it.
+As time passed, a lot changed in the Sabayon defaults that aren&rsquo;t reflected anymore in the current wiki. We encourage for the moment
+to snoop over the new wiki which is in the works, as we are adding new articles and documentation <a href="https://sabayon.github.io/wiki-next/">here</a>.</p>
+
+<h2 id="what-to-expect-next">What to expect next()?!</h2>
+
+<p>Our artwork needs attention, next release might feature a new look and will have more polishing.</p>
+
+<p>We&rsquo;re looking into possible deprecation of the nvidia-drivers-340.XX series to reduce effort needed for keeping new kernels in shape. We&rsquo;re eager to hear your thoughts.</p>
+
+<p>We&rsquo;re working on getting a 5.X kernel out into the repository to fully unlock Freesync for our users. Linux Gaming FTW!</p>
+
+<p>LLVM and Clang 8 are in the works. Better support for OpenCL, OpenMP, AMDGPU Backends, and support for newer CUDA devices.</p>
+
+<p>ARM support? Absolutely! New layered ARMv7 repositories are being developed. We expect them to be ready soon.</p>
+
+<p>We are also working on unattended installer and updates to our server flavor which is more oriented for Cloud/VMs.</p>
+
+<p>Various package bumps. Get Ready for a refresh! FFMPEG? Check! Ruby? Check! libvdpau? Check! and many more!</p>
+
+<h2 id="thanks-to-our-patreons">Thanks to our Patreons</h2>
+
+<p>Thank you all very much for your support! Without your help this release couldn&rsquo;t be possible.
+We&rsquo;ve finally had enough finance to rent machines to use in our new build infrastructure!</p>
+
+<h3 id="some-picks">Some picks</h3>
+
+<p>Sabayon has now a <a href="https://www.facebook.com/sabayon.linux">Facebook profile</a>
+and a <a href="https://www.facebook.com/groups/36125411841">Facebook group</a>.</p>
+
+<p>Development is open, so if you want to have a look at what has been done in
+detail, it&rsquo;s all there; you can find the link in the Download section below.</p>
+
+<p>If you are interested or want to contribute, <a href="https://next.sabayon.org/chat/">talk to us</a>!</p>
+
+<h2 id="download">Download</h2>
+
+<h3 id="stable-isos">Stable ISOs</h3>
+
+<p>All ISOs are 64bit only.</p>
+
+<ul>
+<li><a href="http://dl.sabayon.org/stable/Sabayon_Linux_19.03_amd64_GNOME.iso">Sabayon GNOME</a></li>
+<li><a href="http://dl.sabayon.org/stable/Sabayon_Linux_19.03_amd64_KDE.iso">Sabayon KDE</a></li>
+<li><a href="http://dl.sabayon.org/stable/Sabayon_Linux_19.03_amd64_MATE.iso">Sabayon MATE</a></li>
+<li><a href="http://dl.sabayon.org/stable/Sabayon_Linux_19.03_amd64_Xfce.iso">Sabayon Xfce</a></li>
+<li><a href="http://dl.sabayon.org/stable/Sabayon_Linux_19.03_amd64_Minimal.iso">Sabayon Minimal</a></li>
+</ul>
+
+<h3 id="further-download-options">Further download options</h3>
+
+<ul>
+<li><a href="https://next.sabayon.org/mirrors/">Sabayon Mirrors Page</a></li>
+<li><a href="https://hub.docker.com/r/sabayon">Sabayon Docker Hub</a></li>
+<li><a href="http://dl.sabayon.org/iso/monthly/monthly.html">Sabayon Monthly Images Download Page</a></li>
+<li><a href="http://torrents.sabayon.org/">Sabayon BitTorrent Tracker</a></li>
+</ul>
+
+<h2 id="get-in-touch-with-us">Get in touch with us</h2>
+
+<ul>
+<li><a href="https://www.facebook.com/groups/36125411841">Join our Facebook group</a></li>
+<li><a href="https://www.facebook.com/sabayon.linux">Like our Facebook profile</a></li>
+<li><a href="https://plus.google.com/+sabayon">Join us on Google+</a></li>
+<li><a href="https://next.sabayon.org/donate/">Donate to Sabayon!</a></li>
+<li><a href="https://github.com/Sabayon/">Code repositories</a></li>
+</ul>
+
+<p>Thank you for your trust in us. If you would like to support our work,
+<a href="https://next.sabayon.org/chat/">talk to us</a> or consider making a <a href="https://next.sabayon.org/donate/">donation</a>.</p>
+
+                    </div>
+                </div>
+
+                
+                <div class="col-md-3">
+                    <div class="well well-sm"> 
+                        <h4>March 31, 2019<br>
+                            <small>711 words</small></h4>
+                        <hr>
+                        <strong>Categories</strong>
+                        <ul class="list-unstyled">
+                            
+                            <li><a href="https://next.sabayon.org/categories/releases">releases</a></li>
+                            
+                            <li><a href="https://next.sabayon.org/categories/sabayon">sabayon</a></li>
+                            
+                        </ul>
+                        <hr>
+                        <strong>Tags</strong><br>
+                        <a class="label label-default" href="https://next.sabayon.org/tags/releases">releases</a> <a class="label label-default" href="https://next.sabayon.org/tags/sabayon">sabayon</a> 
+                    </div>
+                    <div class="panel panel-default">
+    <div class="panel-heading" style="padding: 2px 15px;">
+        <h4><i class="fa fa-comments-o"></i>  Our Community</h4>
+    </div>
+    <div class="panel-body">
+        You don't have to be able to code to help the <a href="https://forum.sabayon.org/">Sabayon Community</a>. There are many ways to contribute, be it your passion, your skills, your time or a monetary donation.<br>
+        Sabayon is user powered, created solely on freely given user contributions, so why not help out and give back to the community?
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading" style="padding: 2px 15px;">
+        <h4><i class="fa fa-bullhorn"></i>  Join us on Facebook, Google+</h4>
+    </div>
+    <div class="panel-body">
+        Meet our crazy community on <a href="http://www.facebook.com/group.php?gid=36125411841" target="_blank">Facebook</a>. Alternatively, have fun with the guys and gals on <a href="https://plus.google.com/u/1/communities/111215969224831918857" target="_blank">Google+</a>, or simply +1 us our <a href="https://plus.google.com/+sabayon" target="_blank">Google+</a> page.<br>
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading" style="padding: 2px 15px;">
+        <h4><i class="fa fa-download"></i>  Get Sabayon </h4>
+    </div>
+    <div class="panel-body">
+        <a href="https://next.sabayon.org/download">
+        There are many different Sabayon variants</a>. <br>Each one is designed for a specific purpose and designed to bring out the best in your hardware<br>
+        We provide Live versions of most of our variants, so you can try out Sabayon without touching your Computer's Hard drive.
+    </div>
+</div>
+
+                </div>
+            </div>
+            <section class="info" id="INFO">
+    <div class="container">
+        <div class="row">
+            <div class="text-center">
+                <div class="col-lg-3  col-sm-2">
+                    <br />
+                    <div class="footer_override">
+                        <ul class="list-unstyled">
+                            <li>
+                                <i class="fa fa-github-square"></i>
+                                Development
+                            </li>
+                            <li>
+                                <a href="https://github.com/Sabayon/">
+                                    About us
+                                </a>
+                            </li>
+                            <li><a href="https://next.sabayon.org/blog">Blog</a></li>
+                            <li>
+                                <a href="https://gitter.im/Sabayon">Gitter</a>
+                            </li>
+                            <li class="first leaf">
+                                <a href="https://github.com/Sabayon/" title="Sabayon Github">
+                                    Github
+                                </a>
+                            </li>
+                            <li class="last leaf">
+                                <a href="https://github.com/Sabayon/sabayon-distro" title="Gitweb for overlay.git">
+                                    Portage Overlay
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-2">
+                    <br />
+                    <div class="footer_override">
+                        <ul class="list-unstyled">
+                            <li>
+                                <i class="fa fa-share-alt-square"></i>
+                                Social
+                            </li>
+                            <li>
+                                <a href="https://forum.sabayon.org/">Forum</a>
+                            </li>
+                            <li><a href="https://next.sabayon.org/chat/">Chat</a></li>
+                            <li>
+                                <a href="http://www.facebook.com/group.php?gid=36125411841">
+                                    Facebook
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/u/1/communities/111215969224831918857">
+                                    Google+
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-2">
+                    <br />
+                    <div class="footer_override">
+                        <ul class="list-unstyled">
+                            <li>
+                                <i class="fa fa-wrench"></i>
+                                Services
+                            </li>
+                            <li class="leaf">
+                                <a href="https://next.sabayon.org/donate">Donate</a>&nbsp; - &nbsp;
+                                <a href="mailto:webmaster@sabayonlinux.org">
+                                    Contact Us
+                                </a>
+                            </li>
+                            <li class="leaf">
+                                <a href="https://pastebin.sabayon.org/">
+                                    Pastebin
+                                </a>&nbsp; - &nbsp;
+                                <a href="https://lists.sabayon.org/">
+                                    Lists
+                                </a>
+                            </li>
+                            <li class="leaf">
+                                &nbsp;
+                                <a href="https://next.sabayon.org/releases/">Releases Archive</a>
+                            </li>
+                            <li class="leaf">
+                                <a href="https://wiki.sabayon.org/">
+                                    Wiki
+                                </a>&nbsp; - &nbsp;
+                                <a href="https://next.sabayon.org/mirrors">Mirrors</a>
+                            </li>
+                            <li class="leaf">
+                                <a href="https://bugs.sabayon.org/">
+                                    Bugs
+                                </a>&nbsp; - &nbsp;
+                                <a href="https://next.sabayon.org/press">Press Documentation</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-2">
+                    <br />
+                    <div class="footer_override">
+                        <ul class="list-unstyled">
+                            <li>
+                                <i class="fa fa-file-text"></i>
+                                Documentation
+                            </li>
+                            <li class="leaf">
+                                <a href="http://wiki.sabayon.org/index.php?title=Converting" title="Helps converts from other Linux distributions">
+                                    Converting to Sabayon
+                                </a>
+                            </li>
+                            <li class="leaf">
+                                <a href="http://wiki.sabayon.org/index.php?title=FAQ" title="Frequently Asked Questions">
+                                    F.A.Q.
+                                </a>&nbsp; - &nbsp;
+                                <a href="http://wiki.sabayon.org/index.php?title=En:Introduction" title="A nice introduction to using Sabayon Linux">
+                                    Introduction
+                                </a>
+                            </li>
+                            <li class="leaf">
+                                <a href="http://wiki.sabayon.org/index.php?title=Entropy#Fresh_Install_-_What_to_do.3F" title="First update and not sure what do do? Look here.">
+                                    Fresh Install Guide
+                                </a>
+                            </li>
+                            <li class="leaf">
+                                <a href="http://wiki.sabayon.org/index.php?title=HOWTOs" title="These, surprisingly, show you how to do stuff.">
+                                    How To Guides
+                                </a>
+                            </li>
+                            <li class="leaf">
+                                <a href="https://wiki.sabayon.org/index.php?title=Entropy#About_Entropy" title="About Entropy">
+                                    About Entropy
+                                </a>
+                            </li>
+                            <li class="leaf">
+                                <a href="http://eapi.sabayon.org/" title="Entropy API">
+                                    Entropy API Docs
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="copyright" id="COPYRIGHT" width="100%">
+    <div class="container">
+        <div class="row">
+            <div class="text-center">
+                <hr width="90%" />
+                &copy; 2004-2017 Sabayon Promotion (CF: 93018620224).<br />
+                Unless otherwise stated, content on this page is licensed under a Creative Commons Attribution-ShareAlike 3.0 License.<br />
+                Linux is a registered trademark of Linus Torvalds.<br />
+                All other trademarks are the property of their respective owners.<br />
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
+</section>
+
+        </div>
+        
+    <script src="https://next.sabayon.org/js/jquery.js"></script>
+    <script src="https://next.sabayon.org/js/bootstrap.js"></script>
+    <script src="https://next.sabayon.org/js/common.js"></script>
+    <script src="https://next.sabayon.org/js/script.js"></script>
+    <script type="text/javascript" src="https://next.sabayon.org/js/headroom.min.js"></script>
+
+    </body>
+</html>
