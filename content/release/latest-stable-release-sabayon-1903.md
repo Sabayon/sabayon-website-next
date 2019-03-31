@@ -1,8 +1,12 @@
++++
 title = "Sabayon 19.03 - New stable release"
 description = "19.03 Press release"
 date = "2019-03-31"
-categories = ["releases", "sabayon"]
-tags = ["releases", "sabayon"]
+categories = [ "releases", "sabayon" ]
+tags = [
+"releases",
+"sabayon"
+]
 +++
 
 The team behind Sabayon is excited to present you the latest stable release:
