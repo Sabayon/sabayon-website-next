@@ -6,87 +6,6 @@ layout = "mirrors"
 date = "2015-09-29"
 +++
 
-1. ## Austria
-
-    ![Austria](https://static.sabayon.org/site/img/flags/Austria.png)
-    * ### Vienna University of Technology (http://www.gdsw.at)
-        #### Connection Speed:
-        100Mb/s
-
-        #### FTP
-        * [ftp://gd.tuwien.ac.at/linux/sabayonlinux/](ftp://gd.tuwien.ac.at/linux/sabayonlinux/)
-
-        #### HTTP
-        * [http://gd.tuwien.ac.at/linux/sabayonlinux/](http://gd.tuwien.ac.at/linux/sabayonlinux/)
-
-        #### Rsync
-        * [rsync://gd.tuwien.ac.at/linux/sabayonlinux/](rsync://gd.tuwien.ac.at/linux/sabayonlinux/)
-
-1. ## Australia
-
-    ![Australia](https://static.sabayon.org/site/img/flags/Australia.png)
-    * ### Yes Optus Mirror
-        #### Connection Speed:
-        2,000Mb/s
-
-        #### FTP
-        * [ftp://mirror.optusnet.com.au/sabayon/](ftp://mirror.optusnet.com/au/sabayon/)
-
-        #### HTTP
-        * [http://mirror.optusnet.com.au/sabayon/](http://mirror.optusnet.com.au/sabayon/)
-
-    * ### Internode
-        #### Connection Speed:
-        1,000Mb/s
-
-        #### FTP
-        * [ftp://mirror.internode.on.net/pub/sabayon/](ftp://mirror.internode.on.net/pub/sabayon/)
-
-        #### HTTP
-        * [http://mirror.internode.on.net/pub/sabayon/](http://mirror.internode.on.net/pub/sabayon/)
-
-1. ## Belgium
-
-    ![Belgium](https://static.sabayon.org/site/img/flags/Belgium.png)
-    * ### Belnet (Belgian Education and Research Network)
-        #### Connection Speed:
-        10,000Mb/s
-
-        #### FTP
-        * [ftp://ftp.belnet.be/mirror/sabayonlinux](ftp://ftp.belnet.be/mirror/sabayonlinux)
-
-        #### Rsync
-        * [rsync://rsync.betlnet.be/sabayon](rsync://rsync.belnet.be/sabayon)
-
-1. ## Brazil
-
-    ![Brazil](https://static.sabayon.org/site/img/flags/Brazil.png)
-    * ### Universidade Federal Do Paranà
-        #### Connection Speed:
-        10,000Mb/s
-
-        #### FTP
-        * [ftp://sabayon.c3sl.ufpr.br/sabayon](ftp://sabayon.c3sl.ufpr.br/sabayon)
-
-        #### HTTP
-        * [http://sabayon.c3sl.ufpr.br/](http://sabayon.c3sl.ufpr.br/)
-
-        #### Rsync
-        * [rsync://sabayon.c3sl.ufpr.br/sabayon](rsync://sabayon.c3sl.ufpr.br/sabayon)
-
-1. ## Czech Republic
-
-    ![Czech Republic](https://static.sabayon.org/site/img/flags/Czech-Republic.png)
-    * ### UPC Česká republika, a.s.
-        #### Connection Speed:
-        2,000Mb/s
-
-        #### FTP
-        * [ftp://mirror.dkm.cz/pub/sabayon/](ftp://mirror.dkm.cz/pub/sabayon/)
-
-        #### HTTP
-        * [http://mirror.dkm.cz/pub/sabayon/](http://mirror.dkm.cz/pub/sabayon/)
-
 1. ## Germany
 
     ![Germany](https://static.sabayon.org/site/img/flags/Germany.png)
@@ -109,22 +28,6 @@ date = "2015-09-29"
 
         #### HTTP
         * [http://ftp.klid.dk/sabayonlinux/](http://ftp.klid.dk/sabayonlinux/)
-
-1. ## Ecuador
-
-    ![Ecuador](https://static.sabayon.org/site/img/flags/Ecuador.png)
-    * ### CEDIA Ecuador Mirror
-        #### Connection Speed:
-        300Mb/s
-
-        #### FTP
-        * [ftp://mirror.uta.edu.ec/sabayon](ftp://mirror.uta.edu.ec/sabayon)
-
-        #### HTTP
-        * [http://mirror.uta.edu.ec/sabayon](http://mirror.uta.edu.ec/sabayon)
-
-        #### Rsync
-        * [rsync://mirror.uta.edu.ec/sabayon](rsync://mirror.uta.edu.ec/sabayon)
 
 * ## Greece
 
@@ -170,13 +73,10 @@ date = "2015-09-29"
         1,000Mb/s
 
         #### FTP
-        * [ftp://na.mirror.garr.it/mirrors/sabayonlinux/](ftp://na.mirror.garr.it/mirrors/sabayonlinux/)
+        * [ftp://sabayonlinux.mirror.garr.it/sabayonlinux/](ftp://sabayonlinux.mirror.garr.it/sabayonlinux/)
 
         #### HTTP
-        * [http://na.mirror.garr.it/mirrors/sabayonlinux/](http://na.mirror.garr.it/mirrors/sabayonlinux/)
-
-        #### Rsync
-        * [rsync://na.mirror.garr.it/sabayonlinux](rsync://na.mirror.garr.it/sabayonlinux)
+        * [http://sabayonlinux.mirror.garr.it/mirrors/sabayonlinux/](http://sabayonlinux.mirror.garr.it/sabayonlinux/)
 
 1. ## Japan
 
@@ -223,7 +123,6 @@ date = "2015-09-29"
 
         #### FTP
         * [ftp://ftp.nluug.nl/pub/os/Linux/distr/sabayonlinux](ftp://ftp.nluug.nl/pub/os/Linux/distr/sabayonlinux)
-        * [ftp://ftp.surfnet.nl/pub/os/Linux/distr/sabayonlinux](ftp://ftp.surfnet.nl/pub/os/Linux/dirst/sabayonlinux)
 
         #### HTTP
         * [http://ftp.nluug.nl/os/Linux/distr/sabayonlinux](http://ftp.nluug.nl/os/Linux/distr/sabayonlinux)
@@ -280,15 +179,6 @@ date = "2015-09-29"
 1. ## Sweden
 
     ![Sweden](https://static.sabayon.org/site/img/flags/Sweden.png)
-    * ### Portlane Mirror
-        #### Connection Speed:
-        1,0000Mb/s
-
-        #### FTP
-        * [ftp://ftp.portlane.com/pub/os/linux/sabayon/](ftp://ftp.portlane.com/pub/os/linux/sabayon/)
-
-        #### HTTP
-        * [http://ftp.portlane.com/pub/os/linux/sabayon/](http://ftp.portlane.com/pub/os/linux/sabayon/)
         
      * ### Ctrl-C Mirror
         #### Connection Speed:
@@ -303,19 +193,6 @@ date = "2015-09-29"
 1. ## United States
 
     ![United States](https://static.sabayon.org/site/img/flags/United-States.png)
-    * ### Go-Parts.com USA
-        #### Connection Speed:
-        1,000Mb/s
-
-        #### FTP
-        * [ftp://mirrors-usa.go-parts.com/sabayon/](ftp://mirrors-usa.go-parts.com/sabayon/)
-
-        #### HTTP
-        * [http://mirrors-usa.go-parts.com/sabayon/](http://mirrors-usa.go-parts.com/sabayon/)
-
-        #### Rsync
-        * [rsync://mirrors-usa.go-parts.com/mirrors/sabayon/](rsync://mirrors-usa.go-parts.com/mirrors/sabayon/)
-
     * ### Virginia Tech University
         #### Connection Speed
         100Mb/s
@@ -325,23 +202,6 @@ date = "2015-09-29"
 
         #### HTTP
         * [http://mirror.cs.vt.edu/pub/SabayonLinux/](http://mirror.cs.vt.edu/pub/SabayonLinux/)
-
-    * ### Cross-Lfs.org Mirror
-        #### Connection Speed
-        200Mb/s
-
-        ### HTTP
-        * [http://cross-lfs.sabayonlinux.org/](http://cross-lfs.sabayonlinux.org/)
-
-    * ### Clarkson Open Source Institute
-        #### Connection Speed:
-        300Mb/s
-
-        #### HTTP
-        * [http://mirror.clarkson.edu/sabayon/](http://mirror.clarkson.edu/sabayon/)
-
-        #### Rsync
-        * [rsync://mirror.clarkson.edu/sabayonlinux](rsync://mirror.clarkson.edu/sabayonlinux)
 
     * ### University of Maryland LUG
         #### Connection Speed:
@@ -375,3 +235,14 @@ date = "2015-09-29"
 
         #### Rsync
         * [rsync://sabayon.mirror.ac.za](rsync://sabayon.mirror.ac.za)
+
+
+1. ## France
+
+    ![France](https://static.sabayon.org/site/img/flags/France.png)
+    * ### Rèmi.lu Mirror
+        #### Connection Speed:
+        1000Mb/s
+
+        #### HTTP
+        * [http://mir.sabayon.fr](http://mir.sabayon.fr)
