@@ -240,9 +240,9 @@ date = "2015-09-29"
 1. ## France
 
     ![France](https://static.sabayon.org/site/img/flags/France.png)
-    * ### Rèmi.lu Mirror
+    * ### Rémi.lu Mirror
         #### Connection Speed:
-        1000Mb/s
+        500Mb/s
 
         #### HTTP
         * [http://mir.sabayon.fr](http://mir.sabayon.fr)
